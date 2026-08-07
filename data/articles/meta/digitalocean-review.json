@@ -1,0 +1,31 @@
+{
+  "slug": "digitalocean-review",
+  "title": "DigitalOcean Review: Developer-Friendly Cloud VPS",
+  "categoryLabel": "VPS",
+  "excerpt": "Simple, scalable VPS droplets that developers actually enjoy using.",
+  "image": "https://picsum.photos/seed/digitalocean/1000/500",
+  "date": "2026-07-11",
+  "readingTime": "5 min read",
+  "affiliateKey": "digitalocean",
+  "pros": [
+    "Simple, predictable pricing",
+    "Great docs and community",
+    "Fast droplet spin-up"
+  ],
+  "cons": [
+    "Less hand-holding than managed hosts",
+    "Requires basic sysadmin comfort"
+  ],
+  "faq": [
+    {
+      "q": "Is it beginner-friendly?",
+      "a": "Friendlier than raw AWS, but you should be comfortable with a terminal."
+    }
+  ],
+  "related": [
+    "hostinger-review",
+    "siteground-review",
+    "canva-review",
+    "semrush-review"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "slug": "canva-planner",
+      "category": "saas",
+      "categoryLabel": "SaaS",
+      "title": "Canva's Powerhouse Planner: Content Ops in One Tab",
+      "excerpt": "Schedule posts, assign tasks, and design workflows without leaving Canva.",
+      "date": "2026-07-16",
+      "readingTime": "5 min read",
+      "image": "https://picsum.photos/seed/planner/800/400",
+      "affiliateKey": "canva"
+    },
+    {
+      "slug": "semrush-review",
+      "category": "saas",
+      "categoryLabel": "SaaS",
+      "title": "Semrush Review: The SEO Tool That Delivers",
+      "excerpt": "Analyze competitors, track keywords, and optimize content at scale.",
+      "date": "2026-07-14",
+      "readingTime": "6 min read",
+      "image": "https://picsum.photos/seed/semrush/800/400",
+      "affiliateKey": "semrush"
+    }
+  ],
+  "total": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

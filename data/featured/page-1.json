@@ -1,0 +1,73 @@
+{
+  "posts": [
+    {
+      "slug": "canva-review",
+      "category": "ai-tools",
+      "categoryLabel": "AI Tools",
+      "title": "Canva Review 2026: Best Design Tool for Marketers",
+      "excerpt": "Transform your visual content creation with AI-powered Canva.",
+      "date": "2026-07-21",
+      "readingTime": "5 min read",
+      "image": "/assets/images/articles/canva-review.webp",
+      "affiliateKey": "canva"
+    },
+    {
+      "slug": "hostinger-review",
+      "category": "hosting",
+      "categoryLabel": "Hosting",
+      "title": "Hostinger Hosting Review: Fast, Secure & Affordable",
+      "excerpt": "Why Hostinger might be the ideal solution for your website.",
+      "date": "2026-07-20",
+      "readingTime": "6 min read",
+      "image": "https://picsum.photos/seed/hostinger/800/400",
+      "affiliateKey": "hostinger"
+    },
+    {
+      "slug": "nordvpn-review",
+      "category": "vpn",
+      "categoryLabel": "VPN",
+      "title": "NordVPN Review: Speed, Privacy & Streaming",
+      "excerpt": "A deep look at NordVPN's server network and real-world speed.",
+      "date": "2026-07-17",
+      "readingTime": "6 min read",
+      "image": "https://picsum.photos/seed/nordvpn/800/400",
+      "affiliateKey": "nordvpn"
+    },
+    {
+      "slug": "semrush-review",
+      "category": "saas",
+      "categoryLabel": "SaaS",
+      "title": "Semrush Review: The SEO Tool That Delivers",
+      "excerpt": "Analyze competitors, track keywords, and optimize content at scale.",
+      "date": "2026-07-14",
+      "readingTime": "6 min read",
+      "image": "https://picsum.photos/seed/semrush/800/400",
+      "affiliateKey": "semrush"
+    },
+    {
+      "slug": "hubspot-review",
+      "category": "crm",
+      "categoryLabel": "CRM",
+      "title": "HubSpot Review: The Ultimate CRM for Growing Teams",
+      "excerpt": "Manage marketing, sales, and customer service from one dashboard.",
+      "date": "2026-07-13",
+      "readingTime": "7 min read",
+      "image": "https://picsum.photos/seed/hubspot/800/400",
+      "affiliateKey": "hubspot"
+    },
+    {
+      "slug": "notion-review",
+      "category": "web-tools",
+      "categoryLabel": "Web Tools",
+      "title": "Notion Review: All-in-One Workspace for Teams",
+      "excerpt": "Notes, databases, wikis, and project management in a single app.",
+      "date": "2026-07-09",
+      "readingTime": "5 min read",
+      "image": "https://picsum.photos/seed/notion/800/400",
+      "affiliateKey": "notion"
+    }
+  ],
+  "total": 6,
+  "totalPages": 1,
+  "currentPage": 1
+}

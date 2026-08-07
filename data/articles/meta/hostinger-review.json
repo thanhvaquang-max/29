@@ -1,0 +1,31 @@
+{
+  "slug": "hostinger-review",
+  "title": "Hostinger Hosting Review: Fast, Secure & Affordable",
+  "categoryLabel": "Hosting",
+  "excerpt": "Why Hostinger might be the ideal solution for your website.",
+  "image": "https://picsum.photos/seed/hostinger/1000/500",
+  "date": "2026-07-20",
+  "readingTime": "6 min read",
+  "affiliateKey": "hostinger",
+  "pros": [
+    "Fast servers",
+    "Good uptime",
+    "Budget-friendly entry plans"
+  ],
+  "cons": [
+    "Support can be slow at peak hours",
+    "Renewal price jumps"
+  ],
+  "faq": [
+    {
+      "q": "Is there a money-back guarantee?",
+      "a": "Yes, 30 days on most plans."
+    }
+  ],
+  "related": [
+    "siteground-review",
+    "digitalocean-review",
+    "canva-review",
+    "semrush-review"
+  ]
+}

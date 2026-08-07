@@ -1,0 +1,31 @@
+{
+  "slug": "nordvpn-review",
+  "title": "NordVPN Review: Speed, Privacy & Streaming",
+  "categoryLabel": "VPN",
+  "excerpt": "A deep look at NordVPN's server network and real-world speed.",
+  "image": "https://picsum.photos/seed/nordvpn/1000/500",
+  "date": "2026-07-17",
+  "readingTime": "6 min read",
+  "affiliateKey": "nordvpn",
+  "pros": [
+    "Very fast servers",
+    "Strong no-logs reputation",
+    "Great streaming unblocking"
+  ],
+  "cons": [
+    "App interface can feel busy",
+    "Price jumps after first term"
+  ],
+  "faq": [
+    {
+      "q": "Does it work with streaming services?",
+      "a": "Yes, it reliably unblocks most major platforms."
+    }
+  ],
+  "related": [
+    "surfshark-review",
+    "canva-review",
+    "hostinger-review",
+    "semrush-review"
+  ]
+}

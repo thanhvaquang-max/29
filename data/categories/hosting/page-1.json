@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "slug": "hostinger-review",
+      "category": "hosting",
+      "categoryLabel": "Hosting",
+      "title": "Hostinger Hosting Review: Fast, Secure & Affordable",
+      "excerpt": "Why Hostinger might be the ideal solution for your website.",
+      "date": "2026-07-20",
+      "readingTime": "6 min read",
+      "image": "https://picsum.photos/seed/hostinger/800/400",
+      "affiliateKey": "hostinger"
+    },
+    {
+      "slug": "siteground-review",
+      "category": "hosting",
+      "categoryLabel": "Hosting",
+      "title": "SiteGround Hosting Review: Premium Speed at a Price",
+      "excerpt": "Why SiteGround might be the solution to your hosting woes.",
+      "date": "2026-07-19",
+      "readingTime": "6 min read",
+      "image": "https://picsum.photos/seed/siteground/800/400",
+      "affiliateKey": "siteground"
+    }
+  ],
+  "total": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

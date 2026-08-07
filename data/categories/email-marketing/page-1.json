@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "slug": "convertkit-review",
+      "category": "email-marketing",
+      "categoryLabel": "Email Marketing",
+      "title": "ConvertKit Review: Best Email Marketing for Creators",
+      "excerpt": "Build a loyal community with ConvertKit's creator-first automation.",
+      "date": "2026-07-18",
+      "readingTime": "4 min read",
+      "image": "https://picsum.photos/seed/convertkit/800/400",
+      "affiliateKey": "convertkit"
+    },
+    {
+      "slug": "mailchimp-review",
+      "category": "email-marketing",
+      "categoryLabel": "Email Marketing",
+      "title": "Mailchimp Review: Email Marketing Made Simple",
+      "excerpt": "Powerful automation and analytics features for growing lists.",
+      "date": "2026-07-12",
+      "readingTime": "4 min read",
+      "image": "https://picsum.photos/seed/mailchimp/800/400",
+      "affiliateKey": "mailchimp"
+    }
+  ],
+  "total": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "convertkit-review",
+  "title": "ConvertKit Review: Best Email Marketing for Creators",
+  "categoryLabel": "Email Marketing",
+  "excerpt": "Build a loyal community with ConvertKit's creator-first automation.",
+  "image": "https://picsum.photos/seed/convertkit/1000/500",
+  "date": "2026-07-18",
+  "readingTime": "4 min read",
+  "affiliateKey": "convertkit",
+  "pros": [
+    "Creator-first automation",
+    "Clean visual editor",
+    "Good deliverability"
+  ],
+  "cons": [
+    "Pricier at larger list sizes",
+    "Fewer templates than competitors"
+  ],
+  "faq": [
+    {
+      "q": "Is it good for beginners?",
+      "a": "Yes, though it's most powerful once you use tagging and automations."
+    }
+  ],
+  "related": [
+    "mailchimp-review",
+    "hubspot-review",
+    "canva-review",
+    "hostinger-review"
+  ]
+}

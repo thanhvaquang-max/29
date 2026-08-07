@@ -1,0 +1,31 @@
+{
+  "slug": "trainual-review",
+  "title": "Trainual Review: Best Onboarding & SOP Tool",
+  "categoryLabel": "Web Tools",
+  "excerpt": "Streamline onboarding and standard operating procedures with Trainual.",
+  "image": "https://picsum.photos/seed/trainual/1000/500",
+  "date": "2026-07-15",
+  "readingTime": "7 min read",
+  "affiliateKey": "trainual",
+  "pros": [
+    "Great for SOPs",
+    "Clear onboarding tracking",
+    "Easy to organize by role"
+  ],
+  "cons": [
+    "Can feel rigid for creative teams",
+    "Pricier per-seat at scale"
+  ],
+  "faq": [
+    {
+      "q": "Is it good for a small team?",
+      "a": "Yes, especially once you have more than a couple of new hires a year."
+    }
+  ],
+  "related": [
+    "notion-review",
+    "canva-planner",
+    "semrush-review",
+    "hubspot-review"
+  ]
+}

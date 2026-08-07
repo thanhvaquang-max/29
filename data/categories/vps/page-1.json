@@ -1,0 +1,18 @@
+{
+  "posts": [
+    {
+      "slug": "digitalocean-review",
+      "category": "vps",
+      "categoryLabel": "VPS",
+      "title": "DigitalOcean Review: Developer-Friendly Cloud VPS",
+      "excerpt": "Simple, scalable VPS droplets that developers actually enjoy using.",
+      "date": "2026-07-11",
+      "readingTime": "5 min read",
+      "image": "https://picsum.photos/seed/digitalocean/800/400",
+      "affiliateKey": "digitalocean"
+    }
+  ],
+  "total": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Sitemaps require absolute URLs by spec, so this is the ONE file in the
+     whole project that needs your real domain hardcoded. Replace
+     https://YOUR-DOMAIN.com below, then have automation regenerate this
+     file (one <url> per article) whenever articles are added/removed. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://YOUR-DOMAIN.com/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url><loc>https://YOUR-DOMAIN.com/about.html</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/contact.html</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/privacy-policy.html</loc><changefreq>monthly</changefreq><priority>0.2</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/affiliate-disclosure.html</loc><changefreq>monthly</changefreq><priority>0.2</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/terms-of-service.html</loc><changefreq>monthly</changefreq><priority>0.2</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/article.html?slug=canva-review</loc><lastmod>2026-07-21</lastmod><priority>0.8</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/article.html?slug=ai-design-tools</loc><lastmod>2026-07-08</lastmod><priority>0.8</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/article.html?slug=hostinger-review</loc><lastmod>2026-07-20</lastmod><priority>0.8</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/article.html?slug=siteground-review</loc><lastmod>2026-07-19</lastmod><priority>0.8</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/article.html?slug=convertkit-review</loc><lastmod>2026-07-18</lastmod><priority>0.8</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/article.html?slug=mailchimp-review</loc><lastmod>2026-07-12</lastmod><priority>0.8</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/article.html?slug=nordvpn-review</loc><lastmod>2026-07-17</lastmod><priority>0.8</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/article.html?slug=surfshark-review</loc><lastmod>2026-07-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/article.html?slug=canva-planner</loc><lastmod>2026-07-16</lastmod><priority>0.8</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/article.html?slug=semrush-review</loc><lastmod>2026-07-14</lastmod><priority>0.8</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/article.html?slug=trainual-review</loc><lastmod>2026-07-15</lastmod><priority>0.8</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/article.html?slug=notion-review</loc><lastmod>2026-07-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/article.html?slug=hubspot-review</loc><lastmod>2026-07-13</lastmod><priority>0.8</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/article.html?slug=digitalocean-review</loc><lastmod>2026-07-11</lastmod><priority>0.8</priority></url>
+</urlset>

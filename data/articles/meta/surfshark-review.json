@@ -1,0 +1,31 @@
+{
+  "slug": "surfshark-review",
+  "title": "Surfshark VPN: Best Budget VPN for Privacy",
+  "categoryLabel": "VPN",
+  "excerpt": "Unlimited devices, strong encryption, and a strict no-logs policy.",
+  "image": "https://picsum.photos/seed/surfshark/1000/500",
+  "date": "2026-07-10",
+  "readingTime": "4 min read",
+  "affiliateKey": "surfshark",
+  "pros": [
+    "Unlimited devices",
+    "Budget-friendly",
+    "Solid privacy tools"
+  ],
+  "cons": [
+    "Speeds less consistent than top-tier VPNs",
+    "Fewer server locations"
+  ],
+  "faq": [
+    {
+      "q": "Is one plan enough for a whole household?",
+      "a": "Yes — unlimited simultaneous devices on one account."
+    }
+  ],
+  "related": [
+    "nordvpn-review",
+    "canva-review",
+    "hostinger-review",
+    "semrush-review"
+  ]
+}

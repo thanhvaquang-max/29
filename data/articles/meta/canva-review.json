@@ -1,0 +1,31 @@
+{
+  "slug": "canva-review",
+  "title": "Canva Review 2026: Best Design Tool for Marketers",
+  "categoryLabel": "AI Tools",
+  "excerpt": "Transform your visual content creation with AI-powered Canva.",
+  "image": "/assets/images/articles/canva-review.webp",
+  "date": "2026-07-21",
+  "readingTime": "5 min read",
+  "affiliateKey": "canva",
+  "pros": [
+    "Huge template library",
+    "AI Magic tools save real time",
+    "Great for non-designers"
+  ],
+  "cons": [
+    "Pro tier needed for best assets",
+    "Exporting print files can be fiddly"
+  ],
+  "faq": [
+    {
+      "q": "Is Canva free?",
+      "a": "Yes, a generous free tier exists; Pro unlocks premium assets and brand kits."
+    }
+  ],
+  "related": [
+    "hostinger-review",
+    "semrush-review",
+    "hubspot-review",
+    "notion-review"
+  ]
+}

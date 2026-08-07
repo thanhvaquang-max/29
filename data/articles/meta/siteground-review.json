@@ -1,0 +1,31 @@
+{
+  "slug": "siteground-review",
+  "title": "SiteGround Hosting Review: Premium Speed at a Price",
+  "categoryLabel": "Hosting",
+  "excerpt": "Why SiteGround might be the solution to your hosting woes.",
+  "image": "https://picsum.photos/seed/siteground/1000/500",
+  "date": "2026-07-19",
+  "readingTime": "6 min read",
+  "affiliateKey": "siteground",
+  "pros": [
+    "Excellent support",
+    "Solid caching stack",
+    "Clean control panel"
+  ],
+  "cons": [
+    "Pricier than budget hosts",
+    "Storage caps on lower tiers"
+  ],
+  "faq": [
+    {
+      "q": "Good for WordPress?",
+      "a": "Yes, it's one of the most WordPress-optimized hosts available."
+    }
+  ],
+  "related": [
+    "hostinger-review",
+    "digitalocean-review",
+    "canva-review",
+    "convertkit-review"
+  ]
+}

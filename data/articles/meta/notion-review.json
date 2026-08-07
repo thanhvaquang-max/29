@@ -1,0 +1,31 @@
+{
+  "slug": "notion-review",
+  "title": "Notion Review: All-in-One Workspace for Teams",
+  "categoryLabel": "Web Tools",
+  "excerpt": "Notes, databases, wikis, and project management in a single app.",
+  "image": "https://picsum.photos/seed/notion/1000/500",
+  "date": "2026-07-09",
+  "readingTime": "5 min read",
+  "affiliateKey": "notion",
+  "pros": [
+    "Extremely flexible",
+    "Good free tier",
+    "Great for docs + tasks together"
+  ],
+  "cons": [
+    "Can get disorganized without discipline",
+    "Slower with very large databases"
+  ],
+  "faq": [
+    {
+      "q": "Can it replace a CRM?",
+      "a": "For very small teams sometimes; dedicated CRMs scale better."
+    }
+  ],
+  "related": [
+    "trainual-review",
+    "canva-planner",
+    "semrush-review",
+    "hubspot-review"
+  ]
+}

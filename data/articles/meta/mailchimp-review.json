@@ -1,0 +1,31 @@
+{
+  "slug": "mailchimp-review",
+  "title": "Mailchimp Review: Email Marketing Made Simple",
+  "categoryLabel": "Email Marketing",
+  "excerpt": "Powerful automation and analytics features for growing lists.",
+  "image": "https://picsum.photos/seed/mailchimp/1000/500",
+  "date": "2026-07-12",
+  "readingTime": "4 min read",
+  "affiliateKey": "mailchimp",
+  "pros": [
+    "Easy to start",
+    "Strong reporting",
+    "Wide integrations"
+  ],
+  "cons": [
+    "Automation locked behind higher tiers",
+    "Costs rise quickly with list size"
+  ],
+  "faq": [
+    {
+      "q": "Is there a free plan?",
+      "a": "Yes, limited to a small contact count and basic features."
+    }
+  ],
+  "related": [
+    "convertkit-review",
+    "hubspot-review",
+    "semrush-review",
+    "canva-review"
+  ]
+}

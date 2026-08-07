@@ -1,0 +1,31 @@
+{
+  "slug": "semrush-review",
+  "title": "Semrush Review: The SEO Tool That Delivers",
+  "categoryLabel": "SaaS",
+  "excerpt": "Analyze competitors, track keywords, and optimize content at scale.",
+  "image": "https://picsum.photos/seed/semrush/1000/500",
+  "date": "2026-07-14",
+  "readingTime": "6 min read",
+  "affiliateKey": "semrush",
+  "pros": [
+    "Deep keyword data",
+    "Strong competitor analysis",
+    "All-in-one toolkit"
+  ],
+  "cons": [
+    "Steep learning curve",
+    "Expensive for solo users"
+  ],
+  "faq": [
+    {
+      "q": "Is it worth it for a small blog?",
+      "a": "Usually overkill; it shines for agencies and competitive niches."
+    }
+  ],
+  "related": [
+    "canva-review",
+    "hubspot-review",
+    "mailchimp-review",
+    "notion-review"
+  ]
+}

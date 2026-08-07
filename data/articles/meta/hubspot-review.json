@@ -1,0 +1,31 @@
+{
+  "slug": "hubspot-review",
+  "title": "HubSpot Review: The Ultimate CRM for Growing Teams",
+  "categoryLabel": "CRM",
+  "excerpt": "Manage marketing, sales, and customer service from one dashboard.",
+  "image": "https://picsum.photos/seed/hubspot/1000/500",
+  "date": "2026-07-13",
+  "readingTime": "7 min read",
+  "affiliateKey": "hubspot",
+  "pros": [
+    "All-in-one marketing/sales/service",
+    "Strong free CRM tier",
+    "Great reporting"
+  ],
+  "cons": [
+    "Paid tiers get expensive fast",
+    "Can be overkill for very small teams"
+  ],
+  "faq": [
+    {
+      "q": "Is the free CRM actually usable?",
+      "a": "Yes, it's a genuinely functional starting point, not just a trial."
+    }
+  ],
+  "related": [
+    "canva-review",
+    "convertkit-review",
+    "semrush-review",
+    "notion-review"
+  ]
+}

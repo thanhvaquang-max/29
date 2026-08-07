@@ -1,0 +1,31 @@
+{
+  "slug": "ai-design-tools",
+  "title": "AI-Driven Design Tools Compared: Templates, Stickers, Fonts",
+  "categoryLabel": "AI Tools",
+  "excerpt": "Create stunning visuals with AI — templates, stickers, and fonts that used to take a design team.",
+  "image": "https://picsum.photos/seed/aidesign/1000/500",
+  "date": "2026-07-08",
+  "readingTime": "3 min read",
+  "affiliateKey": "",
+  "pros": [
+    "Fast first drafts",
+    "Good for social content",
+    "Low learning curve"
+  ],
+  "cons": [
+    "Outputs need a human polish pass",
+    "Style can look generic"
+  ],
+  "faq": [
+    {
+      "q": "Do these replace a designer?",
+      "a": "For quick social assets, often yes; for brand identity work, no."
+    }
+  ],
+  "related": [
+    "canva-review",
+    "semrush-review",
+    "notion-review",
+    "hostinger-review"
+  ]
+}

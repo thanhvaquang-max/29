@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "slug": "canva-review",
+      "category": "ai-tools",
+      "categoryLabel": "AI Tools",
+      "title": "Canva Review 2026: Best Design Tool for Marketers",
+      "excerpt": "Transform your visual content creation with AI-powered Canva.",
+      "date": "2026-07-21",
+      "readingTime": "5 min read",
+      "image": "/assets/images/articles/canva-review.webp",
+      "affiliateKey": "canva"
+    },
+    {
+      "slug": "ai-design-tools",
+      "category": "ai-tools",
+      "categoryLabel": "AI Tools",
+      "title": "AI-Driven Design Tools Compared: Templates, Stickers, Fonts",
+      "excerpt": "Create stunning visuals with AI — templates, stickers, and fonts that used to take a design team.",
+      "date": "2026-07-08",
+      "readingTime": "3 min read",
+      "image": "https://picsum.photos/seed/aidesign/800/400",
+      "affiliateKey": ""
+    }
+  ],
+  "total": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

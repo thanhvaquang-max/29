@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "slug": "nordvpn-review",
+      "category": "vpn",
+      "categoryLabel": "VPN",
+      "title": "NordVPN Review: Speed, Privacy & Streaming",
+      "excerpt": "A deep look at NordVPN's server network and real-world speed.",
+      "date": "2026-07-17",
+      "readingTime": "6 min read",
+      "image": "https://picsum.photos/seed/nordvpn/800/400",
+      "affiliateKey": "nordvpn"
+    },
+    {
+      "slug": "surfshark-review",
+      "category": "vpn",
+      "categoryLabel": "VPN",
+      "title": "Surfshark VPN: Best Budget VPN for Privacy",
+      "excerpt": "Unlimited devices, strong encryption, and a strict no-logs policy.",
+      "date": "2026-07-10",
+      "readingTime": "4 min read",
+      "image": "https://picsum.photos/seed/surfshark/800/400",
+      "affiliateKey": "surfshark"
+    }
+  ],
+  "total": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

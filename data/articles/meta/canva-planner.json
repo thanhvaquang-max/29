@@ -1,0 +1,31 @@
+{
+  "slug": "canva-planner",
+  "title": "Canva's Powerhouse Planner: Content Ops in One Tab",
+  "categoryLabel": "SaaS",
+  "excerpt": "Schedule posts, assign tasks, and design workflows without leaving Canva.",
+  "image": "https://picsum.photos/seed/planner/1000/500",
+  "date": "2026-07-16",
+  "readingTime": "5 min read",
+  "affiliateKey": "canva",
+  "pros": [
+    "Keeps content ops in one tab",
+    "Simple drag-and-drop calendar",
+    "Good for small teams"
+  ],
+  "cons": [
+    "Limited approval workflows",
+    "Best features need Pro"
+  ],
+  "faq": [
+    {
+      "q": "Does it replace a dedicated planning tool?",
+      "a": "For small teams, often yes; larger teams may still want a dedicated tool."
+    }
+  ],
+  "related": [
+    "canva-review",
+    "notion-review",
+    "trainual-review",
+    "semrush-review"
+  ]
+}

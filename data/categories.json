@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "ai-tools",
+    "label": "AI Tools",
+    "totalPages": 1
+  },
+  {
+    "slug": "saas",
+    "label": "SaaS",
+    "totalPages": 1
+  },
+  {
+    "slug": "web-tools",
+    "label": "Web Tools",
+    "totalPages": 1
+  },
+  {
+    "slug": "crm",
+    "label": "CRM",
+    "totalPages": 1
+  },
+  {
+    "slug": "email-marketing",
+    "label": "Email Marketing",
+    "totalPages": 1
+  },
+  {
+    "slug": "hosting",
+    "label": "Hosting",
+    "totalPages": 1
+  },
+  {
+    "slug": "vps",
+    "label": "VPS",
+    "totalPages": 1
+  },
+  {
+    "slug": "domain",
+    "label": "Domain",
+    "totalPages": 1
+  },
+  {
+    "slug": "vpn",
+    "label": "VPN",
+    "totalPages": 1
+  },
+  {
+    "slug": "cybersecurity",
+    "label": "Cybersecurity",
+    "totalPages": 1
+  }
+]

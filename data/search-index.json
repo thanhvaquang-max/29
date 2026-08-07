@@ -1,0 +1,100 @@
+[
+  {
+    "slug": "canva-review",
+    "title": "Canva Review 2026: Best Design Tool for Marketers",
+    "categoryLabel": "AI Tools",
+    "excerpt": "Transform your visual content creation with AI-powered Canva.",
+    "category": "ai-tools"
+  },
+  {
+    "slug": "ai-design-tools",
+    "title": "AI-Driven Design Tools Compared: Templates, Stickers, Fonts",
+    "categoryLabel": "AI Tools",
+    "excerpt": "Create stunning visuals with AI — templates, stickers, and fonts that used to take a design team.",
+    "category": "ai-tools"
+  },
+  {
+    "slug": "hostinger-review",
+    "title": "Hostinger Hosting Review: Fast, Secure & Affordable",
+    "categoryLabel": "Hosting",
+    "excerpt": "Why Hostinger might be the ideal solution for your website.",
+    "category": "hosting"
+  },
+  {
+    "slug": "siteground-review",
+    "title": "SiteGround Hosting Review: Premium Speed at a Price",
+    "categoryLabel": "Hosting",
+    "excerpt": "Why SiteGround might be the solution to your hosting woes.",
+    "category": "hosting"
+  },
+  {
+    "slug": "convertkit-review",
+    "title": "ConvertKit Review: Best Email Marketing for Creators",
+    "categoryLabel": "Email Marketing",
+    "excerpt": "Build a loyal community with ConvertKit's creator-first automation.",
+    "category": "email-marketing"
+  },
+  {
+    "slug": "mailchimp-review",
+    "title": "Mailchimp Review: Email Marketing Made Simple",
+    "categoryLabel": "Email Marketing",
+    "excerpt": "Powerful automation and analytics features for growing lists.",
+    "category": "email-marketing"
+  },
+  {
+    "slug": "nordvpn-review",
+    "title": "NordVPN Review: Speed, Privacy & Streaming",
+    "categoryLabel": "VPN",
+    "excerpt": "A deep look at NordVPN's server network and real-world speed.",
+    "category": "vpn"
+  },
+  {
+    "slug": "surfshark-review",
+    "title": "Surfshark VPN: Best Budget VPN for Privacy",
+    "categoryLabel": "VPN",
+    "excerpt": "Unlimited devices, strong encryption, and a strict no-logs policy.",
+    "category": "vpn"
+  },
+  {
+    "slug": "canva-planner",
+    "title": "Canva's Powerhouse Planner: Content Ops in One Tab",
+    "categoryLabel": "SaaS",
+    "excerpt": "Schedule posts, assign tasks, and design workflows without leaving Canva.",
+    "category": "saas"
+  },
+  {
+    "slug": "semrush-review",
+    "title": "Semrush Review: The SEO Tool That Delivers",
+    "categoryLabel": "SaaS",
+    "excerpt": "Analyze competitors, track keywords, and optimize content at scale.",
+    "category": "saas"
+  },
+  {
+    "slug": "trainual-review",
+    "title": "Trainual Review: Best Onboarding & SOP Tool",
+    "categoryLabel": "Web Tools",
+    "excerpt": "Streamline onboarding and standard operating procedures with Trainual.",
+    "category": "web-tools"
+  },
+  {
+    "slug": "notion-review",
+    "title": "Notion Review: All-in-One Workspace for Teams",
+    "categoryLabel": "Web Tools",
+    "excerpt": "Notes, databases, wikis, and project management in a single app.",
+    "category": "web-tools"
+  },
+  {
+    "slug": "hubspot-review",
+    "title": "HubSpot Review: The Ultimate CRM for Growing Teams",
+    "categoryLabel": "CRM",
+    "excerpt": "Manage marketing, sales, and customer service from one dashboard.",
+    "category": "crm"
+  },
+  {
+    "slug": "digitalocean-review",
+    "title": "DigitalOcean Review: Developer-Friendly Cloud VPS",
+    "categoryLabel": "VPS",
+    "excerpt": "Simple, scalable VPS droplets that developers actually enjoy using.",
+    "category": "vps"
+  }
+]
