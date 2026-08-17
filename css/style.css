@@ -1,48 +1,31 @@
 /* ============================================================
-   🌌 CYBER 5.0 ULTIMATE SOLARPUNK / LIGHT MODE 2050
+   🌌 CYBER 5.0 ALL-OUT ULTIMATE (2050 FULL-DETAILED CYBER)
+   Giữ nguyên cấu trúc HTML - Cyber hóa 100% từng phần tử
    ============================================================ */
 
 :root {
   /* Hệ màu Photonic Light Mode 2050 */
-  --bg: #F0F4FA;
-  --bg-card: rgba(255, 255, 255, 0.7);
-  --border: rgba(99, 102, 241, 0.25);
+  --bg: #090D16; /* Nền Cyber Dark-Light pha trộn */
+  --bg-card: rgba(15, 23, 42, 0.75);
   
-  --heading: #070B14;
-  --text: #0F172A;
-  --text-secondary: #334155;
-  --text-muted: #64748B;
-  
-  /* Cyber Quantum Accents */
   --neon-cyan: #00F0FF;
   --neon-purple: #7000FF;
   --neon-pink: #FF007A;
-  --neon-blue: #3B82F6;
+  --neon-yellow: #FFE600;
   
-  --accent: #4338CA;
-  --accent-light: rgba(99, 102, 241, 0.08);
+  --heading: #FFFFFF;
+  --text: #E2E8F0;
+  --text-secondary: #94A3B8;
+  --text-muted: #64748B;
   
-  --pros-bg: rgba(236, 253, 245, 0.85);
-  --pros-heading: #059669;
-  --cons-bg: rgba(254, 242, 242, 0.85);
-  --cons-heading: #DC2626;
+  --radius: 20px;
+  --radius-sm: 12px;
   
-  --radius: 24px;
-  --radius-sm: 14px;
+  --shadow-cyber: 0 0 20px rgba(0, 240, 255, 0.25), inset 0 0 15px rgba(0, 240, 255, 0.1);
+  --shadow-hover: 0 0 35px rgba(255, 0, 122, 0.4), inset 0 0 20px rgba(0, 240, 255, 0.2);
   
-  /* Hologram Lighting Shadows */
-  --shadow-cyber: 
-    0 10px 30px -5px rgba(0, 240, 255, 0.2),
-    0 20px 40px -10px rgba(112, 0, 255, 0.15),
-    inset 0 0 15px rgba(255, 255, 255, 0.9);
-    
-  --shadow-hover: 
-    0 15px 35px rgba(0, 240, 255, 0.35),
-    0 0 25px rgba(255, 0, 122, 0.25),
-    inset 0 0 20px rgba(255, 255, 255, 1);
-  
-  --font-display: 'Inter', system-ui, -apple-system, sans-serif;
-  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Inter', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
   --max-width: 1240px;
   --nav-height: 76px;
 }
@@ -50,396 +33,259 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
 
-/* 🧬 NỀN MA TRẬN QUANG HỌC CHẠY ĐỘNG (LIVING MATRIX) */
+/* 🧬 NỀN MA TRẬN QUANG HỌC CHẠY ĐỘNG */
 body {
   font-family: var(--font-body);
-  background: var(--bg);
+  background: #090D16;
   color: var(--text);
   font-size: 18px;
-  line-height: 1.8;
+  line-height: 1.85;
   padding-top: var(--nav-height);
   min-height: 100vh;
-  -webkit-font-smoothing: antialiased;
   position: relative;
   overflow-x: hidden;
 }
 
-/* Lưới vi mạch tĩnh & Luồng quét tín hiệu Laser */
 body::before {
   content: '';
-  position: fixed;
-  inset: 0;
+  position: fixed; inset: 0;
   background-image: 
-    radial-gradient(circle at 15% 20%, rgba(0, 240, 255, 0.18) 0%, transparent 45%),
-    radial-gradient(circle at 85% 15%, rgba(255, 0, 122, 0.12) 0%, transparent 45%),
-    radial-gradient(circle at 50% 80%, rgba(112, 0, 255, 0.15) 0%, transparent 50%),
-    linear-gradient(rgba(99, 102, 241, 0.05) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(99, 102, 241, 0.05) 1px, transparent 1px);
-  background-size: 100% 100%, 100% 100%, 100% 100%, 36px 36px, 36px 36px;
-  pointer-events: none;
-  z-index: 0;
-}
-
-body::after {
-  content: '';
-  position: fixed;
-  top: -50%; left: -50%; right: -50%; bottom: -50%;
-  background: linear-gradient(0deg, transparent 45%, rgba(0, 240, 255, 0.08) 50%, transparent 55%);
-  background-size: 100% 8px;
-  animation: cyberScan 10s linear infinite;
-  pointer-events: none;
-  z-index: 0;
-}
-
-@keyframes cyberScan {
-  0% { transform: translateY(-30%); }
-  100% { transform: translateY(30%); }
+    radial-gradient(circle at 10% 20%, rgba(0, 240, 255, 0.15) 0%, transparent 40%),
+    radial-gradient(circle at 90% 80%, rgba(255, 0, 122, 0.15) 0%, transparent 40%),
+    linear-gradient(rgba(0, 240, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 240, 255, 0.05) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 30px 30px, 30px 30px;
+  pointer-events: none; z-index: 0;
 }
 
 .container { max-width: var(--max-width); margin: 0 auto; padding: 0 1.5rem; position: relative; z-index: 1; }
-a { color: var(--accent); text-decoration: none; transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1); }
-a:hover { color: var(--neon-cyan); text-shadow: 0 0 10px rgba(0, 240, 255, 0.6); }
-img { max-width: 100%; height: auto; display: block; }
-::selection { background: var(--neon-cyan); color: #000; }
-.icon { width: 18px; height: 18px; fill: currentColor; flex-shrink: 0; }
-.icon-sm { width: 14px; height: 14px; }
 
 /* ============================================================
-   🌌 NAVBAR: HOLOGRAM GLASS BAR WITH PLASMA BORDER
+   📄 ARTICLE CONTAINER: CYBER HUD FRAMEWORK
    ============================================================ */
-.navbar {
-  background: rgba(7, 11, 20, 0.88);
-  backdrop-filter: blur(24px) saturate(220%);
-  -webkit-backdrop-filter: blur(24px) saturate(220%);
-  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-  height: var(--nav-height); display: flex; align-items: center;
-  border-bottom: 2px solid transparent;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 240, 255, 0.2);
-}
-
-.navbar::after {
-  content: ''; position: absolute; bottom: -2px; left: 0; right: 0; height: 2px;
-  background: linear-gradient(90deg, #00F0FF, #7000FF, #FF007A, #00F0FF);
-  background-size: 300% 100%;
-  animation: plasmaStream 4s linear infinite;
-}
-
-@keyframes plasmaStream {
-  0% { background-position: 0% 0%; }
-  100% { background-position: 300% 0%; }
-}
-
-.nav-container { display: flex; align-items: center; justify-content: space-between; width: 100%; max-width: var(--max-width); margin: 0 auto; padding: 0 1.5rem; }
-.logo { font-family: var(--font-display); font-weight: 900; font-size: 1.45rem; cursor: pointer; letter-spacing: -0.03em; display: flex; align-items: center; gap: 12px; color: #FFF; }
-.logo .s-icon { 
-  width: 40px; height: 40px; border-radius: 14px; 
-  background: linear-gradient(135deg, #00F0FF, #7000FF, #FF007A); 
-  background-size: 200% 200%; animation: plasmaStream 3s ease infinite;
-  color: #FFF; display: flex; align-items: center; justify-content: center; 
-  font-size: 1.1rem; font-weight: 900; 
-  box-shadow: 0 0 25px rgba(0, 240, 255, 0.8); 
-}
-.logo span { color: var(--neon-cyan); text-shadow: 0 0 12px rgba(0, 240, 255, 0.8); }
-
-.nav-links { display: flex; align-items: center; gap: 0.4rem; }
-.nav-item { position: relative; }
-.nav-link, .dropbtn { 
-  display: inline-flex; align-items: center; gap: 6px; padding: 0.55rem 1.1rem; 
-  border-radius: 999px; font-size: 0.88rem; font-weight: 700; 
-  color: rgba(255, 255, 255, 0.9); background: transparent; border: 1px solid transparent; 
-  cursor: pointer; transition: all 0.3s ease; white-space: nowrap; 
-}
-.nav-link:hover, .dropbtn:hover { 
-  background: rgba(0, 240, 255, 0.15); color: var(--neon-cyan); 
-  border-color: rgba(0, 240, 255, 0.4); 
-  box-shadow: 0 0 20px rgba(0, 240, 255, 0.4); 
-}
-.nav-link.active, .dropbtn.active { 
-  background: linear-gradient(135deg, rgba(0, 240, 255, 0.3), rgba(112, 0, 255, 0.3)); 
-  color: #FFF; border-color: var(--neon-cyan); 
-  box-shadow: 0 0 20px rgba(0, 240, 255, 0.5); 
-}
-
-.nav-link.featured-header-badge { 
-  display: inline-flex; align-items: center; gap: 6px; 
-  background: #FFF; color: #070B14; padding: 4px 18px; border-radius: 999px; 
-  font-size: 0.75rem; font-weight: 900; border: 2px solid var(--neon-cyan); 
-  box-shadow: 0 0 20px rgba(0, 240, 255, 0.5); margin-right: 8px; 
-  text-transform: uppercase; letter-spacing: 0.08em; 
-}
-.nav-link.featured-header-badge .fire { color: var(--neon-pink); font-size: 1rem; }
-
-.dropdown-content { 
-  display: none; position: absolute; top: calc(100% + 12px); left: 0; min-width: 240px; 
-  background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(24px);
-  border: 2px solid var(--neon-cyan); border-radius: var(--radius); 
-  box-shadow: var(--shadow-cyber); padding: 0.8rem; z-index: 200; 
-}
-.nav-item.open .dropdown-content { display: block; animation: cyberPop 0.3s cubic-bezier(0.16, 1, 0.3, 1); }
-@keyframes cyberPop { from { opacity: 0; transform: translateY(12px) scale(0.95); } to { opacity: 1; transform: translateY(0) scale(1); } }
-.dropdown-content a { display: flex; align-items: center; gap: 10px; padding: 0.7rem 1.1rem; border-radius: var(--radius-sm); color: var(--text-secondary); font-size: 0.88rem; font-weight: 700; }
-.dropdown-content a:hover { background: linear-gradient(90deg, rgba(0, 240, 255, 0.15), rgba(112, 0, 255, 0.1)); color: var(--accent); }
-
-.nav-actions { display: flex; align-items: center; gap: 0.5rem; }
-.search-btn, .mobile-toggle { background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.2); cursor: pointer; color: #FFF; width: 42px; height: 42px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: 0.3s ease; }
-.search-btn:hover, .mobile-toggle:hover { background: var(--neon-cyan); color: #000; box-shadow: 0 0 20px var(--neon-cyan); }
-.mobile-toggle { display: none; }
-
-/* ============================================================
-   🔍 SEARCH MODAL
-   ============================================================ */
-.search-overlay { position: fixed; inset: 0; background: rgba(7, 11, 20, 0.7); backdrop-filter: blur(16px); z-index: 300; display: none; align-items: flex-start; justify-content: center; padding-top: 110px; }
-.search-overlay.open { display: flex; }
-.search-modal { background: rgba(255, 255, 255, 0.95) !important; max-width: 580px; width: 92%; border-radius: var(--radius); padding: 2.2rem; box-shadow: var(--shadow-hover); border: 2.5px solid var(--neon-cyan); }
-.search-modal-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.4rem; }
-.search-modal-header h3 { font-family: var(--font-display); font-size: 1.2rem; font-weight: 900; color: var(--heading); }
-.search-modal-close { background: var(--accent-light); border: none; width: 36px; height: 36px; border-radius: 50%; cursor: pointer; color: var(--accent); display: flex; align-items: center; justify-content: center; }
-.search-input-wrap { display: flex; align-items: center; gap: 0.8rem; background: var(--bg); border-radius: var(--radius-sm); padding: 0 1.2rem; border: 2px solid transparent; transition: 0.3s ease; }
-.search-input-wrap:focus-within { border-color: var(--neon-cyan); background: #FFF; box-shadow: 0 0 25px rgba(0, 240, 255, 0.3); }
-.search-input-wrap input { border: none; background: transparent; padding: 1rem 0; font-size: 1rem; color: var(--text); width: 100%; outline: none; font-weight: 600; }
-.search-suggestions span[data-term] { font-size: 0.82rem; color: #FFF; background: linear-gradient(135deg, #7000FF, #00F0FF); padding: 0.45rem 1.1rem; border-radius: 999px; cursor: pointer; font-weight: 800; box-shadow: 0 4px 12px rgba(0, 240, 255, 0.3); }
-
-/* ============================================================
-   💥 HERO SECTION: NEON PLASMA LIGHT
-   ============================================================ */
-.hero-mini { text-align: center; padding: 4.2rem 0 2.8rem; position: relative; }
-.hero-mini .badge { 
-  display: inline-block; font-size: 0.78rem; font-weight: 900; color: var(--accent); 
-  background: #FFF; padding: 0.45rem 1.8rem; border-radius: 999px; margin-bottom: 1.2rem; 
-  letter-spacing: 0.12em; text-transform: uppercase; border: 2px solid var(--neon-cyan); 
-  box-shadow: 0 0 20px rgba(0, 240, 255, 0.3);
-}
-.hero-mini h1 { font-family: var(--font-display); font-size: 3.2rem; font-weight: 900; color: var(--heading); margin-bottom: 0.5rem; letter-spacing: -0.03em; line-height: 1.15; }
-.hero-mini h1 #heroAccent { 
-  background: linear-gradient(135deg, #00F0FF 0%, #7000FF 50%, #FF007A 100%); 
-  -webkit-background-clip: text; -webkit-text-fill-color: transparent; 
-  background-clip: text; 
-}
-.hero-mini p { font-size: 1.2rem; color: var(--text-secondary); max-width: 620px; margin: 0 auto; font-weight: 500; }
-
-/* ============================================================
-   ⚡ CARD GRID: 3D HOLOGRAM TILT WITH SHINE ANIMATION
-   ============================================================ */
-.card-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.6rem; margin: 2.2rem 0 3.5rem; }
-@media (max-width: 1199px) { .card-grid { grid-template-columns: repeat(3, 1fr); } }
-@media (max-width: 991px) { .card-grid { grid-template-columns: repeat(2, 1fr); gap: 1.4rem; } }
-@media (max-width: 600px) { .card-grid { grid-template-columns: 1fr; } }
-
-.card { 
-  background: rgba(255, 255, 255, 0.8) !important; 
-  backdrop-filter: blur(20px);
-  border: 2px solid rgba(99, 102, 241, 0.2) !important; 
-  border-radius: var(--radius); overflow: hidden; 
-  box-shadow: var(--shadow-cyber); 
-  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1); 
-  cursor: pointer; display: flex; flex-direction: column; position: relative;
-}
-
-/* Vệt sáng Laser Laser Sweep khi di chuột */
-.card::before {
-  content: ''; position: absolute; inset: 0;
-  background: linear-gradient(135deg, transparent 30%, rgba(0, 240, 255, 0.25) 50%, transparent 70%);
-  transform: translateX(-100%); transition: transform 0.75s ease; pointer-events: none; z-index: 2;
-}
-
-.card:hover { 
-  transform: translateY(-10px) scale(1.02); 
-  border-color: var(--neon-cyan) !important; 
-  box-shadow: var(--shadow-hover); 
-}
-
-.card:hover::before { transform: translateX(100%); }
-
-.card-banner { height: 170px; width: 100%; overflow: hidden; background: #E2E8F0; position: relative; }
-.card-banner img { width: 100%; height: 100%; object-fit: cover; display: block; opacity: 0; transition: opacity 0.4s ease, transform 0.6s ease; }
-.card-banner img.loaded { opacity: 1; }
-.card:hover .card-banner img { transform: scale(1.1); }
-
-.card-body { padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1; background: transparent !important; }
-.card-meta { display: flex; justify-content: space-between; align-items: center; font-size: 0.76rem; color: var(--text-muted); margin-bottom: 0.6rem; font-weight: 700; }
-.tag { font-size: 0.72rem; font-weight: 900; color: #FFF; text-transform: uppercase; letter-spacing: 0.08em; background: linear-gradient(135deg, #7000FF, #00F0FF); padding: 0.3rem 0.95rem; border-radius: 999px; box-shadow: 0 0 10px rgba(0, 240, 255, 0.4); }
-.card-title { font-family: var(--font-display); font-size: 1.15rem; font-weight: 900; margin-bottom: 0.5rem; color: var(--heading); line-height: 1.35; }
-.card-desc { font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 1.2rem; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; line-height: 1.6; flex-grow: 1; }
-.card-footer { margin-top: auto; display: flex; justify-content: space-between; align-items: center; padding-top: 0.9rem; border-top: 1.5px solid rgba(0, 0, 0, 0.05); font-size: 0.76rem; color: var(--text-muted); }
-.read-more { font-weight: 900; color: var(--accent); display: flex; align-items: center; gap: 6px; transition: 0.3s ease; }
-.card:hover .read-more { color: var(--neon-cyan); gap: 12px; text-shadow: 0 0 8px rgba(0, 240, 255, 0.6); }
-
-/* ============================================================
-   🎆 BẢNG CYBER MATRIX PHOTONIC 5.0 (TỐI THƯỢNG)
-   ============================================================ */
-.article-body table {
-  width: 100%;
-  margin: 3rem 0;
-  border-collapse: separate;
-  border-spacing: 0;
-  border-radius: 24px;
-  background: rgba(255, 255, 255, 0.88) !important;
-  backdrop-filter: blur(24px);
-  border: 2px solid transparent !important;
-  background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(238, 242, 255, 0.85)), 
-                    linear-gradient(135deg, #00F0FF, #7000FF, #FF007A) !important;
+.article-container { 
+  max-width: 880px; 
+  margin: 2.5rem auto; 
+  background: rgba(15, 23, 42, 0.85) !important; 
+  backdrop-filter: blur(25px) saturate(200%);
+  padding: 3rem; 
+  border-radius: var(--radius); 
+  border: 2px solid transparent;
+  background-image: linear-gradient(rgba(15, 23, 42, 0.9), rgba(15, 23, 42, 0.9)), 
+                    linear-gradient(135deg, var(--neon-cyan), var(--neon-purple), var(--neon-pink)) !important;
   background-origin: border-box !important;
   background-clip: padding-box, border-box !important;
-  box-shadow: var(--shadow-hover);
-  overflow: hidden;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5), 0 0 30px rgba(0, 240, 255, 0.2);
   position: relative;
+}
+
+/* Viền phát quang HUD 4 góc của khung bài viết */
+.article-container::before {
+  content: ''; position: absolute; top: -2px; left: -2px; right: -2px; bottom: -2px;
+  border-radius: var(--radius);
+  background: linear-gradient(90deg, var(--neon-cyan), var(--neon-pink), var(--neon-cyan));
+  background-size: 200% 100%;
+  animation: cyberBorder 4s linear infinite;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+@keyframes cyberBorder {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 200% 0%; }
+}
+
+/* ============================================================
+   💎 CHỮ & PHẦN NỔI BẬT CYBER (TEXT & HIGHLIGHTS)
+   ============================================================ */
+.article-title { 
+  font-family: var(--font-display); 
+  font-size: 2.8rem; 
+  font-weight: 900; 
+  line-height: 1.2; 
+  margin-bottom: 1.2rem; 
+  letter-spacing: -0.02em;
+  background: linear-gradient(135deg, #FFF 30%, var(--neon-cyan) 70%, var(--neon-pink) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 12px rgba(0, 240, 255, 0.4));
+}
+
+.article-body h2 { 
+  font-family: var(--font-display); 
+  font-size: 1.85rem; 
+  font-weight: 900; 
+  margin: 3rem 0 1.2rem; 
+  color: #FFF; 
+  display: flex; align-items: center; gap: 12px;
+  letter-spacing: -0.01em;
+}
+
+.article-body h2::before {
+  content: '//';
+  color: var(--neon-cyan);
+  font-weight: 900;
+  text-shadow: 0 0 10px var(--neon-cyan);
+}
+
+/* Chữ in đậm Strong / B / Mark Cyber Pulse */
+.article-body strong, .article-body b { 
+  color: var(--neon-cyan) !important; 
+  font-weight: 800;
+  text-shadow: 0 0 8px rgba(0, 240, 255, 0.6);
+}
+
+mark, .highlight {
+  background: linear-gradient(135deg, rgba(0, 240, 255, 0.25), rgba(255, 0, 122, 0.25)) !important;
+  color: #FFF !important;
+  padding: 0.15rem 0.6rem;
+  border-radius: 6px;
+  border: 1px solid var(--neon-cyan);
+  box-shadow: 0 0 12px rgba(0, 240, 255, 0.4);
+  font-weight: 700;
+}
+
+/* ============================================================
+   🧩 TÁCH BIỆT: MỞ BÀI - THÂN BÀI - KẾT BÀI (CYBER MODULES)
+   ============================================================ */
+
+/* --- 1. MỞ BÀI (INTRO / LEAD MODULE) --- */
+.article-body > p:first-of-type {
+  font-size: 1.15rem;
+  line-height: 1.9;
+  font-weight: 500;
+  color: #FFF;
+  background: rgba(0, 240, 255, 0.06) !important;
+  border: 1.5px solid var(--neon-cyan) !important;
+  border-left: 6px solid var(--neon-cyan) !important;
+  padding: 1.8rem;
+  border-radius: var(--radius-sm);
+  margin-bottom: 2rem;
+  box-shadow: 0 0 25px rgba(0, 240, 255, 0.18), inset 0 0 15px rgba(0, 240, 255, 0.08);
+  position: relative;
+}
+
+.article-body > p:first-of-type::before {
+  content: 'SYSTEM_START // MỞ BÀI';
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 900;
+  color: var(--neon-cyan);
+  letter-spacing: 0.15em;
+  margin-bottom: 0.6rem;
+  text-shadow: 0 0 8px var(--neon-cyan);
+}
+
+/* --- 2. THÂN BÀI & HOVER TỪNG ĐOẠN (BODY PARAGRAPHS) --- */
+.article-body p {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 1.3rem 1.6rem;
+  border-radius: var(--radius-sm);
+  margin-bottom: 1.5rem;
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+}
+
+/* HIỆU ỨNG HOVER BÀI VIẾT TỪNG ĐOẠN CYBER */
+.article-body p:hover {
+  background: rgba(112, 0, 255, 0.1) !important;
+  border-color: var(--neon-pink) !important;
+  transform: translateX(8px) scale(1.01);
+  box-shadow: -5px 0 20px var(--neon-pink), 0 0 25px rgba(255, 0, 122, 0.2);
+  color: #FFF;
+}
+
+.article-body p:hover::before {
+  content: ''; position: absolute; left: -1px; top: -1px; bottom: -1px; width: 4px;
+  background: var(--neon-pink);
+  box-shadow: 0 0 12px var(--neon-pink);
+  border-radius: 4px 0 0 4px;
+}
+
+/* --- 3. KẾT BÀI (OUTRO / CONCLUSION MODULE) --- */
+.article-body > p:last-of-type {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #FFF;
+  background: linear-gradient(135deg, rgba(112, 0, 255, 0.15), rgba(255, 0, 122, 0.15)) !important;
+  border: 2px solid var(--neon-pink) !important;
+  padding: 2rem;
+  border-radius: var(--radius);
+  margin-top: 3rem;
+  box-shadow: 0 0 30px rgba(255, 0, 122, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.article-body > p:last-of-type::before {
+  content: 'EXECUTE_SUMMARY // KẾT BÀI';
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 900;
+  color: var(--neon-pink);
+  letter-spacing: 0.15em;
+  margin-bottom: 0.6rem;
+  text-shadow: 0 0 10px var(--neon-pink);
+}
+
+/* ============================================================
+   🎆 BẢNG CYBER MATRIX PHOTONIC 5.0
+   ============================================================ */
+.article-body table {
+  width: 100%; margin: 3rem 0;
+  border-collapse: separate; border-spacing: 0;
+  border-radius: var(--radius);
+  background: rgba(15, 23, 42, 0.9) !important;
+  border: 2px solid var(--neon-cyan) !important;
+  box-shadow: 0 0 30px rgba(0, 240, 255, 0.25);
+  overflow: hidden;
 }
 
 .article-body thead th {
-  background: linear-gradient(135deg, #070B14 0%, #1E1B4B 100%) !important;
+  background: #070B14 !important;
   color: var(--neon-cyan) !important;
-  font-family: var(--font-display);
-  font-weight: 900;
-  font-size: 0.95rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  padding: 1.5rem 1.3rem;
-  text-align: center;
-  border-bottom: 2px solid var(--neon-cyan);
-  text-shadow: 0 0 15px rgba(0, 240, 255, 0.8);
-}
-
-.article-body thead th:first-child { 
-  text-align: left; 
-  padding-left: 2.2rem; 
+  font-weight: 900; text-transform: uppercase;
+  padding: 1.4rem; border-bottom: 2px solid var(--neon-cyan);
+  text-shadow: 0 0 12px var(--neon-cyan);
 }
 
 .article-body tbody td {
-  padding: 1.25rem 1.3rem;
-  font-size: 0.98rem;
-  color: var(--text) !important;
-  text-align: center;
-  background: transparent !important;
-  border-right: 1.5px solid rgba(99, 102, 241, 0.1);
-  border-bottom: 1.5px solid rgba(99, 102, 241, 0.1);
-  position: relative;
-  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  padding: 1.2rem;
+  border-right: 1px solid rgba(0, 240, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 240, 255, 0.1);
+  transition: all 0.25s ease;
 }
 
-.article-body tbody td:first-child {
-  text-align: left;
-  font-weight: 900;
-  background: linear-gradient(90deg, rgba(99, 102, 241, 0.15), transparent) !important;
-  color: var(--accent) !important;
-  padding-left: 2.2rem;
-  border-right: 2px solid rgba(99, 102, 241, 0.25);
-}
-
-.article-body tbody td:last-child { border-right: none; }
-.article-body tbody tr:last-child td { border-bottom: none; }
-
-.article-body tbody tr:nth-child(odd) td {
-  background: rgba(241, 245, 249, 0.6) !important;
-}
-.article-body tbody tr:nth-child(odd) td:first-child {
-  background: linear-gradient(90deg, rgba(99, 102, 241, 0.2), transparent) !important;
-}
-
-/* Ánh sáng Laser Hologram khi hover lên hàng */
 .article-body tbody tr:hover td {
-  background: linear-gradient(90deg, rgba(0, 240, 255, 0.18), rgba(112, 0, 255, 0.15)) !important;
-  color: #070B14 !important;
+  background: rgba(0, 240, 255, 0.15) !important;
+  color: #FFF !important;
 }
 
-.article-body tbody tr:hover td:first-child {
-  color: var(--neon-cyan) !important;
-  text-shadow: 0 0 12px rgba(0, 240, 255, 0.8);
-}
-
-/* Biến ô thành khối Photon phát sáng rực rỡ khi di chuột vào */
 .article-body tbody td:hover {
-  background: linear-gradient(135deg, #00F0FF, #7000FF, #FF007A) !important;
-  color: #FFFFFF !important;
-  font-weight: 900;
-  box-shadow: 0 0 30px rgba(0, 240, 255, 0.8);
-  border-radius: 12px;
-  transform: scale(1.05);
-  z-index: 10;
+  background: linear-gradient(135deg, var(--neon-cyan), var(--neon-pink)) !important;
+  color: #000 !important; font-weight: 900;
+  box-shadow: 0 0 25px var(--neon-cyan);
+  transform: scale(1.04);
 }
 
 /* ============================================================
-   📄 ARTICLE PAGE & CONTENT
+   🚀 PROS/CONS & CTA CYBER
    ============================================================ */
-.article-container { max-width: 860px; margin: 2.2rem auto 0; background: rgba(255, 255, 255, 0.94) !important; backdrop-filter: blur(24px); padding: 2.8rem; border-radius: var(--radius); border: 2px solid var(--border); box-shadow: var(--shadow-hover); }
-.breadcrumb { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1.4rem; font-weight: 600; }
-.breadcrumb span:hover { color: var(--neon-cyan); }
-.article-title { font-family: var(--font-display); font-size: 2.6rem; font-weight: 900; line-height: 1.2; color: var(--heading); margin-bottom: 0.9rem; letter-spacing: -0.03em; }
-.article-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 0.9rem; font-size: 0.9rem; color: var(--text-muted); border-bottom: 1.5px solid rgba(0, 0, 0, 0.08); padding-bottom: 1.4rem; margin-bottom: 2.2rem; }
-.article-meta .badge { background: linear-gradient(135deg, #7000FF, #00F0FF); color: #FFF; font-weight: 900; padding: 0.35rem 1.2rem; border-radius: 999px; font-size: 0.8rem; box-shadow: 0 0 12px rgba(0, 240, 255, 0.4); }
-.article-image-wrap { margin-bottom: 2.2rem; border-radius: 22px; overflow: hidden; box-shadow: var(--shadow-hover); border: 2px solid var(--border); }
-.article-image-wrap img { width: 100%; max-height: 460px; object-fit: cover; }
-.article-body { font-size: 18px; line-height: 1.9; font-weight: 400; color: var(--text); background: transparent !important; }
-.article-body h2 { font-family: var(--font-display); font-size: 1.75rem; font-weight: 900; margin: 2.6rem 0 1.2rem; color: var(--heading); letter-spacing: -0.02em; }
-.article-body p { margin-bottom: 1.4rem; }
-.article-body strong { color: var(--heading); font-weight: 800; }
+.pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 2.5rem 0; }
+.pros { background: rgba(5, 150, 105, 0.15) !important; border: 2px solid #059669 !important; padding: 1.5rem; border-radius: var(--radius-sm); box-shadow: 0 0 20px rgba(5, 150, 105, 0.2); }
+.cons { background: rgba(220, 38, 38, 0.15) !important; border: 2px solid #DC2626 !important; padding: 1.5rem; border-radius: var(--radius-sm); box-shadow: 0 0 20px rgba(220, 38, 38, 0.2); }
 
-/* ===== PROS & CONS / FAQ / CTA ===== */
-.pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 1.6rem; margin: 2.4rem 0; }
-@media (max-width: 600px) { .pros-cons { grid-template-columns: 1fr; } }
-.pros, .cons { padding: 1.6rem; border-radius: var(--radius-sm); border: 2px solid transparent; backdrop-filter: blur(16px); box-shadow: var(--shadow-cyber); }
-.pros { background: var(--pros-bg) !important; border-left: 6px solid var(--pros-heading) !important; }
-.cons { background: var(--cons-bg) !important; border-left: 6px solid var(--cons-heading) !important; }
-.pros h4 { margin-bottom: 0.7rem; font-size: 1.05rem; font-weight: 900; color: var(--pros-heading); }
-.cons h4 { margin-bottom: 0.7rem; font-size: 1.05rem; font-weight: 900; color: var(--cons-heading); }
-.pros ul, .cons ul { list-style: none; }
-.pros li, .cons li { padding: 0.3rem 0; font-size: 0.95rem; color: var(--text); font-weight: 600; }
-
-.cta-box { 
-  margin: 2.8rem 0; padding: 2.5rem; 
-  background: linear-gradient(135deg, rgba(238, 242, 255, 0.95), rgba(224, 231, 255, 0.8)) !important; 
-  border: 2.5px solid var(--neon-cyan); border-radius: var(--radius); text-align: center; 
-  box-shadow: var(--shadow-hover);
-}
-.cta-box h3 { font-family: var(--font-display); margin-bottom: 0.5rem; font-weight: 900; font-size: 1.45rem; color: var(--heading); }
-.cta-box p { font-size: 1rem; color: var(--text-secondary); margin-bottom: 1.4rem; }
-.btn-affiliate { 
-  display: inline-flex; align-items: center; gap: 12px; 
-  background: linear-gradient(135deg, #00F0FF, #7000FF, #FF007A); 
-  background-size: 200% 200%; animation: plasmaStream 3s ease infinite;
-  color: #FFF; padding: 1rem 2.8rem; border-radius: 999px; 
-  font-weight: 900; font-size: 1.05rem; box-shadow: 0 0 30px rgba(0, 240, 255, 0.6); 
-  transition: all 0.35s ease; 
-}
-.btn-affiliate:hover { transform: translateY(-4px) scale(1.05); box-shadow: 0 0 45px rgba(255, 0, 122, 0.8); color: #FFF; }
-
-.related { border-top: 1.5px solid var(--border); padding-top: 2rem; margin-top: 2rem; background: transparent !important; }
-.related h4 { font-family: var(--font-display); margin-bottom: 1.2rem; font-size: 1.15rem; font-weight: 900; color: var(--heading); }
-.related-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 1.2rem; }
-.related-item { 
-  background: rgba(255, 255, 255, 0.95); padding: 1rem; border-radius: var(--radius-sm); 
-  cursor: pointer; text-align: center; font-weight: 800; font-size: 0.9rem; 
-  border: 2px solid var(--border); color: var(--text-secondary); transition: all 0.3s ease; 
-}
-.related-item:hover { background: linear-gradient(135deg, #7000FF, #00F0FF); color: #FFF; border-color: transparent; box-shadow: 0 0 20px rgba(0, 240, 255, 0.5); }
-
-/* ============================================================
-   🌃 FOOTER: ULTIMATE SOLARPUNK DARK BOTTOM
-   ============================================================ */
-.footer { 
-  background: linear-gradient(135deg, #070B14 0%, #1E1B4B 100%); 
-  position: relative; padding: 3.8rem 0 2.2rem; margin-top: 4.5rem; color: #FFF; 
-  border-top: 2px solid transparent;
-}
-.footer::before {
-  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
-  background: linear-gradient(90deg, #00F0FF, #7000FF, #FF007A, #00F0FF);
-  background-size: 300% 100%; animation: plasmaStream 4s linear infinite;
-}
-.footer-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 2.5rem; margin-bottom: 2.8rem; }
-.footer-col h4 { font-family: var(--font-display); font-weight: 900; margin-bottom: 1.1rem; font-size: 1.05rem; color: var(--neon-cyan); border-bottom: 1px solid rgba(255, 255, 255, 0.12); padding-bottom: 0.6rem; letter-spacing: 0.05em; text-shadow: 0 0 10px rgba(0, 240, 255, 0.5); }
-.footer-col a { display: block; color: rgba(255, 255, 255, 0.85); font-size: 0.92rem; margin-bottom: 0.55rem; cursor: pointer; transition: all 0.3s ease; text-decoration: none; }
-.footer-col a:hover { color: var(--neon-cyan); padding-left: 10px; text-shadow: 0 0 12px rgba(0, 240, 255, 0.8); }
-.footer-bottom { text-align: center; font-size: 0.88rem; color: rgba(255, 255, 255, 0.65); border-top: 1px solid rgba(255, 255, 255, 0.12); padding-top: 1.8rem; }
-
-/* RESPONSIVE */
-@media (max-width: 768px) {
-  :root { --nav-height: 68px; }
-  .mobile-toggle { display: flex; }
-  .nav-links { display: none; flex-direction: column; align-items: stretch; position: absolute; top: var(--nav-height); left: 0; width: 100%; background: #070B14; border-bottom: 1px solid rgba(255, 255, 255, 0.1); padding: 1.4rem; gap: 0.5rem; }
-  .nav-links.open { display: flex; }
-  .article-body table { display: block; overflow-x: auto; white-space: nowrap; -webkit-overflow-scrolling: touch; border-radius: 18px; }
-  .article-body thead th, .article-body tbody td { padding: 1.1rem 1.2rem; font-size: 0.92rem; }
+.cta-box {
+  background: linear-gradient(135deg, rgba(0, 240, 255, 0.12), rgba(112, 0, 255, 0.12)) !important;
+  border: 2px solid var(--neon-cyan); padding: 2.5rem; border-radius: var(--radius); text-align: center;
+  box-shadow: 0 0 35px rgba(0, 240, 255, 0.3);
 }
 
-@view-transition { navigation: auto; }
-::view-transition-old(root), ::view-transition-new(root) { animation-duration: 0.3s; }
+.btn-affiliate {
+  background: linear-gradient(135deg, var(--neon-cyan), var(--neon-purple), var(--neon-pink));
+  color: #FFF; font-weight: 900; padding: 1rem 2.5rem; border-radius: 999px;
+  box-shadow: 0 0 30px var(--neon-cyan); transition: 0.3s ease; display: inline-block;
+}
+
+.btn-affiliate:hover { transform: translateY(-3px) scale(1.05); box-shadow: 0 0 45px var(--neon-pink); }
