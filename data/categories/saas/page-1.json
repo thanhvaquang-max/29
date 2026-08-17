@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "loom-review-boost-remote-collaboration-with-video-messaging",
+      "category": "saas",
+      "categoryLabel": "SaaS",
+      "title": "Loom Review: Boost Remote Collaboration with Video Messaging",
+      "excerpt": "Tired of endless meeting invites and email chains that still leave teammates confused? Remote groups constantly battle the delays of real‑time conversations, time‑zone mismatches, and the need for clear visual explanations. Those hurdles can stall projects and raise frustration across the board.",
+      "date": "2026-08-17",
+      "readingTime": 12,
+      "image": "assets/images/articles/loom-review-boost-remote-collaboration-with-video-messaging.webp",
+      "affiliateKey": "loom-review-boost-remote-collaboration-with-video-messaging"
+    },
+    {
       "slug": "canva-planner",
       "category": "saas",
       "categoryLabel": "SaaS",
@@ -23,7 +34,7 @@
       "affiliateKey": "semrush"
     }
   ],
-  "total": 2,
+  "total": 3,
   "totalPages": 1,
   "currentPage": 1
 }

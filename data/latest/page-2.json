@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "surfshark-review",
+      "category": "vpn",
+      "categoryLabel": "VPN",
+      "title": "Surfshark VPN: Best Budget VPN for Privacy",
+      "excerpt": "Unlimited devices, strong encryption, and a strict no-logs policy.",
+      "date": "2026-07-10",
+      "readingTime": "4 min read",
+      "image": "https://picsum.photos/seed/surfshark/800/400",
+      "affiliateKey": "surfshark"
+    },
+    {
       "slug": "notion-review",
       "category": "web-tools",
       "categoryLabel": "Web Tools",
@@ -16,14 +27,14 @@
       "category": "ai-tools",
       "categoryLabel": "AI Tools",
       "title": "AI-Driven Design Tools Compared: Templates, Stickers, Fonts",
-      "excerpt": "Create stunning visuals with AI \u2014 templates, stickers, and fonts that used to take a design team.",
+      "excerpt": "Create stunning visuals with AI — templates, stickers, and fonts that used to take a design team.",
       "date": "2026-07-08",
       "readingTime": "3 min read",
       "image": "https://picsum.photos/seed/aidesign/800/400",
       "affiliateKey": ""
     }
   ],
-  "total": 14,
+  "total": 15,
   "totalPages": 2,
   "currentPage": 2
 }

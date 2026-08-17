@@ -96,5 +96,12 @@
     "categoryLabel": "VPS",
     "excerpt": "Simple, scalable VPS droplets that developers actually enjoy using.",
     "category": "vps"
+  },
+  {
+    "slug": "loom-review-boost-remote-collaboration-with-video-messaging",
+    "title": "Loom Review: Boost Remote Collaboration with Video Messaging",
+    "categoryLabel": "SaaS",
+    "excerpt": "Tired of endless meeting invites and email chains that still leave teammates confused? Remote groups constantly battle the delays of real‑time conversations, time‑zone mismatches, and the need for clear visual explanations. Those hurdles can stall projects and raise frustration across the board.",
+    "category": "saas"
   }
 ]
