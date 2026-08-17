@@ -1,291 +1,556 @@
-/* ============================================================
-   🌌 CYBER 5.0 ALL-OUT ULTIMATE (2050 FULL-DETAILED CYBER)
-   Giữ nguyên cấu trúc HTML - Cyber hóa 100% từng phần tử
-   ============================================================ */
+/* ==========================================================================
+   🚀 CYBER AI 5.0 - TOTAL OVERHAUL SYSTEM (ALL-IN-ONE PRODUCTION EDITION)
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
 
 :root {
-  /* Hệ màu Photonic Light Mode 2050 */
-  --bg: #090D16; /* Nền Cyber Dark-Light pha trộn */
-  --bg-card: rgba(15, 23, 42, 0.75);
+  /* Dynamic Cyber Colors */
+  --bg: #020617;
+  --bg-card: rgba(15, 23, 42, 0.7);
+  --border: rgba(0, 240, 255, 0.25);
+  --border-hover: rgba(255, 0, 127, 0.7);
   
-  --neon-cyan: #00F0FF;
-  --neon-purple: #7000FF;
-  --neon-pink: #FF007A;
-  --neon-yellow: #FFE600;
+  /* Cyber Electric Palette */
+  --neon-cyan: #00f0ff;
+  --neon-magenta: #ff007f;
+  --neon-purple: #a855f7;
+  --neon-blue: #2563eb;
+  --neon-green: #00ff88;
+  --neon-amber: #ffb700;
   
-  --heading: #FFFFFF;
-  --text: #E2E8F0;
-  --text-secondary: #94A3B8;
-  --text-muted: #64748B;
+  /* Futuristic Typography Colors */
+  --heading: #ffffff;
+  --text: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
   
-  --radius: 20px;
-  --radius-sm: 12px;
+  /* Neon Gradient Systems */
+  --grad-primary: linear-gradient(135deg, var(--neon-cyan) 0%, var(--neon-purple) 100%);
+  --grad-accent: linear-gradient(135deg, var(--neon-magenta) 0%, var(--neon-amber) 100%);
+  --grad-glow: linear-gradient(90deg, var(--neon-cyan), var(--neon-magenta), var(--neon-green), var(--neon-cyan));
+  --grad-dark-glass: linear-gradient(180deg, rgba(15, 23, 42, 0.85) 0%, rgba(3, 7, 18, 0.95) 100%);
+
+  /* UI Metrics & Physics */
+  --radius: 22px;
+  --radius-sm: 10px;
+  --shadow: 0 8px 32px 0 rgba(0, 240, 255, 0.1);
+  --shadow-hover: 0 16px 48px 0 rgba(255, 0, 127, 0.35);
+  --font-display: 'Orbitron', system-ui, sans-serif;
+  --font-body: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --max-width: 1280px;
+  --nav-height: 72px;
   
-  --shadow-cyber: 0 0 20px rgba(0, 240, 255, 0.25), inset 0 0 15px rgba(0, 240, 255, 0.1);
-  --shadow-hover: 0 0 35px rgba(255, 0, 122, 0.4), inset 0 0 20px rgba(0, 240, 255, 0.2);
-  
-  --font-display: 'Inter', system-ui, sans-serif;
-  --font-body: 'Inter', system-ui, sans-serif;
-  --max-width: 1240px;
-  --nav-height: 76px;
+  /* Cyber Glass Settings */
+  --glass-blur: blur(20px);
 }
 
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
+/* ===== BASE OVERHAUL ===== */
+*, *::before, *::after { 
+  box-sizing: border-box; 
+  margin: 0; 
+  padding: 0; 
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
 
-/* 🧬 NỀN MA TRẬN QUANG HỌC CHẠY ĐỘNG */
+html { 
+  scroll-behavior: smooth; 
+  color-scheme: dark;
+}
+
 body {
   font-family: var(--font-body);
-  background: #090D16;
+  background-color: var(--bg);
   color: var(--text);
-  font-size: 18px;
-  line-height: 1.85;
+  font-size: 17px;
+  line-height: 1.8;
+  font-weight: 400;
   padding-top: var(--nav-height);
   min-height: 100vh;
-  position: relative;
   overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
 }
 
+/* Background Animated Grid & Hologram Matrix */
 body::before {
   content: '';
-  position: fixed; inset: 0;
-  background-image: 
+  position: fixed;
+  inset: 0;
+  background: 
     radial-gradient(circle at 10% 20%, rgba(0, 240, 255, 0.15) 0%, transparent 40%),
-    radial-gradient(circle at 90% 80%, rgba(255, 0, 122, 0.15) 0%, transparent 40%),
-    linear-gradient(rgba(0, 240, 255, 0.05) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0, 240, 255, 0.05) 1px, transparent 1px);
+    radial-gradient(circle at 90% 80%, rgba(255, 0, 127, 0.12) 0%, transparent 45%),
+    linear-gradient(rgba(0, 240, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 240, 255, 0.03) 1px, transparent 1px);
   background-size: 100% 100%, 100% 100%, 30px 30px, 30px 30px;
-  pointer-events: none; z-index: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Scanline Animation */
+body::after {
+  content: '';
+  position: fixed;
+  top: 0; left: 0; width: 100%; height: 3px;
+  background: var(--grad-glow);
+  z-index: 9999;
+  opacity: 0.8;
+  animation: scanline 6s linear infinite;
+}
+
+@keyframes scanline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100vh); }
 }
 
 .container { max-width: var(--max-width); margin: 0 auto; padding: 0 1.5rem; position: relative; z-index: 1; }
 
-/* ============================================================
-   📄 ARTICLE CONTAINER: CYBER HUD FRAMEWORK
-   ============================================================ */
-.article-container { 
-  max-width: 880px; 
-  margin: 2.5rem auto; 
-  background: rgba(15, 23, 42, 0.85) !important; 
-  backdrop-filter: blur(25px) saturate(200%);
-  padding: 3rem; 
-  border-radius: var(--radius); 
-  border: 2px solid transparent;
-  background-image: linear-gradient(rgba(15, 23, 42, 0.9), rgba(15, 23, 42, 0.9)), 
-                    linear-gradient(135deg, var(--neon-cyan), var(--neon-purple), var(--neon-pink)) !important;
-  background-origin: border-box !important;
-  background-clip: padding-box, border-box !important;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5), 0 0 30px rgba(0, 240, 255, 0.2);
-  position: relative;
+a { color: var(--neon-cyan); text-decoration: none; position: relative; }
+a:hover { 
+  color: var(--neon-magenta); 
+  text-shadow: 0 0 12px var(--neon-magenta);
 }
 
-/* Viền phát quang HUD 4 góc của khung bài viết */
-.article-container::before {
-  content: ''; position: absolute; top: -2px; left: -2px; right: -2px; bottom: -2px;
-  border-radius: var(--radius);
-  background: linear-gradient(90deg, var(--neon-cyan), var(--neon-pink), var(--neon-cyan));
-  background-size: 200% 100%;
-  animation: cyberBorder 4s linear infinite;
-  z-index: -1;
-  opacity: 0.7;
+img { max-width: 100%; height: auto; display: block; }
+
+::selection { 
+  background: var(--neon-cyan); 
+  color: #000; 
+  text-shadow: none;
 }
 
-@keyframes cyberBorder {
-  0% { background-position: 0% 0%; }
-  100% { background-position: 200% 0%; }
+.icon { width: 18px; height: 18px; fill: currentColor; flex-shrink: 0; filter: drop-shadow(0 0 4px currentColor); }
+.icon-sm { width: 14px; height: 14px; }
+
+/* ===== NAVBAR Cyber Glass ===== */
+.navbar {
+  background: rgba(2, 6, 23, 0.8);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border-bottom: 1px solid var(--neon-cyan);
+  position: fixed; top:0; left:0; right:0; z-index:100;
+  height: var(--nav-height); display:flex; align-items:center;
+  box-shadow: 0 4px 30px rgba(0, 240, 255, 0.2), inset 0 -1px 0 rgba(0, 240, 255, 0.3);
 }
 
-/* ============================================================
-   💎 CHỮ & PHẦN NỔI BẬT CYBER (TEXT & HIGHLIGHTS)
-   ============================================================ */
-.article-title { 
+.nav-container { display:flex; align-items:center; justify-content:space-between; width:100%; max-width:var(--max-width); margin:0 auto; padding:0 1.5rem; }
+
+/* Logo Tech */
+.logo { 
   font-family: var(--font-display); 
-  font-size: 2.8rem; 
   font-weight: 900; 
-  line-height: 1.2; 
-  margin-bottom: 1.2rem; 
-  letter-spacing: -0.02em;
-  background: linear-gradient(135deg, #FFF 30%, var(--neon-cyan) 70%, var(--neon-pink) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  filter: drop-shadow(0 0 12px rgba(0, 240, 255, 0.4));
-}
-
-.article-body h2 { 
-  font-family: var(--font-display); 
-  font-size: 1.85rem; 
-  font-weight: 900; 
-  margin: 3rem 0 1.2rem; 
-  color: #FFF; 
-  display: flex; align-items: center; gap: 12px;
-  letter-spacing: -0.01em;
-}
-
-.article-body h2::before {
-  content: '//';
-  color: var(--neon-cyan);
-  font-weight: 900;
+  font-size: 1.4rem; 
+  letter-spacing: 0.08em; 
+  display: flex; align-items: center; gap: 12px; 
+  color: #fff; 
+  text-transform: uppercase;
   text-shadow: 0 0 10px var(--neon-cyan);
 }
+.logo .s-icon { 
+  width: 38px; height: 38px; 
+  border-radius: var(--radius-sm); 
+  background: var(--grad-primary); 
+  color: #000; 
+  display: flex; align-items: center; justify-content: center; 
+  font-size: 1.1rem; font-weight: 900; 
+  box-shadow: 0 0 20px var(--neon-cyan); 
+  clip-path: polygon(25% 0%, 100% 0, 100% 75%, 75% 100%, 0 100%, 0% 25%);
+}
+.logo span { color: var(--neon-cyan); text-shadow: 0 0 15px var(--neon-cyan); }
 
-/* Chữ in đậm Strong / B / Mark Cyber Pulse */
-.article-body strong, .article-body b { 
-  color: var(--neon-cyan) !important; 
+.nav-links { display: flex; align-items: center; gap: 0.4rem; }
+.nav-item { position: relative; }
+
+.nav-link, .dropbtn { 
+  display: inline-flex; align-items: center; gap: 6px; 
+  padding: 0.5rem 1.1rem; 
+  border-radius: var(--radius-sm); 
+  font-family: var(--font-display);
+  font-size: 0.8rem; font-weight: 700; 
+  color: var(--text-secondary); 
+  background: transparent; 
+  border: 1px solid transparent; 
+  cursor: pointer; 
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.nav-link:hover, .dropbtn:hover { 
+  color: #fff; 
+  background: rgba(0, 240, 255, 0.1); 
+  border-color: var(--neon-cyan);
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.3);
+}
+
+.nav-link.active, .dropbtn.active { 
+  color: #000; 
+  background: var(--neon-cyan); 
+  border-color: var(--neon-cyan); 
   font-weight: 800;
-  text-shadow: 0 0 8px rgba(0, 240, 255, 0.6);
+  box-shadow: 0 0 20px var(--neon-cyan);
 }
 
-mark, .highlight {
-  background: linear-gradient(135deg, rgba(0, 240, 255, 0.25), rgba(255, 0, 122, 0.25)) !important;
-  color: #FFF !important;
-  padding: 0.15rem 0.6rem;
-  border-radius: 6px;
-  border: 1px solid var(--neon-cyan);
-  box-shadow: 0 0 12px rgba(0, 240, 255, 0.4);
-  font-weight: 700;
+/* Badge Nổi bật */
+.nav-link.featured-header-badge { 
+  background: var(--grad-accent); 
+  color: #fff; 
+  padding: 4px 16px; 
+  border-radius: 999px; 
+  font-size: 0.72rem; font-weight: 900; 
+  box-shadow: 0 0 20px var(--neon-magenta); 
+  border: none;
+  animation: pulse-glow 1.5s infinite alternate;
 }
 
-/* ============================================================
-   🧩 TÁCH BIỆT: MỞ BÀI - THÂN BÀI - KẾT BÀI (CYBER MODULES)
-   ============================================================ */
-
-/* --- 1. MỞ BÀI (INTRO / LEAD MODULE) --- */
-.article-body > p:first-of-type {
-  font-size: 1.15rem;
-  line-height: 1.9;
-  font-weight: 500;
-  color: #FFF;
-  background: rgba(0, 240, 255, 0.06) !important;
-  border: 1.5px solid var(--neon-cyan) !important;
-  border-left: 6px solid var(--neon-cyan) !important;
-  padding: 1.8rem;
-  border-radius: var(--radius-sm);
-  margin-bottom: 2rem;
-  box-shadow: 0 0 25px rgba(0, 240, 255, 0.18), inset 0 0 15px rgba(0, 240, 255, 0.08);
-  position: relative;
+@keyframes pulse-glow {
+  0% { box-shadow: 0 0 10px var(--neon-magenta); transform: scale(1); }
+  100% { box-shadow: 0 0 25px var(--neon-magenta), 0 0 10px var(--neon-cyan); transform: scale(1.03); }
 }
 
-.article-body > p:first-of-type::before {
-  content: 'SYSTEM_START // MỞ BÀI';
-  display: block;
-  font-size: 0.72rem;
-  font-weight: 900;
-  color: var(--neon-cyan);
-  letter-spacing: 0.15em;
-  margin-bottom: 0.6rem;
-  text-shadow: 0 0 8px var(--neon-cyan);
+/* Dropdown Cyber Glass */
+.dropdown-content { 
+  display: none; position: absolute; top: calc(100% + 12px); left: 0; 
+  min-width: 230px; 
+  background: rgba(15, 23, 42, 0.95); 
+  backdrop-filter: var(--glass-blur); 
+  border: 1px solid var(--neon-cyan); 
+  border-radius: var(--radius-sm); 
+  box-shadow: 0 10px 40px rgba(0,0,0,0.9), 0 0 20px rgba(0, 240, 255, 0.2); 
+  padding: 0.6rem; z-index: 200; 
+}
+.nav-item.open .dropdown-content { display: block; animation: fadeIn 0.2s ease; }
+
+.dropdown-content a { 
+  display: flex; align-items: center; gap: 10px; 
+  padding: 0.65rem 1rem; border-radius: 6px; 
+  color: var(--text-secondary); font-family: var(--font-display); 
+  font-size: 0.8rem; font-weight: 600; 
+}
+.dropdown-content a:hover { 
+  background: rgba(0, 240, 255, 0.15); 
+  color: var(--neon-cyan); 
+  transform: translateX(6px);
 }
 
-/* --- 2. THÂN BÀI & HOVER TỪNG ĐOẠN (BODY PARAGRAPHS) --- */
-.article-body p {
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  padding: 1.3rem 1.6rem;
-  border-radius: var(--radius-sm);
-  margin-bottom: 1.5rem;
-  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
-  position: relative;
+.search-btn, .mobile-toggle { 
+  background: rgba(255, 255, 255, 0.05); 
+  border: 1px solid var(--border); 
+  cursor: pointer; color: #fff; 
+  width: 42px; height: 42px; border-radius: 50%; 
+  display: flex; align-items: center; justify-content: center; 
+}
+.search-btn:hover, .mobile-toggle:hover { 
+  border-color: var(--neon-cyan); 
+  color: var(--neon-cyan); 
+  box-shadow: 0 0 20px var(--neon-cyan);
 }
 
-/* HIỆU ỨNG HOVER BÀI VIẾT TỪNG ĐOẠN CYBER */
-.article-body p:hover {
-  background: rgba(112, 0, 255, 0.1) !important;
-  border-color: var(--neon-pink) !important;
-  transform: translateX(8px) scale(1.01);
-  box-shadow: -5px 0 20px var(--neon-pink), 0 0 25px rgba(255, 0, 122, 0.2);
-  color: #FFF;
+/* ===== SEARCH MODAL ===== */
+.search-overlay { 
+  position: fixed; inset: 0; 
+  background: rgba(2, 6, 23, 0.88); 
+  backdrop-filter: blur(25px); 
+  z-index: 300; display: none; align-items: flex-start; justify-content: center; padding-top: 100px; 
+}
+.search-overlay.open { display: flex; animation: fadeIn 0.25s ease; }
+
+.search-modal { 
+  background: rgba(15, 23, 42, 0.95) !important; 
+  max-width: 580px; width: 92%; 
+  border-radius: var(--radius); padding: 2rem; 
+  border: 1px solid var(--neon-cyan) !important; 
+  box-shadow: 0 0 60px rgba(0, 240, 255, 0.3) !important; 
 }
 
-.article-body p:hover::before {
-  content: ''; position: absolute; left: -1px; top: -1px; bottom: -1px; width: 4px;
-  background: var(--neon-pink);
-  box-shadow: 0 0 12px var(--neon-pink);
-  border-radius: 4px 0 0 4px;
+.search-input-wrap { 
+  background: rgba(2, 6, 23, 0.9); 
+  border-radius: var(--radius-sm); 
+  padding: 0.2rem 1.2rem; 
+  border: 1px solid var(--border); 
+}
+.search-input-wrap:focus-within { 
+  border-color: var(--neon-cyan); 
+  box-shadow: 0 0 20px rgba(0, 240, 255, 0.4); 
+}
+.search-input-wrap input { 
+  border: none; background: transparent; padding: 0.8rem 0; 
+  font-size: 1rem; color: #fff; width: 100%; outline: none; 
+  font-family: var(--font-body);
 }
 
-/* --- 3. KẾT BÀI (OUTRO / CONCLUSION MODULE) --- */
-.article-body > p:last-of-type {
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: #FFF;
-  background: linear-gradient(135deg, rgba(112, 0, 255, 0.15), rgba(255, 0, 122, 0.15)) !important;
-  border: 2px solid var(--neon-pink) !important;
-  padding: 2rem;
-  border-radius: var(--radius);
-  margin-top: 3rem;
-  box-shadow: 0 0 30px rgba(255, 0, 122, 0.3);
-  position: relative;
-  overflow: hidden;
+.search-suggestions span[data-term] { 
+  background: rgba(255, 255, 255, 0.05); 
+  color: var(--text-secondary); 
+  border: 1px solid rgba(255, 255, 255, 0.1); 
+  padding: 0.3rem 0.9rem; border-radius: 999px; font-size: 0.78rem; 
+  font-family: var(--font-display);
+}
+.search-suggestions span[data-term]:hover { 
+  background: var(--neon-cyan); 
+  color: #000; font-weight: 800; 
+  box-shadow: 0 0 15px var(--neon-cyan); 
 }
 
-.article-body > p:last-of-type::before {
-  content: 'EXECUTE_SUMMARY // KẾT BÀI';
-  display: block;
-  font-size: 0.75rem;
-  font-weight: 900;
-  color: var(--neon-pink);
-  letter-spacing: 0.15em;
-  margin-bottom: 0.6rem;
-  text-shadow: 0 0 10px var(--neon-pink);
+/* ===== HERO HEADER ===== */
+.hero-mini { text-align: center; padding: 3.8rem 0 2.5rem; position: relative; }
+.hero-mini .badge { 
+  display: inline-block; font-family: var(--font-display); 
+  font-size: 0.75rem; font-weight: 800; 
+  color: var(--neon-cyan); background: rgba(0, 240, 255, 0.08); 
+  border: 1px solid var(--neon-cyan); padding: 0.35rem 1.6rem; 
+  border-radius: 999px; margin-bottom: 1.2rem; letter-spacing: 0.15em; 
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.2); 
+}
+.hero-mini h1 { 
+  font-family: var(--font-display); font-size: 2.8rem; font-weight: 900; 
+  color: #fff; margin-bottom: 0.6rem; letter-spacing: -0.01em; 
+  text-transform: uppercase; 
+}
+.hero-mini h1 #heroAccent { 
+  background: var(--grad-primary); 
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent; 
+  filter: drop-shadow(0 0 25px rgba(0, 240, 255, 0.5)); 
+}
+.hero-mini p { font-size: 1.1rem; color: var(--text-secondary); max-width: 580px; margin: 0 auto; }
+
+/* ===== CARDS & GRID SYSTEM ===== */
+.card-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; margin: 2rem 0 3rem; }
+@media (max-width:1199px) { .card-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width:991px) { .card-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width:600px) { .card-grid { grid-template-columns: 1fr; } }
+
+.card { 
+  background: var(--bg-card) !important; 
+  backdrop-filter: var(--glass-blur); 
+  border: 1px solid var(--border) !important; 
+  border-radius: var(--radius) !important; 
+  overflow: hidden; 
+  box-shadow: var(--shadow) !important; 
+  display: flex; flex-direction: column; 
+  position: relative; 
 }
 
-/* ============================================================
-   🎆 BẢNG CYBER MATRIX PHOTONIC 5.0
-   ============================================================ */
+.card::before {
+  content: ''; position: absolute; inset: 0; 
+  border-radius: var(--radius); padding: 1px; 
+  background: var(--grad-glow); 
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); 
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); 
+  -webkit-mask-composite: xor; mask-composite: exclude; 
+  opacity: 0; transition: opacity 0.4s ease; pointer-events: none;
+}
+
+.card:hover { 
+  transform: translateY(-8px) scale(1.01); 
+  box-shadow: var(--shadow-hover) !important; 
+  border-color: transparent !important;
+}
+.card:hover::before { opacity: 1; }
+
+.card-banner { height: 160px; width: 100%; overflow: hidden; position: relative; background: #000; }
+.card-banner img { width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: transform 0.5s ease, opacity 0.5s ease; }
+.card:hover .card-banner img { transform: scale(1.1); opacity: 1; }
+
+.card-body { padding: 1.4rem; display: flex; flex-direction: column; flex-grow: 1; }
+.tag { 
+  font-family: var(--font-display); font-size: 0.65rem; font-weight: 800; 
+  color: var(--neon-cyan); background: rgba(0, 240, 255, 0.1); 
+  border: 1px solid rgba(0, 240, 255, 0.3); padding: 0.2rem 0.8rem; 
+  border-radius: 999px; letter-spacing: 0.08em; 
+}
+
+.card-title { font-family: var(--font-display); font-size: 1.05rem; font-weight: 700; color: #fff; margin: 0.6rem 0 0.4rem; line-height: 1.4; }
+.card-desc { font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6; }
+
+.read-more { 
+  font-family: var(--font-display); font-size: 0.75rem; font-weight: 800; 
+  color: var(--neon-cyan); letter-spacing: 0.05em; text-transform: uppercase; 
+}
+.card:hover .read-more { color: var(--neon-magenta); text-shadow: 0 0 10px var(--neon-magenta); }
+
+/* ===== SKELETON LOADING ===== */
+.skel-card { background: rgba(15, 23, 42, 0.8) !important; border: 1px solid var(--border); border-radius: var(--radius); }
+.skel-banner, .skel-line { 
+  background: linear-gradient(90deg, rgba(255,255,255,0.03) 25%, rgba(0, 240, 255, 0.1) 50%, rgba(255,255,255,0.03) 75%); 
+  background-size: 400% 100%; animation: skel 1.5s infinite; 
+}
+@keyframes skel { 0%{background-position: 100% 50%;} 100%{background-position: 0 50%;} }
+
+/* ===== ARTICLE PAGE CONTAINER ===== */
+.article-container { 
+  max-width: 840px; margin: 2rem auto 0; 
+  background: rgba(15, 23, 42, 0.8) !important; 
+  backdrop-filter: var(--glass-blur); 
+  padding: 2.5rem; border-radius: var(--radius); 
+  border: 1px solid var(--border) !important; 
+  box-shadow: var(--shadow) !important; 
+}
+
+.breadcrumb { font-family: var(--font-display); font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; margin-bottom: 1rem; }
+.breadcrumb span:hover { color: var(--neon-cyan); text-shadow: 0 0 8px var(--neon-cyan); }
+
+.article-title { 
+  font-family: var(--font-display); font-size: 2.4rem; font-weight: 900; 
+  color: #fff; line-height: 1.25; margin-bottom: 0.8rem; letter-spacing: -0.01em; 
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
+}
+
+.article-meta { border-bottom: 1px solid rgba(255, 255, 255, 0.1); padding-bottom: 1rem; margin-bottom: 1.8rem; }
+.article-meta .badge { background: var(--grad-primary); color: #000; font-weight: 900; font-family: var(--font-display); padding: 0.2rem 0.9rem; border-radius: 999px; }
+
+.article-body { color: var(--text) !important; font-size: 1.05rem; line-height: 1.9; }
+.article-body h2 { 
+  font-family: var(--font-display); font-size: 1.6rem; font-weight: 800; 
+  color: var(--neon-cyan); margin: 2.5rem 0 1rem; 
+  border-left: 4px solid var(--neon-cyan); padding-left: 1rem; 
+  text-shadow: 0 0 15px rgba(0, 240, 255, 0.3);
+}
+
+.article-body strong { color: #fff; font-weight: 700; text-shadow: 0 0 5px rgba(255,255,255,0.2); }
+
+/* ==========================================================================
+   🚀 BẢNG CYBER 5.0 (NEON HOLOGRAPHIC DATA GRID - ĐỈNH CAO CHUYÊN NGHIỆP)
+   ========================================================================== */
 .article-body table {
-  width: 100%; margin: 3rem 0;
-  border-collapse: separate; border-spacing: 0;
-  border-radius: var(--radius);
-  background: rgba(15, 23, 42, 0.9) !important;
-  border: 2px solid var(--neon-cyan) !important;
-  box-shadow: 0 0 30px rgba(0, 240, 255, 0.25);
-  overflow: hidden;
+  width: 100%; margin: 2.5rem 0; 
+  border-collapse: separate; border-spacing: 0; 
+  border-radius: var(--radius); 
+  background: rgba(10, 15, 30, 0.9) !important; 
+  backdrop-filter: var(--glass-blur); 
+  border: 1px solid var(--neon-cyan) !important; 
+  box-shadow: 0 0 35px rgba(0, 240, 255, 0.25), inset 0 0 15px rgba(0, 240, 255, 0.1); 
+  overflow: hidden; 
 }
 
 .article-body thead th {
-  background: #070B14 !important;
+  background: linear-gradient(180deg, rgba(0, 240, 255, 0.2) 0%, rgba(15, 23, 42, 0.95) 100%) !important;
   color: var(--neon-cyan) !important;
-  font-weight: 900; text-transform: uppercase;
-  padding: 1.4rem; border-bottom: 2px solid var(--neon-cyan);
+  font-family: var(--font-display); font-weight: 900; font-size: 0.9rem;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  padding: 1.3rem 1rem; text-align: center;
+  border-bottom: 2px solid var(--neon-cyan);
   text-shadow: 0 0 12px var(--neon-cyan);
 }
 
+.article-body thead th:first-child { text-align: left; padding-left: 1.6rem; }
+
 .article-body tbody td {
-  padding: 1.2rem;
-  border-right: 1px solid rgba(0, 240, 255, 0.1);
-  border-bottom: 1px solid rgba(0, 240, 255, 0.1);
-  transition: all 0.25s ease;
+  padding: 1.1rem 1rem; font-size: 0.95rem;
+  color: #e2e8f0 !important; text-align: center;
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.article-body tbody td:first-child {
+  text-align: left; font-family: var(--font-display); font-weight: 700;
+  color: var(--neon-purple) !important; padding-left: 1.6rem;
+  background: rgba(168, 85, 247, 0.06) !important;
+  border-right: 1px solid rgba(168, 85, 247, 0.25);
 }
 
 .article-body tbody tr:hover td {
-  background: rgba(0, 240, 255, 0.15) !important;
-  color: #FFF !important;
+  background: rgba(0, 240, 255, 0.08) !important;
+  color: #fff !important;
 }
 
 .article-body tbody td:hover {
-  background: linear-gradient(135deg, var(--neon-cyan), var(--neon-pink)) !important;
+  background: var(--neon-cyan) !important;
   color: #000 !important; font-weight: 900;
   box-shadow: 0 0 25px var(--neon-cyan);
-  transform: scale(1.04);
+  transform: scale(1.03); z-index: 10;
+  border-radius: 6px;
 }
 
-/* ============================================================
-   🚀 PROS/CONS & CTA CYBER
-   ============================================================ */
-.pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 2.5rem 0; }
-.pros { background: rgba(5, 150, 105, 0.15) !important; border: 2px solid #059669 !important; padding: 1.5rem; border-radius: var(--radius-sm); box-shadow: 0 0 20px rgba(5, 150, 105, 0.2); }
-.cons { background: rgba(220, 38, 38, 0.15) !important; border: 2px solid #DC2626 !important; padding: 1.5rem; border-radius: var(--radius-sm); box-shadow: 0 0 20px rgba(220, 38, 38, 0.2); }
+/* ===== PROS / CONS / FAQ / CTA ===== */
+.pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 2rem 0; }
+@media (max-width:600px) { .pros-cons { grid-template-columns: 1fr; } }
 
-.cta-box {
-  background: linear-gradient(135deg, rgba(0, 240, 255, 0.12), rgba(112, 0, 255, 0.12)) !important;
-  border: 2px solid var(--neon-cyan); padding: 2.5rem; border-radius: var(--radius); text-align: center;
-  box-shadow: 0 0 35px rgba(0, 240, 255, 0.3);
+.pros, .cons { padding: 1.5rem; border-radius: var(--radius-sm); backdrop-filter: blur(10px); }
+.pros { 
+  background: rgba(0, 255, 136, 0.05) !important; 
+  border: 1px solid var(--neon-green) !important; 
+  box-shadow: 0 0 20px rgba(0, 255, 136, 0.12); 
+}
+.cons { 
+  background: rgba(255, 0, 127, 0.05) !important; 
+  border: 1px solid var(--neon-magenta) !important; 
+  box-shadow: 0 0 20px rgba(255, 0, 127, 0.12); 
 }
 
-.btn-affiliate {
-  background: linear-gradient(135deg, var(--neon-cyan), var(--neon-purple), var(--neon-pink));
-  color: #FFF; font-weight: 900; padding: 1rem 2.5rem; border-radius: 999px;
-  box-shadow: 0 0 30px var(--neon-cyan); transition: 0.3s ease; display: inline-block;
+.pros h4 { color: var(--neon-green); font-family: var(--font-display); font-size: 1rem; margin-bottom: 0.6rem; text-transform: uppercase; }
+.cons h4 { color: var(--neon-magenta); font-family: var(--font-display); font-size: 1rem; margin-bottom: 0.6rem; text-transform: uppercase; }
+
+.cta-box { 
+  margin: 2.5rem 0; padding: 2.2rem; 
+  background: linear-gradient(135deg, rgba(0,240,255,0.1), rgba(168,85,247,0.1)) !important; 
+  border: 1px solid var(--neon-cyan) !important; 
+  border-radius: var(--radius); text-align: center; 
+  box-shadow: 0 0 35px rgba(0, 240, 255, 0.2); 
+}
+.cta-box h3 { font-family: var(--font-display); font-size: 1.4rem; color: #fff; margin-bottom: 0.4rem; text-transform: uppercase; }
+
+.btn-affiliate { 
+  display: inline-flex; align-items: center; gap: 10px; 
+  background: var(--grad-primary); color: #000; 
+  padding: 0.85rem 2.5rem; border-radius: 999px; 
+  font-family: var(--font-display); font-weight: 900; font-size: 0.95rem; 
+  box-shadow: 0 0 25px var(--neon-cyan); letter-spacing: 0.05em; text-transform: uppercase;
+}
+.btn-affiliate:hover { 
+  transform: scale(1.05); color: #000; 
+  box-shadow: 0 0 40px var(--neon-cyan), 0 0 15px var(--neon-magenta); 
 }
 
-.btn-affiliate:hover { transform: translateY(-3px) scale(1.05); box-shadow: 0 0 45px var(--neon-pink); }
+/* ===== PAGINATION & RELATED ===== */
+.pagination button { 
+  background: rgba(15, 23, 42, 0.8); 
+  border: 1px solid var(--border); 
+  color: var(--text-secondary); border-radius: 8px; 
+  font-family: var(--font-display); font-weight: 700;
+}
+.pagination button:hover:not(:disabled), .pagination button.active { 
+  background: var(--neon-cyan); color: #000; font-weight: 900; 
+  border-color: var(--neon-cyan); box-shadow: 0 0 15px var(--neon-cyan); 
+}
+
+.related-item { 
+  background: rgba(15, 23, 42, 0.8); 
+  border: 1px solid var(--border); 
+  color: var(--text-secondary); font-family: var(--font-display);
+}
+.related-item:hover { 
+  border-color: var(--neon-cyan); color: var(--neon-cyan); 
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.25); 
+}
+
+/* ===== FOOTER CYBER SYSTEM ===== */
+.footer { 
+  background: rgba(2, 6, 23, 0.95); 
+  border-top: 1px solid var(--neon-cyan); 
+  box-shadow: 0 -10px 40px rgba(0, 240, 255, 0.2); 
+  padding: 3.5rem 0 2rem; margin-top: 4rem; color: var(--text-secondary); 
+}
+.footer-col h4 { 
+  font-family: var(--font-display); font-size: 0.95rem; font-weight: 800;
+  color: #fff; border-bottom: 2px solid var(--neon-cyan); 
+  padding-bottom: 0.4rem; margin-bottom: 1rem; 
+  letter-spacing: 0.08em; text-transform: uppercase;
+}
+.footer-col a { color: var(--text-secondary); font-family: var(--font-body); }
+.footer-col a:hover { color: var(--neon-cyan); text-shadow: 0 0 10px var(--neon-cyan); padding-left: 6px; }
+
+/* ===== MOBILE & RESPONSIVE ===== */
+@media (max-width: 768px) {
+  :root { --nav-height: 64px; }
+  .nav-links { 
+    background: rgba(2, 6, 23, 0.98); 
+    border-bottom: 1px solid var(--neon-cyan); 
+  }
+  .hero-mini h1 { font-size: 2rem; }
+  .article-container { padding: 1.5rem; }
+  .article-title { font-size: 1.7rem; }
+  .article-body table { display: block; overflow-x: auto; white-space: nowrap; }
+}
+
+/* View Transition API Animations */
+@view-transition { navigation: auto; }
+::view-transition-old(root), ::view-transition-new(root) { animation-duration: 0.3s; }
