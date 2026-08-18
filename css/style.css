@@ -1,5 +1,5 @@
 /* =============================================================
-   TACKORA ARTICLE UI — FINAL (CHỈ PHẦN BÀI VIẾT)
+   TACKORA ARTICLE UI — FINAL (SỬA LỖI, KHÔNG VAR)
    ============================================================= */
 
 /* ---------- CONTAINER ---------- */
@@ -37,7 +37,7 @@
 
 /* ---------- ARTICLE TITLE ---------- */
 .article-title {
-  font-family: var(--font-display, 'Inter', system-ui, sans-serif);
+  font-family: 'Inter', system-ui, sans-serif;
   font-size: 2.75rem;
   font-weight: 900;
   line-height: 1.10;
@@ -60,7 +60,7 @@
 
 /* ---------- BODY ---------- */
 .article-body {
-  font-family: var(--font-body, 'Inter', system-ui, sans-serif);
+  font-family: 'Inter', system-ui, sans-serif;
   font-size: 1.105rem;
   line-height: 1.86;
   font-weight: 430;
@@ -75,7 +75,7 @@
 }
 
 /* =============================================================
-   ★ FIX QUAN TRỌNG: STRONG ĐẦU ĐOẠN TÁCH BIỆT
+   ★ FIX: STRONG ĐẦU ĐOẠN TÁCH BIỆT
    ============================================================= */
 .article-body p > strong:first-child,
 .article-body p > b:first-child {
@@ -88,7 +88,6 @@
   letter-spacing: -0.01em;
 }
 
-/* Strong thông thường (trong đoạn) vẫn giữ nguyên */
 .article-body strong,
 .article-body b {
   font-weight: 800;
@@ -103,7 +102,7 @@
 /* H2 */
 .article-body h2 {
   position: relative;
-  font-family: var(--font-display, 'Inter', system-ui, sans-serif);
+  font-family: 'Inter', system-ui, sans-serif;
   font-size: 2rem;
   font-weight: 850;
   line-height: 1.22;
@@ -129,7 +128,7 @@
 
 /* H3 */
 .article-body h3 {
-  font-family: var(--font-display, 'Inter', system-ui, sans-serif);
+  font-family: 'Inter', system-ui, sans-serif;
   font-size: 1.48rem;
   font-weight: 800;
   line-height: 1.3;
@@ -157,7 +156,7 @@
 
 /* H4 */
 .article-body h4 {
-  font-family: var(--font-display, 'Inter', system-ui, sans-serif);
+  font-family: 'Inter', system-ui, sans-serif;
   font-size: 1.18rem;
   font-weight: 750;
   line-height: 1.4;
@@ -314,7 +313,7 @@
 .article-body thead th {
   background: linear-gradient(90deg, #0A0E1A, #151D2E, #0A0E1A);
   color: #FBBF24;
-  font-family: var(--font-display, 'Inter', system-ui, sans-serif);
+  font-family: 'Inter', system-ui, sans-serif;
   font-size: 0.82rem;
   font-weight: 800;
   letter-spacing: 0.075em;
@@ -399,7 +398,7 @@
 .cta-box h3 {
   position: relative;
   z-index: 1;
-  font-family: var(--font-display, 'Inter', system-ui, sans-serif);
+  font-family: 'Inter', system-ui, sans-serif;
   font-size: 1.55rem;
   line-height: 1.25;
   font-weight: 850;
@@ -510,7 +509,7 @@
   margin-top: 1.5rem;
 }
 .faq h4 {
-  font-family: var(--font-display, 'Inter', system-ui, sans-serif);
+  font-family: 'Inter', system-ui, sans-serif;
   font-size: 1.08rem;
   line-height: 1.4;
   font-weight: 750;
@@ -540,7 +539,7 @@
   margin-top: 1.5rem;
 }
 .related h4 {
-  font-family: var(--font-display, 'Inter', system-ui, sans-serif);
+  font-family: 'Inter', system-ui, sans-serif;
   font-size: 1.08rem;
   font-weight: 750;
   color: #1E293B;
@@ -582,7 +581,7 @@
   padding: 4rem 0;
 }
 .not-found h2 {
-  font-family: var(--font-display, 'Inter', system-ui, sans-serif);
+  font-family: 'Inter', system-ui, sans-serif;
   font-size: 1.55rem;
   font-weight: 800;
   color: #111827;
@@ -643,14 +642,11 @@
   .article-body p {
     margin-bottom: 1.3rem;
   }
-
-  /* Fix strong đầu đoạn trên mobile */
   .article-body p > strong:first-child,
   .article-body p > b:first-child {
     font-size: 1.12rem;
     margin-bottom: 0.35rem;
   }
-
   .article-body h2 {
     font-size: 1.62rem;
     line-height: 1.25;
@@ -697,7 +693,6 @@
   .article-body ul li {
     padding-left: 1.65rem;
   }
-
   .article-body table {
     display: block;
     overflow-x: auto;
@@ -715,7 +710,6 @@
   .article-body tbody td:first-child {
     padding-left: 0.9rem;
   }
-
   .cta-box {
     margin: 2.3rem 0;
     padding: 2rem 1.15rem;
