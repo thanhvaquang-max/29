@@ -1,7 +1,6 @@
 /* ===================================================================
-   CSS PRODUCTION FINAL - TACKORA BRAND IDENTITY
-   HIỆU ỨNG CYBER NHẸ + TYPOGRAPHY HIERARCHY RÕ RÀNG
-   "S" LÀ BRAND HERO DUY NHẤT
+   CSS PRODUCTION FINAL - TYPOGRAPHY HIERARCHY + HIỆU ỨNG WAO
+   TẬP TRUNG VÀO BÀI VIẾT (ARTICLE) - TỐI ƯU ĐỘ ĐỌC
    =================================================================== */
 
 /* ----- RESET & VARIABLES ----- */
@@ -31,12 +30,12 @@
   --max-width: 1240px;
   --nav-height: 64px;
   
-  /* BRAND ACCENT - CHỈ DÀNH CHO "S" */
-  --brand-gold: #FBBF24;
-  --brand-gold-light: #FCD34D;
-  --brand-gold-glow: rgba(251, 191, 36, 0.5);
-  --brand-gold-strong: #F59E0B;
-  --brand-gold-subtle: rgba(251, 191, 36, 0.15);
+  /* BRAND ACCENT - VÀNG GOLD ĐIỂM NHẤN */
+  --gold: #FBBF24;
+  --gold-light: #FCD34D;
+  --gold-glow: rgba(251, 191, 36, 0.5);
+  --gold-strong: #F59E0B;
+  --gold-subtle: rgba(251, 191, 36, 0.15);
 }
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
@@ -65,14 +64,14 @@ body::before {
 a { color: var(--accent); text-decoration: none; transition: 0.15s ease; }
 a:hover { color: var(--accent-hover); }
 img { max-width: 100%; height: auto; display: block; }
-::selection { background: var(--brand-gold-subtle); color: var(--heading); }
+::selection { background: var(--gold-subtle); color: var(--heading); }
 .icon { width: 18px; height: 18px; fill: currentColor; flex-shrink: 0; }
 .icon-sm { width: 14px; height: 14px; }
 
 /* ----- NAVBAR - TỐI GIẢN, CHỈ "S" LÀ ĐIỂM NHẤN ----- */
 .navbar {
   background: linear-gradient(90deg, var(--header-dark) 0%, #111827 50%, var(--header-dark) 100%);
-  border-bottom: 2px solid var(--brand-gold-subtle);
+  border-bottom: 2px solid var(--gold-subtle);
   position: fixed; top:0; left:0; right:0; z-index:100;
   height: var(--nav-height); display:flex; align-items:center;
   box-shadow: 0 2px 20px rgba(0,0,0,0.08);
@@ -99,7 +98,7 @@ img { max-width: 100%; height: auto; display: block; }
   width: 36px;
   height: 36px;
   border-radius: 10px;
-  background: linear-gradient(135deg, var(--brand-gold), var(--brand-gold-strong));
+  background: linear-gradient(135deg, var(--gold), var(--gold-strong));
   color: #0A0E1A;
   display: flex;
   align-items: center;
@@ -107,7 +106,7 @@ img { max-width: 100%; height: auto; display: block; }
   font-size: 1.1rem;
   font-weight: 900;
   box-shadow: 
-    0 0 20px var(--brand-gold-glow),
+    0 0 20px var(--gold-glow),
     0 0 60px rgba(251, 191, 36, 0.15),
     inset 0 1px 0 rgba(255,255,255,0.3);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -116,7 +115,7 @@ img { max-width: 100%; height: auto; display: block; }
 .logo:hover .s-icon {
   transform: scale(1.08) rotate(-2deg);
   box-shadow: 
-    0 0 30px var(--brand-gold-glow),
+    0 0 30px var(--gold-glow),
     0 0 80px rgba(251, 191, 36, 0.2),
     inset 0 1px 0 rgba(255,255,255,0.4);
 }
@@ -142,11 +141,11 @@ img { max-width: 100%; height: auto; display: block; }
 .dropbtn .icon { transition: transform 0.2s ease; }
 .nav-item.open .dropbtn .icon { transform: rotate(180deg); }
 
-/* Badge "HOT" - nhẹ nhàng hơn */
+/* Badge "HOT" - nhẹ nhàng */
 .nav-link.featured-header-badge {
   display:inline-flex; align-items:center; gap:4px;
-  background: var(--brand-gold-subtle); 
-  color: var(--brand-gold); 
+  background: var(--gold-subtle); 
+  color: var(--gold); 
   padding:2px 12px 2px 8px;
   border-radius:999px; font-size:0.65rem; font-weight:700;
   border:1px solid rgba(251,191,36,0.2); 
@@ -155,10 +154,10 @@ img { max-width: 100%; height: auto; display: block; }
   cursor:pointer;
 }
 .nav-link.featured-header-badge:hover { 
-  color: var(--brand-gold-light); 
+  color: var(--gold-light); 
   background: rgba(251,191,36,0.2); 
 }
-.featured-header-badge .fire { color: var(--brand-gold); font-size:0.8rem; }
+.featured-header-badge .fire { color: var(--gold); font-size:0.8rem; }
 
 .dropdown-content {
   display:none; position:absolute; top:calc(100% + 6px); left:0; min-width:200px;
@@ -174,7 +173,7 @@ img { max-width: 100%; height: auto; display: block; }
   font-size:0.84rem; font-weight:500;
   transition: 0.15s ease;
 }
-.dropdown-content a:hover { background:rgba(251,191,36,0.08); color: var(--brand-gold-light); }
+.dropdown-content a:hover { background:rgba(251,191,36,0.08); color: var(--gold-light); }
 .dropdown-content a .icon { color:rgba(255,255,255,0.4); }
 .nav-actions { display:flex; align-items:center; gap:0.2rem; }
 .search-btn, .mobile-toggle {
@@ -185,7 +184,7 @@ img { max-width: 100%; height: auto; display: block; }
 .search-btn:hover, .mobile-toggle:hover { background:rgba(255,255,255,0.06); color:#fff; }
 .mobile-toggle { display:none; }
 
-/* ----- SEARCH (giữ nguyên) ----- */
+/* ----- SEARCH ----- */
 .search-overlay {
   position:fixed; inset:0; background:rgba(0,0,0,0.03); z-index:300;
   display:none; align-items:flex-start; justify-content:center; padding-top:90px;
@@ -205,7 +204,7 @@ img { max-width: 100%; height: auto; display: block; }
   display:flex; align-items:center; gap:0.6rem; background:var(--bg);
   border-radius:var(--radius-sm); padding:0 1rem; border:2px solid transparent;
 }
-.search-input-wrap:focus-within { border-color:var(--brand-gold); background:#fff; }
+.search-input-wrap:focus-within { border-color:var(--gold); background:#fff; }
 .search-input-wrap input {
   border:none; background:transparent; padding:0.8rem 0; font-size:0.95rem;
   color:var(--text); width:100%; outline:none; font-family:var(--font-body);
@@ -220,7 +219,7 @@ img { max-width: 100%; height: auto; display: block; }
   padding:0.3rem 0.85rem; border-radius:999px; cursor:pointer; font-weight:500;
   transition: 0.15s ease;
 }
-.search-suggestions span[data-term]:hover { background:var(--brand-gold); color:#fff; }
+.search-suggestions span[data-term]:hover { background:var(--gold); color:#fff; }
 .search-results {
   margin-top:1rem; border-top:1px solid rgba(0,0,0,0.02); padding-top:0.6rem;
   max-height:320px; overflow-y:auto;
@@ -230,7 +229,7 @@ img { max-width: 100%; height: auto; display: block; }
 .search-result-item strong { font-size:0.9rem; color:var(--text); }
 .search-result-item span { font-size:0.78rem; color:var(--text-muted); }
 
-/* ----- HERO (giữ nguyên) ----- */
+/* ----- HERO ----- */
 .hero-mini { text-align:center; padding:2.8rem 0 2rem; position:relative; }
 .hero-mini .badge {
   display:inline-block; font-size:0.7rem; font-weight:700; color:var(--text-secondary);
@@ -242,13 +241,13 @@ img { max-width: 100%; height: auto; display: block; }
   color:var(--heading); margin-bottom:0.2rem; letter-spacing:-0.02em;
 }
 .hero-mini h1 #heroAccent {
-  background: linear-gradient(135deg, var(--brand-gold), var(--brand-gold-strong));
+  background: linear-gradient(135deg, var(--gold), var(--gold-strong));
   -webkit-background-clip: text; -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 .hero-mini p { font-size:1.05rem; color:var(--text-secondary); max-width:520px; margin:0 auto; font-weight:500; }
 
-/* ----- CARDS (giữ nguyên, accent nhẹ) ----- */
+/* ----- CARDS ----- */
 .card-grid {
   display:grid; grid-template-columns:repeat(4,1fr); gap:1.2rem; margin:1.5rem 0 2.5rem;
 }
@@ -260,7 +259,7 @@ img { max-width: 100%; height: auto; display: block; }
   overflow: hidden; box-shadow: var(--shadow); transition: 0.25s ease; cursor:pointer;
   display:flex; flex-direction:column;
 }
-.card:hover { transform:translateY(-4px); border-color: var(--brand-gold); box-shadow: 0 8px 32px rgba(0,0,0,0.08); }
+.card:hover { transform:translateY(-4px); border-color: var(--gold); box-shadow: 0 8px 32px rgba(0,0,0,0.08); }
 .card-banner { height:150px; width:100%; overflow:hidden; background: var(--bg); }
 .card-banner img { width:100%; height:100%; object-fit:cover; display:block; opacity:0; transition: opacity 0.4s ease; }
 .card-banner img.loaded { opacity:1; }
@@ -291,7 +290,7 @@ img { max-width: 100%; height: auto; display: block; }
   font-weight:600; color:var(--text-secondary); display:flex; align-items:center; gap:6px;
   transition: 0.15s ease;
 }
-.read-more:hover { gap:10px; color:var(--brand-gold-strong); }
+.read-more:hover { gap:10px; color:var(--gold-strong); }
 
 /* ----- SKELETON ----- */
 .skel-card { background: var(--bg-card); border:1px solid var(--border); border-radius:var(--radius); overflow:hidden; }
@@ -319,8 +318,7 @@ img { max-width: 100%; height: auto; display: block; }
 .pagination button:disabled { opacity:0.3; cursor:not-allowed; }
 
 /* =============================================================
-   🚀 ARTICLE TYPOGRAPHY HIERARCHY PRODUCTION
-   (GIỮ NGUYÊN TỪ BẢN BẠN ĐƯA)
+   🚀 ARTICLE TYPOGRAPHY HIERARCHY PRODUCTION (WAO + RÕ RÀNG)
    ============================================================= */
 
 .article-container {
@@ -331,7 +329,7 @@ img { max-width: 100%; height: auto; display: block; }
 .breadcrumb span { cursor:pointer; transition: 0.15s ease; }
 .breadcrumb span:hover { color:var(--heading); }
 
-/* --- ARTICLE TITLE (H1) --- */
+/* --- ARTICLE TITLE (H1) - ĐẬM, ĐEN, CÓ GẠCH CHÂN VÀNG --- */
 .article-title {
   font-family: var(--font-display);
   font-size: 2.65rem;
@@ -349,11 +347,11 @@ img { max-width: 100%; height: auto; display: block; }
   height: 5px;
   margin-top: 1rem;
   border-radius: 999px;
-  background: linear-gradient(90deg, var(--brand-gold), var(--brand-gold-strong));
-  box-shadow: 0 3px 12px var(--brand-gold-glow);
+  background: linear-gradient(90deg, var(--gold), var(--gold-strong));
+  box-shadow: 0 3px 12px var(--gold-glow);
 }
 
-/* --- BODY BASE --- */
+/* --- BODY BASE - TO, ĐEN, RÕ RÀNG --- */
 .article-body {
   font-family: var(--font-body);
   font-size: 1.15rem;
@@ -368,7 +366,7 @@ img { max-width: 100%; height: auto; display: block; }
   color: #05070B;
 }
 
-/* --- H2 --- */
+/* --- H2 - XÁM ĐEN + BORDER VÀNG --- */
 .article-body h2 {
   font-family: var(--font-display);
   font-size: 2.05rem;
@@ -378,10 +376,11 @@ img { max-width: 100%; height: auto; display: block; }
   letter-spacing: -0.025em;
   margin: 3.4rem 0 1.35rem;
   padding: 0.15rem 0 0.15rem 1.15rem;
-  border-left: 5px solid var(--brand-gold);
+  border-left: 5px solid var(--gold);
   position: relative;
   background: transparent;
   box-shadow: none;
+  transition: all 0.3s ease;
 }
 .article-body h2::before { content: none; }
 .article-body h2::after {
@@ -392,16 +391,16 @@ img { max-width: 100%; height: auto; display: block; }
   width: 52px;
   height: 3px;
   border-radius: 999px;
-  background: var(--brand-gold);
+  background: var(--gold);
   opacity: 0.6;
 }
 .article-body h2:hover {
   color: #0F172A;
   transform: translateX(3px);
-  border-left-color: var(--brand-gold-strong);
+  border-left-color: var(--gold-strong);
 }
 
-/* --- H3 --- */
+/* --- H3 - XÁM + MARKER VÀNG --- */
 .article-body h3 {
   font-family: var(--font-display);
   font-size: 1.55rem;
@@ -412,6 +411,7 @@ img { max-width: 100%; height: auto; display: block; }
   margin: 2.7rem 0 1rem;
   padding: 0 0 0.55rem;
   border-bottom: 2px solid rgba(251,191,36,0.15);
+  transition: all 0.3s ease;
 }
 .article-body h3::before {
   content: '';
@@ -421,7 +421,7 @@ img { max-width: 100%; height: auto; display: block; }
   margin-right: 0.65rem;
   vertical-align: 0.08em;
   border-radius: 3px;
-  background: var(--brand-gold);
+  background: var(--gold);
   box-shadow: 0 0 0 4px rgba(251,191,36,0.10);
 }
 .article-body h3:hover {
@@ -429,7 +429,7 @@ img { max-width: 100%; height: auto; display: block; }
   border-bottom-color: rgba(251,191,36,0.3);
 }
 
-/* --- H4 --- */
+/* --- H4 - XÁM NHẠT + BORDER ĐỔI MÀU KHI HOVER --- */
 .article-body h4 {
   font-family: var(--font-display);
   font-size: 1.22rem;
@@ -439,13 +439,14 @@ img { max-width: 100%; height: auto; display: block; }
   margin: 2rem 0 0.7rem;
   padding-left: 0.85rem;
   border-left: 4px solid #94A3B8;
+  transition: all 0.3s ease;
 }
 .article-body h4:hover {
   color: #334155;
-  border-left-color: var(--brand-gold);
+  border-left-color: var(--gold);
 }
 
-/* --- LEAD / IMPORTANT --- */
+/* --- LEAD / IMPORTANT - NỔI BẬT HƠN BODY --- */
 .article-body p.lead,
 .article-body p.important {
   font-size: 1.20rem;
@@ -453,14 +454,14 @@ img { max-width: 100%; height: auto; display: block; }
   font-weight: 650;
   color: #030508;
   background: #F8FAFC;
-  border-left: 5px solid var(--brand-gold);
+  border-left: 5px solid var(--gold);
   padding: 1.2rem 1.5rem;
   margin: 1.8rem 0;
   border-radius: 0 12px 12px 0;
   box-shadow: 0 4px 16px rgba(0,0,0,0.04);
 }
 
-/* --- STRONG / BOLD --- */
+/* --- STRONG / BOLD - TÁCH BIỆT RÕ RÀNG --- */
 .article-body strong,
 .article-body b {
   font-family: var(--font-body);
@@ -469,13 +470,14 @@ img { max-width: 100%; height: auto; display: block; }
   color: #000000;
   letter-spacing: -0.008em;
 }
+/* Strong đầu đoạn - nổi bật hơn */
 .article-body p > strong:first-child,
 .article-body p > b:first-child {
   font-weight: 850;
   color: #020408;
 }
 
-/* --- LISTS --- */
+/* --- LISTS - RÕ HƠN BODY MỘT CHÚT --- */
 .article-body ul,
 .article-body ol {
   margin: 1.25rem 0 1.7rem;
@@ -495,7 +497,7 @@ img { max-width: 100%; height: auto; display: block; }
   color: #000000;
 }
 
-/* Ordered list */
+/* Ordered list - số vàng */
 .article-body ol {
   counter-reset: custom-counter;
 }
@@ -511,7 +513,7 @@ img { max-width: 100%; height: auto; display: block; }
   top: 0.15rem;
   width: 28px;
   height: 28px;
-  background: linear-gradient(135deg, var(--brand-gold), var(--brand-gold-strong));
+  background: linear-gradient(135deg, var(--gold), var(--gold-strong));
   color: #0A0E1A;
   font-size: 0.85rem;
   font-weight: 800;
@@ -522,7 +524,7 @@ img { max-width: 100%; height: auto; display: block; }
   box-shadow: 0 4px 12px rgba(251,191,36,0.30);
 }
 
-/* Unordered list */
+/* Unordered list - bullet vàng */
 .article-body ul li {
   position: relative;
   padding-left: 1.9rem;
@@ -534,12 +536,12 @@ img { max-width: 100%; height: auto; display: block; }
   top: 0.68rem;
   width: 10px;
   height: 10px;
-  background: var(--brand-gold);
+  background: var(--gold);
   border-radius: 50%;
   box-shadow: 0 0 0 4px rgba(251,191,36,0.14);
 }
 
-/* --- HIGHLIGHT --- */
+/* --- HIGHLIGHT - VÀNG ĐẬM --- */
 .article-body mark,
 .article-body .highlight {
   background: linear-gradient(120deg, #FEF3C7, #FDE68A);
@@ -550,7 +552,7 @@ img { max-width: 100%; height: auto; display: block; }
   box-shadow: inset 0 -2px 0 rgba(251,191,36,0.4);
 }
 
-/* --- SECONDARY --- */
+/* --- SECONDARY - VẪN RÕ, CHỈ NHỎ HƠN --- */
 .article-body small,
 .article-body .secondary-text {
   font-size: 0.92rem;
@@ -559,9 +561,9 @@ img { max-width: 100%; height: auto; display: block; }
   color: #475569;
 }
 
-/* --- LINKS --- */
+/* --- LINKS - VÀNG ĐẬM, GẠCH CHÂN --- */
 .article-body a {
-  color: var(--brand-gold-strong);
+  color: var(--gold-strong);
   font-weight: 600;
   text-decoration: underline;
   text-decoration-thickness: 1.5px;
@@ -569,12 +571,12 @@ img { max-width: 100%; height: auto; display: block; }
   text-decoration-color: rgba(251,191,36,0.3);
 }
 .article-body a:hover {
-  color: var(--brand-gold);
-  text-decoration-color: var(--brand-gold);
+  color: var(--gold);
+  text-decoration-color: var(--gold);
 }
 
 /* =============================================================
-   CYBER TABLE – TỐI GIẢN, GOLD ACCENT
+   CYBER TABLE - NỀN TỐI + VÀNG ACCENT
    ============================================================= */
 .article-body table {
   width: 100%; margin: 2.2rem 0;
@@ -587,7 +589,7 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .article-body thead th {
   background: linear-gradient(90deg, #0A0E1A, #141B2B, #0A0E1A);
-  color: var(--brand-gold);
+  color: var(--gold);
   font-family: var(--font-display); font-weight: 800; font-size: 0.95rem;
   letter-spacing: 0.08em; text-transform: uppercase;
   padding: 1.25rem 1.2rem;
@@ -605,7 +607,7 @@ img { max-width: 100%; height: auto; display: block; }
 .article-body tbody td:first-child {
   text-align: left; font-weight: 700;
   background: rgba(251,191,36,0.06);
-  color: var(--brand-gold-light);
+  color: var(--gold-light);
   padding-left: 1.6rem;
   border-right: 1px solid rgba(251,191,36,0.1);
 }
@@ -618,7 +620,7 @@ img { max-width: 100%; height: auto; display: block; }
   color: #FFFFFF;
 }
 .article-body tbody tr:hover td:first-child {
-  color: var(--brand-gold);
+  color: var(--gold);
   text-shadow: 0 0 8px rgba(251,191,36,0.3);
 }
 .article-body tbody td:hover {
@@ -631,7 +633,7 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 /* =============================================================
-   CYBER AFFILIATE CTA – VÀNG GOLD (GIỮ GLOW MẠNH)
+   CYBER AFFILIATE CTA - VÀNG GOLD + GLOW MẠNH
    ============================================================= */
 .cta-box {
   margin: 2.8rem 0; padding: 2.5rem;
@@ -646,7 +648,7 @@ img { max-width: 100%; height: auto; display: block; }
 .cta-box::before {
   content: '';
   position: absolute; inset: -3px;
-  background: conic-gradient(from 0deg, var(--brand-gold), var(--brand-gold-strong), var(--brand-gold-light), var(--brand-gold), var(--brand-gold));
+  background: conic-gradient(from 0deg, var(--gold), var(--gold-strong), var(--gold-light), var(--gold), var(--gold));
   border-radius: 24px;
   z-index: -1;
   animation: spinBorder 8s linear infinite;
@@ -673,7 +675,7 @@ img { max-width: 100%; height: auto; display: block; }
 .btn-affiliate {
   display: inline-flex; align-items: center; justify-content: center;
   gap: 12px;
-  background: linear-gradient(135deg, var(--brand-gold), var(--brand-gold-strong));
+  background: linear-gradient(135deg, var(--gold), var(--gold-strong));
   color: #0A0E1A;
   padding: 1rem 3rem;
   border-radius: 999px;
@@ -690,7 +692,7 @@ img { max-width: 100%; height: auto; display: block; }
   50% { box-shadow: 0 6px 40px rgba(251,191,36,0.6), 0 0 30px rgba(251,191,36,0.3); }
 }
 .btn-affiliate:hover {
-  background: linear-gradient(135deg, var(--brand-gold-strong), var(--brand-gold));
+  background: linear-gradient(135deg, var(--gold-strong), var(--gold));
   transform: translateY(-4px) scale(1.04);
   box-shadow: 0 12px 40px rgba(251,191,36,0.6), 0 0 40px rgba(251,191,36,0.2);
   animation: none;
@@ -702,7 +704,7 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 /* =============================================================
-   PROS & CONS, FAQ, RELATED (GIỮ NGUYÊN)
+   PROS & CONS, FAQ, RELATED
    ============================================================= */
 .pros-cons { display:grid; grid-template-columns:1fr 1fr; gap:1.2rem; margin:1.8rem 0; }
 @media (max-width:600px) { .pros-cons { grid-template-columns:1fr; } }
@@ -738,7 +740,7 @@ img { max-width: 100%; height: auto; display: block; }
 .btn-back { display:inline-block; background:var(--heading); color:#fff; padding:0.6rem 1.8rem; border-radius:999px; font-weight:600; transition: 0.15s ease; }
 .btn-back:hover { background:#1E293B; color:#fff; }
 
-/* ----- FOOTER (giữ nguyên) ----- */
+/* ----- FOOTER ----- */
 .footer {
   background: linear-gradient(90deg, #0A0E1A, #141B2B, #0A0E1A);
   border-top: 2px solid rgba(251,191,36,0.1);
@@ -755,7 +757,7 @@ img { max-width: 100%; height: auto; display: block; }
   display:block; color:rgba(255,255,255,0.6); font-size:0.85rem; margin-bottom:0.4rem;
   cursor:pointer; transition: 0.15s ease; text-decoration:none;
 }
-.footer-col a:hover { color:var(--brand-gold-light); padding-left:6px; }
+.footer-col a:hover { color:var(--gold-light); padding-left:6px; }
 .footer-bottom {
   text-align:center; font-size:0.8rem; color:rgba(255,255,255,0.4);
   border-top:1px solid rgba(255,255,255,0.06); padding-top:1.2rem;
@@ -769,7 +771,9 @@ img { max-width: 100%; height: auto; display: block; }
 .pros { background: var(--pros-bg) !important; }
 .cons { background: var(--cons-bg) !important; }
 
-/* ===== RESPONSIVE ===== */
+/* =============================================================
+   RESPONSIVE - TỐI ƯU TRÊN DI ĐỘNG
+   ============================================================= */
 @media (max-width:768px) {
   :root { --nav-height: 60px; }
   .mobile-toggle { display:flex; }
@@ -787,8 +791,8 @@ img { max-width: 100%; height: auto; display: block; }
   }
   .dropdown-content a { color:rgba(255,255,255,0.7); }
   .dropdown-content a .icon { color:rgba(255,255,255,0.3); }
-  .dropdown-content a:hover { background:rgba(251,191,36,0.08); color:var(--brand-gold-light); }
-  .dropdown-content a:hover .icon { color:var(--brand-gold-light); }
+  .dropdown-content a:hover { background:rgba(251,191,36,0.08); color:var(--gold-light); }
+  .dropdown-content a:hover .icon { color:var(--gold-light); }
   .nav-link, .dropbtn { width:100%; padding:0.6rem 0.8rem; border-radius:6px; justify-content:flex-start; }
 
   .hero-mini { padding:1.5rem 0 1rem; }
@@ -802,6 +806,7 @@ img { max-width: 100%; height: auto; display: block; }
   .article-body thead th, .article-body tbody td { padding: 0.85rem 1rem; font-size:0.9rem; }
   .article-body thead th:first-child, .article-body tbody td:first-child { padding-left:1rem; }
 
+  /* Mobile typography - giữ tỷ lệ */
   .article-title {
     font-size: 1.85rem;
     line-height: 1.18;
