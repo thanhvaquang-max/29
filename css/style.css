@@ -397,11 +397,16 @@ border-radius: 0 12px 12px 0;
 box-shadow: 0 4px 16px rgba(15,23,42,0.05);
 }
 
-/* --- STRONG / BOLD (cơ bản) --- */
+/* --- STRONG / BOLD (cập nhật với điểm nhấn nhẹ) --- */
 .article-body strong,
 .article-body b {
-color: #000000;
-font-weight: 800;
+  color: #0A0F1A;              /* giữ đen, hoặc đổi sang #1D4ED8 nếu muốn xanh */
+  font-weight: 800;
+  background: linear-gradient(120deg, rgba(37, 99, 235, 0.08), transparent 80%);
+  padding: 0.05em 0.3em;
+  border-radius: 4px;
+  border-bottom: 2px solid rgba(37, 99, 235, 0.20);
+  box-decoration-break: clone;  /* xuống dòng vẫn giữ nền */
 }
 
 /* =============================================================
