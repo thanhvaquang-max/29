@@ -1,5 +1,6 @@
 /* ===================================================================
-   CSS PRODUCTION - GỐC + NÂNG CẤP PHÂN TẦNG WAO (TỐI ƯU, ỔN ĐỊNH)
+   CSS PRODUCTION - TỐI ƯU ĐỘ ĐỌC & PHÂN TẦNG RÕ RÀNG
+   (ĐÃ TĂNG CỠ CHỮ, ĐỘ ĐEN, LÀM NỔI BẬT CÁC PHẦN ĐẶC BIỆT)
    =================================================================== */
 
 /* ----- RESET & VARIABLES ----- */
@@ -7,12 +8,12 @@
   --bg: #E8EEF6;
   --bg-card: #FFFFFF;
   --border: #93C5FD;
-  --heading: #0F172A;
-  --text: #111827;
-  --text-secondary: #374151;
-  --text-muted: #6B7280;
+  --heading: #0A0F1A;
+  --text: #0A0F1A;          /* đen tuyền */
+  --text-secondary: #1E293B;
+  --text-muted: #475569;
   --accent: #1E3A8A;
-  --accent-hover: #3B82F6;
+  --accent-hover: #2563EB;
   --accent-light: #DBEAFE;
   --header-dark: #0f1a3a;
   --header-bright: #2563EB;
@@ -39,8 +40,8 @@ body {
   font-family: var(--font-body);
   background: var(--bg);
   color: var(--text);
-  font-size: 18px;
-  line-height: 1.8;
+  font-size: 19px;           /* tăng 1px so với trước */
+  line-height: 1.85;
   font-weight: 400;
   padding-top: var(--nav-height);
   min-height: 100vh;
@@ -65,7 +66,7 @@ img { max-width: 100%; height: auto; display: block; }
 .icon { width: 18px; height: 18px; fill: currentColor; flex-shrink: 0; }
 .icon-sm { width: 14px; height: 14px; }
 
-/* ----- NAVBAR ----- */
+/* ----- NAVBAR (giữ nguyên) ----- */
 .navbar {
   background: linear-gradient(90deg, var(--header-dark) 0%, var(--header-bright) 50%, var(--header-dark) 100%);
   border-bottom: 3px solid var(--gold-strong);
@@ -126,7 +127,7 @@ img { max-width: 100%; height: auto; display: block; }
 .search-btn:hover, .mobile-toggle:hover { background:rgba(255,255,255,0.15); color:#fff; }
 .mobile-toggle { display:none; }
 
-/* ----- SEARCH ----- */
+/* ----- SEARCH (giữ nguyên) ----- */
 .search-overlay {
   position:fixed; inset:0; background:rgba(0,0,0,0.03); z-index:300;
   display:none; align-items:flex-start; justify-content:center; padding-top:90px;
@@ -171,7 +172,7 @@ img { max-width: 100%; height: auto; display: block; }
 .search-result-item strong { font-size:0.9rem; color:var(--text); }
 .search-result-item span { font-size:0.78rem; color:var(--text-muted); }
 
-/* ----- HERO ----- */
+/* ----- HERO (giữ nguyên) ----- */
 .hero-mini { text-align:center; padding:2.8rem 0 2rem; position:relative; }
 .hero-mini .badge {
   display:inline-block; font-size:0.7rem; font-weight:700; color:var(--accent);
@@ -189,7 +190,7 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .hero-mini p { font-size:1.05rem; color:var(--text-secondary); max-width:520px; margin:0 auto; font-weight:500; }
 
-/* ----- CARDS ----- */
+/* ----- CARDS (giữ nguyên) ----- */
 .card-grid {
   display:grid; grid-template-columns:repeat(4,1fr); gap:1.2rem; margin:1.5rem 0 2.5rem;
 }
@@ -234,7 +235,7 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .read-more:hover { gap:10px; color:#1D4ED8; }
 
-/* ----- SKELETON ----- */
+/* ----- SKELETON (giữ nguyên) ----- */
 .skel-card { background: var(--bg-card); border:1px solid var(--border); border-radius:var(--radius); overflow:hidden; }
 .skel-banner, .skel-line {
   background:linear-gradient(90deg, #e9edf2 25%, #f2f5f8 37%, #e9edf2 63%);
@@ -246,7 +247,7 @@ img { max-width: 100%; height: auto; display: block; }
 .skel-line { height:12px; border-radius:6px; margin-bottom:0.5rem; }
 .skel-line.w60 { width:60%; } .skel-line.w90 { width:90%; } .skel-line.w40 { width:40%; }
 
-/* ----- PAGINATION ----- */
+/* ----- PAGINATION (giữ nguyên) ----- */
 .pagination {
   display:flex; justify-content:center; gap:0.25rem; margin:0.8rem 0 2.5rem; flex-wrap:wrap;
 }
@@ -260,27 +261,27 @@ img { max-width: 100%; height: auto; display: block; }
 .pagination button:disabled { opacity:0.3; cursor:not-allowed; }
 
 /* =============================================================
-   🚀 ARTICLE STYLES – HYPER HIERARCHY & WAO PRODUCTION
+   🚀 ARTICLE STYLES – TĂNG ĐỘ ĐỌC & PHÂN TẦNG RÕ RÀNG
    ============================================================= */
 .article-container {
   max-width:780px; margin:1.5rem auto 0; background: #fff; padding:2.5rem;
   border-radius:var(--radius); border:1px solid var(--border); box-shadow:var(--shadow);
 }
-.breadcrumb { font-size:0.85rem; color:var(--text-muted); margin-bottom:1rem; }
+.breadcrumb { font-size:0.9rem; color:var(--text-muted); margin-bottom:1rem; }
 .breadcrumb span { cursor:pointer; transition: 0.15s ease; }
 .breadcrumb span:hover { color:var(--accent); }
 .article-title {
-  font-family:var(--font-display); font-size:2.35rem; font-weight:900; line-height:1.2;
-  color:#0F172A; margin-bottom:0.8rem; letter-spacing:-0.03em;
+  font-family:var(--font-display); font-size:2.4rem; font-weight:900; line-height:1.2;
+  color:#0A0F1A; margin-bottom:0.8rem; letter-spacing:-0.03em;
 }
 .article-meta {
-  display:flex; flex-wrap:wrap; align-items:center; gap:0.6rem; font-size:0.85rem;
+  display:flex; flex-wrap:wrap; align-items:center; gap:0.6rem; font-size:0.9rem;
   color:var(--text-muted); border-bottom:2px solid var(--border); padding-bottom:1rem;
   margin-bottom:1.8rem;
 }
 .article-meta .badge {
   background:var(--accent-light); color:var(--accent); font-weight:700;
-  padding:0.15rem 0.9rem; border-radius:999px; font-size:0.75rem;
+  padding:0.15rem 0.9rem; border-radius:999px; font-size:0.8rem;
   text-transform:uppercase; letter-spacing:0.04em;
 }
 .article-image-wrap {
@@ -289,18 +290,28 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .article-image-wrap img { width:100%; max-height:400px; object-fit:cover; }
 
-/* --- BODY & TEXT --- */
+/* --- BODY TEXT – TO, ĐEN, RÕ RÀNG --- */
 .article-body {
-  font-size: 1.05rem; line-height: 1.85; font-weight: 400; color: #1E293B;
+  font-size: 1.15rem;        /* ~18.4px */
+  line-height: 1.85;
+  font-weight: 400;
+  color: #0A0F1A;            /* đen tuyền */
 }
-.article-body p { margin-bottom: 1.25rem; }
+.article-body p {
+  margin-bottom: 1.3rem;
+}
 
-/* --- HEADINGS (WAO HIERARCHY) --- */
-/* H2 – Cực kỳ quan trọng */
+/* --- HEADINGS (PHÂN TẦNG RÕ RỆT) --- */
+/* H2 – CỰC KỲ QUAN TRỌNG */
 .article-body h2 {
-  font-family: var(--font-display); font-size: 2rem; font-weight: 900;
-  margin: 3rem 0 1.5rem; color: #0F172A; letter-spacing: -0.02em;
-  position: relative; padding: 0.7rem 1rem 0.7rem 2.4rem;
+  font-family: var(--font-display);
+  font-size: 2.1rem;         /* to hơn */
+  font-weight: 900;
+  margin: 3.2rem 0 1.5rem;
+  color: #0A0F1A;
+  letter-spacing: -0.02em;
+  position: relative;
+  padding: 0.7rem 1rem 0.7rem 2.6rem;
   background: linear-gradient(135deg, rgba(37,99,235,0.10), rgba(139,92,246,0.05));
   border-left: 5px solid transparent;
   border-image: linear-gradient(180deg, #3B82F6, #8B5CF6, #06B6D4) 1;
@@ -313,18 +324,23 @@ img { max-width: 100%; height: auto; display: block; }
 .article-body h2::before {
   content: '⚡';
   position: absolute; left: 0.6rem; top: 50%; transform: translateY(-50%);
-  font-size: 1.8rem; filter: drop-shadow(0 0 10px rgba(255,215,0,0.5));
+  font-size: 1.8rem;
+  filter: drop-shadow(0 0 10px rgba(255,215,0,0.5));
 }
 .article-body h2:hover {
   transform: translateX(6px) scale(1.01);
   box-shadow: 0 8px 30px rgba(37,99,235,0.18), 0 0 40px rgba(59,130,246,0.08);
 }
 
-/* H3 – Quan trọng vừa */
+/* H3 – QUAN TRỌNG VỪA */
 .article-body h3 {
-  font-family: var(--font-display); font-size: 1.45rem; font-weight: 800;
-  margin: 2.5rem 0 1rem; color: #1E3A8A;
-  position: relative; padding-bottom: 0.4rem;
+  font-family: var(--font-display);
+  font-size: 1.6rem;         /* to hơn */
+  font-weight: 800;
+  margin: 2.6rem 0 1.1rem;
+  color: #0A1E3A;
+  position: relative;
+  padding-bottom: 0.4rem;
   border-bottom: 3px solid transparent;
   border-image: linear-gradient(90deg, #3B82F6, #8B5CF6, #3B82F6) 1;
   border-image-slice: 1;
@@ -332,33 +348,56 @@ img { max-width: 100%; height: auto; display: block; }
   transition: 0.3s ease;
 }
 .article-body h3::before {
-  content: '▶'; margin-right: 0.6rem; color: #8B5CF6;
+  content: '▶';
+  margin-right: 0.6rem;
+  color: #8B5CF6;
   filter: drop-shadow(0 0 6px rgba(139,92,246,0.4));
 }
 .article-body h3:hover { transform: translateX(6px); }
 
-/* H4 – Quan trọng ít */
+/* H4 – QUAN TRỌNG ÍT */
 .article-body h4 {
-  font-family: var(--font-display); font-size: 1.12rem; font-weight: 700;
-  margin: 1.8rem 0 0.5rem; color: #0B2C4A;
-  border-left: 5px solid #3B82F6; padding-left: 0.8rem;
-  letter-spacing: 0.02em; transition: 0.2s ease;
+  font-family: var(--font-display);
+  font-size: 1.25rem;        /* to hơn */
+  font-weight: 700;
+  margin: 2rem 0 0.6rem;
+  color: #0B2C4A;
+  border-left: 5px solid #3B82F6;
+  padding-left: 0.9rem;
+  letter-spacing: 0.02em;
+  transition: 0.2s ease;
 }
-.article-body h4:hover { border-left-color: #8B5CF6; padding-left: 1.2rem; }
+.article-body h4:hover { border-left-color: #8B5CF6; padding-left: 1.3rem; }
 
-/* --- INLINE FORMATTING --- */
-.article-body strong, .article-body b { color: #090D16; font-weight: 800; }
-.article-body mark, .article-body .highlight {
-  background: linear-gradient(120deg, #FEF08A, #FDE047);
-  color: #0F172A; padding: 0.15em 0.45em; border-radius: 6px; font-weight: 700;
-  box-shadow: inset 0 -2px 0 0 rgba(202,138,4,0.3);
+/* --- INLINE FORMATTING – NỔI BẬT RÕ RÀNG --- */
+.article-body strong,
+.article-body b {
+  color: #000000;            /* đen tuyền */
+  font-weight: 800;
 }
-.article-body p.important, .article-body p.lead {
-  font-size: 1.1rem; font-weight: 500;
-  background: #F1F5F9; border-left: 4px solid #0F172A;
-  padding: 1.1rem 1.4rem; border-radius: 0 10px 10px 0;
-  color: #0F172A; margin: 1.6rem 0;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+
+.article-body mark,
+.article-body .highlight {
+  background: linear-gradient(120deg, #FDE047, #FACC15);
+  color: #000000;
+  padding: 0.15em 0.5em;
+  border-radius: 6px;
+  font-weight: 700;
+  box-shadow: inset 0 -2px 0 0 rgba(202,138,4,0.4);
+}
+
+/* LEAD / IMPORTANT – NỔI BẬT HƠN HẲN */
+.article-body p.important,
+.article-body p.lead {
+  font-size: 1.2rem;         /* to hơn chữ thường */
+  font-weight: 600;          /* đậm hơn */
+  background: #F1F5F9;
+  border-left: 6px solid #0F172A;
+  padding: 1.2rem 1.6rem;
+  border-radius: 0 12px 12px 0;
+  color: #0A0F1A;
+  margin: 1.8rem 0;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.05);
 }
 
 /* --- LISTS (WOW) --- */
@@ -370,10 +409,10 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .article-body ol li::before {
   content: counter(custom-counter);
-  position: absolute; left: 0; top: 0.15rem;
-  width: 26px; height: 26px;
+  position: absolute; left: 0; top: 0.1rem;
+  width: 28px; height: 28px;
   background: linear-gradient(135deg, #1E3A8A, #3B82F6);
-  color: #fff; font-weight: 800; font-size: 0.8rem;
+  color: #fff; font-weight: 800; font-size: 0.85rem;
   border-radius: 8px; display: flex; align-items: center; justify-content: center;
   box-shadow: 0 4px 12px rgba(30,58,138,0.4);
   transition: 0.2s ease;
@@ -383,12 +422,12 @@ img { max-width: 100%; height: auto; display: block; }
   box-shadow: 0 6px 20px rgba(30,58,138,0.5);
 }
 .article-body ul li {
-  position: relative; padding-left: 1.8rem; margin-bottom: 0.8rem; line-height: 1.75;
+  position: relative; padding-left: 1.9rem; margin-bottom: 0.8rem; line-height: 1.75;
 }
 .article-body ul li::before {
   content: '';
   position: absolute; left: 0.2rem; top: 0.65rem;
-  width: 10px; height: 10px;
+  width: 11px; height: 11px;
   background: radial-gradient(circle, #059669, #10B981);
   border-radius: 50%;
   box-shadow: 0 0 0 4px rgba(16,185,129,0.2);
@@ -399,7 +438,7 @@ img { max-width: 100%; height: auto; display: block; }
   box-shadow: 0 0 0 6px rgba(16,185,129,0.3);
 }
 
-/* ----- CYBER AFFILIATE CTA BOX (HOT) ----- */
+/* ----- CYBER AFFILIATE CTA BOX (giữ nguyên) ----- */
 .cta-box {
   margin: 2.8rem 0; padding: 2.5rem;
   background: linear-gradient(135deg, #0F172A, #1E1B4B, #1E3A8A);
@@ -410,7 +449,6 @@ img { max-width: 100%; height: auto; display: block; }
   overflow: hidden;
   box-shadow: 0 16px 40px rgba(15,23,42,0.3);
 }
-/* Viền gradient xoay */
 .cta-box::before {
   content: '';
   position: absolute; inset: -3px;
@@ -465,7 +503,7 @@ img { max-width: 100%; height: auto; display: block; }
   color: #fff;
 }
 
-/* ----- CYBER TABLE (Glassmorphism Gradient) ----- */
+/* ----- CYBER TABLE (giữ nguyên) ----- */
 .article-body table {
   width: 100%; margin: 2.2rem 0;
   border-collapse: separate; border-spacing: 0;
@@ -478,7 +516,7 @@ img { max-width: 100%; height: auto; display: block; }
 .article-body thead th {
   background: linear-gradient(90deg, #0F172A, #1E1B4B, #0F172A);
   color: #38BDF8;
-  font-family: var(--font-display); font-weight: 800; font-size: 0.92rem;
+  font-family: var(--font-display); font-weight: 800; font-size: 0.95rem;
   letter-spacing: 0.08em; text-transform: uppercase;
   padding: 1.25rem 1.2rem;
   text-align: center;
@@ -487,7 +525,7 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .article-body thead th:first-child { text-align: left; padding-left: 1.6rem; }
 .article-body tbody td {
-  padding: 1rem 1.2rem; font-size: 0.93rem; color: #E2E8F0; text-align: center;
+  padding: 1rem 1.2rem; font-size: 0.95rem; color: #E2E8F0; text-align: center;
   border-right: 1px solid rgba(255,255,255,0.05);
   border-bottom: 1px solid rgba(255,255,255,0.05);
   transition: all 0.2s ease;
@@ -521,42 +559,42 @@ img { max-width: 100%; height: auto; display: block; }
   z-index: 2;
 }
 
-/* ----- PROS & CONS, FAQ, RELATED ----- */
+/* ----- PROS & CONS, FAQ, RELATED (giữ nguyên) ----- */
 .pros-cons { display:grid; grid-template-columns:1fr 1fr; gap:1.2rem; margin:1.8rem 0; }
 @media (max-width:600px) { .pros-cons { grid-template-columns:1fr; } }
 .pros, .cons { padding:1.2rem; border-radius:var(--radius-sm); border:1px solid var(--border); }
 .pros { background:var(--pros-bg); border-left: 3px solid var(--pros-heading); }
 .cons { background:var(--cons-bg); border-left: 3px solid var(--cons-heading); }
-.pros h4, .cons h4 { margin-bottom:0.4rem; font-size:0.9rem; font-weight:700; }
+.pros h4, .cons h4 { margin-bottom:0.4rem; font-size:0.95rem; font-weight:700; }
 .pros h4 { color:var(--pros-heading); }
 .cons h4 { color:var(--cons-heading); }
 .pros ul, .cons ul { list-style:none; }
-.pros li, .cons li { padding:0.15rem 0; font-size:0.88rem; color:var(--text); }
+.pros li, .cons li { padding:0.15rem 0; font-size:0.95rem; color:var(--text); }
 
 .faq { border-top:1px solid var(--border); padding-top:1.2rem; margin-top:1.2rem; }
-.faq h4 { font-family:var(--font-display); margin-bottom:0.5rem; font-size:1rem; font-weight:700; color:var(--heading); }
-.faq strong { display:block; font-weight:600; font-size:0.92rem; margin-top:0.6rem; color:var(--text); }
-.faq p { margin:0.1rem 0 0.6rem; color:var(--text-secondary); font-size:0.88rem; }
+.faq h4 { font-family:var(--font-display); margin-bottom:0.5rem; font-size:1.05rem; font-weight:700; color:var(--heading); }
+.faq strong { display:block; font-weight:600; font-size:0.95rem; margin-top:0.6rem; color:var(--text); }
+.faq p { margin:0.1rem 0 0.6rem; color:var(--text-secondary); font-size:0.95rem; }
 
 .related { border-top:1px solid var(--border); padding-top:1.2rem; margin-top:1.2rem; }
-.related h4 { font-family:var(--font-display); margin-bottom:0.6rem; font-size:1rem; font-weight:700; color:var(--heading); }
+.related h4 { font-family:var(--font-display); margin-bottom:0.6rem; font-size:1.05rem; font-weight:700; color:var(--heading); }
 .related-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(140px,1fr)); gap:0.6rem; }
 .related-item {
   background:var(--bg); padding:0.6rem; border-radius:var(--radius-sm); cursor:pointer;
-  text-align:center; font-weight:500; font-size:0.83rem;
+  text-align:center; font-weight:500; font-size:0.9rem;
   border:1px solid var(--border); color:var(--text-secondary);
   transition: 0.15s ease;
 }
 .related-item:hover { background:var(--accent); color:#fff; border-color:var(--accent); }
 
-/* ----- NOT FOUND ----- */
+/* ----- NOT FOUND (giữ nguyên) ----- */
 .not-found { text-align:center; padding:3.5rem 0; }
 .not-found h2 { font-family:var(--font-display); font-size:1.5rem; font-weight:700; color:var(--heading); margin-bottom:0.4rem; }
-.not-found p { color:var(--text-secondary); margin-bottom:1.2rem; }
+.not-found p { color:var(--text-secondary); margin-bottom:1.2rem; font-size:1rem; }
 .btn-back { display:inline-block; background:var(--accent); color:#fff; padding:0.6rem 1.8rem; border-radius:999px; font-weight:600; transition: 0.15s ease; }
 .btn-back:hover { background:#1D4ED8; color:#fff; }
 
-/* ----- FOOTER ----- */
+/* ----- FOOTER (giữ nguyên) ----- */
 .footer {
   background: linear-gradient(90deg, var(--header-dark), var(--header-bright), var(--header-dark));
   border-top: 3px solid var(--gold-strong);
@@ -615,18 +653,20 @@ img { max-width: 100%; height: auto; display: block; }
   .hero-mini { padding:1.5rem 0 1rem; }
   .hero-mini h1 { font-size:1.7rem; }
   .article-container { padding:1.2rem; }
-  .article-title { font-size:1.5rem; }
+  .article-title { font-size:1.7rem; }
   .footer-grid { grid-template-columns:1fr 1fr; }
   .navbar { border-bottom-width: 2px; border-left-width:0; border-right-width:0; box-shadow: 0 4px 20px rgba(0,0,0,0.06), 0 0 15px var(--gold-glow); }
   .footer { border-top-width: 2px; border-left-width:0; border-right-width:0; box-shadow: 0 -4px 20px rgba(0,0,0,0.06), 0 0 15px var(--gold-glow); }
 
   .article-body table { display:block; overflow-x:auto; white-space:nowrap; -webkit-overflow-scrolling:touch; border-radius:14px; }
-  .article-body thead th, .article-body tbody td { padding: 0.85rem 1rem; font-size:0.88rem; }
+  .article-body thead th, .article-body tbody td { padding: 0.85rem 1rem; font-size:0.9rem; }
   .article-body thead th:first-child, .article-body tbody td:first-child { padding-left:1rem; }
 
-  .article-body h2 { font-size:1.6rem; padding-left:1.6rem; }
-  .article-body h3 { font-size:1.2rem; }
-  .article-body h4 { font-size:1rem; }
+  .article-body { font-size: 1.05rem; }
+  .article-body h2 { font-size: 1.7rem; padding-left:1.6rem; }
+  .article-body h3 { font-size: 1.3rem; }
+  .article-body h4 { font-size: 1.1rem; }
+  .article-body p.important, .article-body p.lead { font-size: 1.05rem; }
   .cta-box { padding:1.8rem; }
   .btn-affiliate { padding:0.8rem 2rem; font-size:0.9rem; }
 }
