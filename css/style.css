@@ -1,6 +1,6 @@
 /* ===================================================================
-   CSS PRODUCTION - TỐI ƯU ĐỘ ĐỌC & PHÂN TẦNG RÕ RÀNG
-   (ĐÃ TĂNG CỠ CHỮ, ĐỘ ĐEN, LÀM NỔI BẬT CÁC PHẦN ĐẶC BIỆT)
+   CSS PRODUCTION - PHÂN TẦNG MÀU SẮC RÕ RÀNG
+   (CHỮ THƯỜNG ĐEN TUYỀN, MỖI CẤP HEADING MỘT MÀU KHÁC BIỆT)
    =================================================================== */
 
 /* ----- RESET & VARIABLES ----- */
@@ -9,7 +9,7 @@
   --bg-card: #FFFFFF;
   --border: #93C5FD;
   --heading: #0A0F1A;
-  --text: #0A0F1A;          /* đen tuyền */
+  --text: #0A0F1A;
   --text-secondary: #1E293B;
   --text-muted: #475569;
   --accent: #1E3A8A;
@@ -40,7 +40,7 @@ body {
   font-family: var(--font-body);
   background: var(--bg);
   color: var(--text);
-  font-size: 19px;           /* tăng 1px so với trước */
+  font-size: 19px;
   line-height: 1.85;
   font-weight: 400;
   padding-top: var(--nav-height);
@@ -66,7 +66,7 @@ img { max-width: 100%; height: auto; display: block; }
 .icon { width: 18px; height: 18px; fill: currentColor; flex-shrink: 0; }
 .icon-sm { width: 14px; height: 14px; }
 
-/* ----- NAVBAR (giữ nguyên) ----- */
+/* ----- NAVBAR ----- */
 .navbar {
   background: linear-gradient(90deg, var(--header-dark) 0%, var(--header-bright) 50%, var(--header-dark) 100%);
   border-bottom: 3px solid var(--gold-strong);
@@ -127,7 +127,7 @@ img { max-width: 100%; height: auto; display: block; }
 .search-btn:hover, .mobile-toggle:hover { background:rgba(255,255,255,0.15); color:#fff; }
 .mobile-toggle { display:none; }
 
-/* ----- SEARCH (giữ nguyên) ----- */
+/* ----- SEARCH ----- */
 .search-overlay {
   position:fixed; inset:0; background:rgba(0,0,0,0.03); z-index:300;
   display:none; align-items:flex-start; justify-content:center; padding-top:90px;
@@ -172,7 +172,7 @@ img { max-width: 100%; height: auto; display: block; }
 .search-result-item strong { font-size:0.9rem; color:var(--text); }
 .search-result-item span { font-size:0.78rem; color:var(--text-muted); }
 
-/* ----- HERO (giữ nguyên) ----- */
+/* ----- HERO ----- */
 .hero-mini { text-align:center; padding:2.8rem 0 2rem; position:relative; }
 .hero-mini .badge {
   display:inline-block; font-size:0.7rem; font-weight:700; color:var(--accent);
@@ -190,7 +190,7 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .hero-mini p { font-size:1.05rem; color:var(--text-secondary); max-width:520px; margin:0 auto; font-weight:500; }
 
-/* ----- CARDS (giữ nguyên) ----- */
+/* ----- CARDS ----- */
 .card-grid {
   display:grid; grid-template-columns:repeat(4,1fr); gap:1.2rem; margin:1.5rem 0 2.5rem;
 }
@@ -235,7 +235,7 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .read-more:hover { gap:10px; color:#1D4ED8; }
 
-/* ----- SKELETON (giữ nguyên) ----- */
+/* ----- SKELETON ----- */
 .skel-card { background: var(--bg-card); border:1px solid var(--border); border-radius:var(--radius); overflow:hidden; }
 .skel-banner, .skel-line {
   background:linear-gradient(90deg, #e9edf2 25%, #f2f5f8 37%, #e9edf2 63%);
@@ -247,7 +247,7 @@ img { max-width: 100%; height: auto; display: block; }
 .skel-line { height:12px; border-radius:6px; margin-bottom:0.5rem; }
 .skel-line.w60 { width:60%; } .skel-line.w90 { width:90%; } .skel-line.w40 { width:40%; }
 
-/* ----- PAGINATION (giữ nguyên) ----- */
+/* ----- PAGINATION ----- */
 .pagination {
   display:flex; justify-content:center; gap:0.25rem; margin:0.8rem 0 2.5rem; flex-wrap:wrap;
 }
@@ -261,7 +261,7 @@ img { max-width: 100%; height: auto; display: block; }
 .pagination button:disabled { opacity:0.3; cursor:not-allowed; }
 
 /* =============================================================
-   🚀 ARTICLE STYLES – TĂNG ĐỘ ĐỌC & PHÂN TẦNG RÕ RÀNG
+   🚀 ARTICLE STYLES – PHÂN TẦNG MÀU SẮC RÕ RÀNG
    ============================================================= */
 .article-container {
   max-width:780px; margin:1.5rem auto 0; background: #fff; padding:2.5rem;
@@ -290,25 +290,26 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .article-image-wrap img { width:100%; max-height:400px; object-fit:cover; }
 
-/* --- BODY TEXT – TO, ĐEN, RÕ RÀNG --- */
+/* --- BODY TEXT – ĐEN TUYỀN, TO, RÕ --- */
 .article-body {
-  font-size: 1.15rem;        /* ~18.4px */
+  font-size: 1.15rem;
   line-height: 1.85;
   font-weight: 400;
-  color: #0A0F1A;            /* đen tuyền */
+  color: #0A0F1A;           /* đen tuyền */
 }
 .article-body p {
   margin-bottom: 1.3rem;
 }
 
-/* --- HEADINGS (PHÂN TẦNG RÕ RỆT) --- */
-/* H2 – CỰC KỲ QUAN TRỌNG */
+/* --- HEADINGS – PHÂN TẦNG MÀU SẮC RÕ RỆT --- */
+
+/* H2 – QUAN TRỌNG NHẤT – MÀU XANH ĐẬM + GRADIENT */
 .article-body h2 {
   font-family: var(--font-display);
-  font-size: 2.1rem;         /* to hơn */
+  font-size: 2.1rem;
   font-weight: 900;
   margin: 3.2rem 0 1.5rem;
-  color: #0A0F1A;
+  color: #0F172A;            /* xanh đen */
   letter-spacing: -0.02em;
   position: relative;
   padding: 0.7rem 1rem 0.7rem 2.6rem;
@@ -332,13 +333,13 @@ img { max-width: 100%; height: auto; display: block; }
   box-shadow: 0 8px 30px rgba(37,99,235,0.18), 0 0 40px rgba(59,130,246,0.08);
 }
 
-/* H3 – QUAN TRỌNG VỪA */
+/* H3 – QUAN TRỌNG VỪA – MÀU XANH DƯƠNG ĐẬM */
 .article-body h3 {
   font-family: var(--font-display);
-  font-size: 1.6rem;         /* to hơn */
+  font-size: 1.6rem;
   font-weight: 800;
   margin: 2.6rem 0 1.1rem;
-  color: #0A1E3A;
+  color: #1E3A8A;            /* xanh dương đậm */
   position: relative;
   padding-bottom: 0.4rem;
   border-bottom: 3px solid transparent;
@@ -355,13 +356,13 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .article-body h3:hover { transform: translateX(6px); }
 
-/* H4 – QUAN TRỌNG ÍT */
+/* H4 – QUAN TRỌNG ÍT – MÀU XÁM ĐEN */
 .article-body h4 {
   font-family: var(--font-display);
-  font-size: 1.25rem;        /* to hơn */
+  font-size: 1.25rem;
   font-weight: 700;
   margin: 2rem 0 0.6rem;
-  color: #0B2C4A;
+  color: #334155;            /* xám đen */
   border-left: 5px solid #3B82F6;
   padding-left: 0.9rem;
   letter-spacing: 0.02em;
@@ -369,10 +370,10 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .article-body h4:hover { border-left-color: #8B5CF6; padding-left: 1.3rem; }
 
-/* --- INLINE FORMATTING – NỔI BẬT RÕ RÀNG --- */
+/* --- INLINE FORMATTING – NỔI BẬT --- */
 .article-body strong,
 .article-body b {
-  color: #000000;            /* đen tuyền */
+  color: #000000;
   font-weight: 800;
 }
 
@@ -389,8 +390,8 @@ img { max-width: 100%; height: auto; display: block; }
 /* LEAD / IMPORTANT – NỔI BẬT HƠN HẲN */
 .article-body p.important,
 .article-body p.lead {
-  font-size: 1.2rem;         /* to hơn chữ thường */
-  font-weight: 600;          /* đậm hơn */
+  font-size: 1.2rem;
+  font-weight: 600;
   background: #F1F5F9;
   border-left: 6px solid #0F172A;
   padding: 1.2rem 1.6rem;
@@ -438,7 +439,7 @@ img { max-width: 100%; height: auto; display: block; }
   box-shadow: 0 0 0 6px rgba(16,185,129,0.3);
 }
 
-/* ----- CYBER AFFILIATE CTA BOX (giữ nguyên) ----- */
+/* ----- CYBER AFFILIATE CTA BOX ----- */
 .cta-box {
   margin: 2.8rem 0; padding: 2.5rem;
   background: linear-gradient(135deg, #0F172A, #1E1B4B, #1E3A8A);
@@ -503,7 +504,7 @@ img { max-width: 100%; height: auto; display: block; }
   color: #fff;
 }
 
-/* ----- CYBER TABLE (giữ nguyên) ----- */
+/* ----- CYBER TABLE (Glassmorphism) ----- */
 .article-body table {
   width: 100%; margin: 2.2rem 0;
   border-collapse: separate; border-spacing: 0;
@@ -559,7 +560,7 @@ img { max-width: 100%; height: auto; display: block; }
   z-index: 2;
 }
 
-/* ----- PROS & CONS, FAQ, RELATED (giữ nguyên) ----- */
+/* ----- PROS & CONS, FAQ, RELATED ----- */
 .pros-cons { display:grid; grid-template-columns:1fr 1fr; gap:1.2rem; margin:1.8rem 0; }
 @media (max-width:600px) { .pros-cons { grid-template-columns:1fr; } }
 .pros, .cons { padding:1.2rem; border-radius:var(--radius-sm); border:1px solid var(--border); }
@@ -587,14 +588,14 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .related-item:hover { background:var(--accent); color:#fff; border-color:var(--accent); }
 
-/* ----- NOT FOUND (giữ nguyên) ----- */
+/* ----- NOT FOUND ----- */
 .not-found { text-align:center; padding:3.5rem 0; }
 .not-found h2 { font-family:var(--font-display); font-size:1.5rem; font-weight:700; color:var(--heading); margin-bottom:0.4rem; }
 .not-found p { color:var(--text-secondary); margin-bottom:1.2rem; font-size:1rem; }
 .btn-back { display:inline-block; background:var(--accent); color:#fff; padding:0.6rem 1.8rem; border-radius:999px; font-weight:600; transition: 0.15s ease; }
 .btn-back:hover { background:#1D4ED8; color:#fff; }
 
-/* ----- FOOTER (giữ nguyên) ----- */
+/* ----- FOOTER ----- */
 .footer {
   background: linear-gradient(90deg, var(--header-dark), var(--header-bright), var(--header-dark));
   border-top: 3px solid var(--gold-strong);
