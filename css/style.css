@@ -685,7 +685,7 @@ img { max-width: 100%; height: auto; display: block; }
 
 /* ----- OVERRIDE WHITE BACKGROUND FOR ARTICLE ELEMENTS ----- */
 .card, .article-container, .search-modal, .skel-card,
-.article-body, .card-body, .related, .faq {
+.card-body, .related, .faq {
   background: #FFFFFF !important;
 }
 .pros { background: var(--pros-bg) !important; }
