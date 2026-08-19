@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "webflow-review-2026",
+      "category": "web-tool",
+      "categoryLabel": "Web Tool",
+      "title": "Webflow Review 2026",
+      "excerpt": "Imagine crafting pixel‑perfect, mobile‑friendly pages without spending hours writing CSS or hunting down bugs. Webflow’s drag‑and‑drop builder lets designers, developers, and marketers create polished, responsive sites in a fraction of the time it takes with traditional tools.",
+      "date": "2026-08-19",
+      "readingTime": 14,
+      "image": "assets/images/articles/webflow-review-2026.webp",
+      "affiliateKey": "webflow"
+    },
+    {
       "slug": "canva-review-best-graphic-design-tool-for-marketers",
       "category": "ai-tool",
       "categoryLabel": "AI Tool",
@@ -120,20 +131,9 @@
       "readingTime": "6 min read",
       "image": "https://picsum.photos/seed/nordvpn/800/400",
       "affiliateKey": "nordvpn"
-    },
-    {
-      "slug": "canva-planner",
-      "category": "saas",
-      "categoryLabel": "SaaS",
-      "title": "Canva's Powerhouse Planner: Content Ops in One Tab",
-      "excerpt": "Schedule posts, assign tasks, and design workflows without leaving Canva.",
-      "date": "2026-07-16",
-      "readingTime": "5 min read",
-      "image": "https://picsum.photos/seed/planner/800/400",
-      "affiliateKey": "canva"
     }
   ],
-  "total": 20,
+  "total": 21,
   "totalPages": 2,
   "currentPage": 1
 }

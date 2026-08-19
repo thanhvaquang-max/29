@@ -53,5 +53,10 @@
     "slug": "ai-tool",
     "label": "AI Tool",
     "totalPages": 1
+  },
+  {
+    "slug": "web-tool",
+    "label": "Web Tool",
+    "totalPages": 1
   }
 ]

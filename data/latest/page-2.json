@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "canva-planner",
+      "category": "saas",
+      "categoryLabel": "SaaS",
+      "title": "Canva's Powerhouse Planner: Content Ops in One Tab",
+      "excerpt": "Schedule posts, assign tasks, and design workflows without leaving Canva.",
+      "date": "2026-07-16",
+      "readingTime": "5 min read",
+      "image": "https://picsum.photos/seed/planner/800/400",
+      "affiliateKey": "canva"
+    },
+    {
       "slug": "trainual-review",
       "category": "web-tools",
       "categoryLabel": "Web Tools",
@@ -89,7 +100,7 @@
       "affiliateKey": ""
     }
   ],
-  "total": 20,
+  "total": 21,
   "totalPages": 2,
   "currentPage": 2
 }

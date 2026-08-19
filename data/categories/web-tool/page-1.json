@@ -1,0 +1,18 @@
+{
+  "posts": [
+    {
+      "slug": "webflow-review-2026",
+      "category": "web-tool",
+      "categoryLabel": "Web Tool",
+      "title": "Webflow Review 2026",
+      "excerpt": "Imagine crafting pixel‑perfect, mobile‑friendly pages without spending hours writing CSS or hunting down bugs. Webflow’s drag‑and‑drop builder lets designers, developers, and marketers create polished, responsive sites in a fraction of the time it takes with traditional tools.",
+      "date": "2026-08-19",
+      "readingTime": 14,
+      "image": "assets/images/articles/webflow-review-2026.webp",
+      "affiliateKey": "webflow"
+    }
+  ],
+  "total": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}
