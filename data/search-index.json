@@ -124,5 +124,12 @@
     "categoryLabel": "SaaS",
     "excerpt": "Building a loyal community is the heartbeat of every successful creator, but the technical side of email marketing can often feel like a hurdle. Whether you are a blogger, podcaster, YouTuber, or solopreneur, you need a system that works as hard as you do. That is why ConvertKit is the ultimate solution—a sophisticated yet intuitive platform purpose-built to help creators automate their growth, nurture their subscribers, and turn a simple email list into a thriving business.",
     "category": "saas"
+  },
+  {
+    "slug": "siteground-hosting-review-fast-secure-affordable",
+    "title": "SiteGround Hosting Review: Fast, Secure & Affordable",
+    "categoryLabel": "Hosting",
+    "excerpt": "Every web developer, digital marketer, small‑business owner, e‑commerce manager, and freelance designer knows the sting of a site that lags, crashes, or becomes vulnerable to attacks. Those problems aren’t just technical annoyances—they translate into lost traffic, missed sales, and endless headaches managing complex server settings. If you’re fed up with unreliable, slow, and insecure web hosting, you’ve just landed on the right page.",
+    "category": "hosting"
   }
 ]

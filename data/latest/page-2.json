@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "semrush-review",
+      "category": "saas",
+      "categoryLabel": "SaaS",
+      "title": "Semrush Review: The SEO Tool That Delivers",
+      "excerpt": "Analyze competitors, track keywords, and optimize content at scale.",
+      "date": "2026-07-14",
+      "readingTime": "6 min read",
+      "image": "https://picsum.photos/seed/semrush/800/400",
+      "affiliateKey": "semrush"
+    },
+    {
       "slug": "hubspot-review",
       "category": "crm",
       "categoryLabel": "CRM",
@@ -67,7 +78,7 @@
       "affiliateKey": ""
     }
   ],
-  "total": 18,
+  "total": 19,
   "totalPages": 2,
   "currentPage": 2
 }

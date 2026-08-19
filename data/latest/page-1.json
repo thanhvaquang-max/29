@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "siteground-hosting-review-fast-secure-affordable",
+      "category": "hosting",
+      "categoryLabel": "Hosting",
+      "title": "SiteGround Hosting Review: Fast, Secure & Affordable",
+      "excerpt": "Every web developer, digital marketer, small‑business owner, e‑commerce manager, and freelance designer knows the sting of a site that lags, crashes, or becomes vulnerable to attacks. Those problems aren’t just technical annoyances—they translate into lost traffic, missed sales, and endless headaches managing complex server settings. If you’re fed up with unreliable, slow, and insecure web hosting, you’ve just landed on the right page.",
+      "date": "2026-08-19",
+      "readingTime": 8,
+      "image": "assets/images/articles/siteground-hosting-review-fast-secure-affordable.webp",
+      "affiliateKey": "siteground"
+    },
+    {
       "slug": "convertkit-review-the-best-email-marketing-for-targetjob",
       "category": "saas",
       "categoryLabel": "SaaS",
@@ -120,20 +131,9 @@
       "readingTime": "7 min read",
       "image": "https://picsum.photos/seed/trainual/800/400",
       "affiliateKey": "trainual"
-    },
-    {
-      "slug": "semrush-review",
-      "category": "saas",
-      "categoryLabel": "SaaS",
-      "title": "Semrush Review: The SEO Tool That Delivers",
-      "excerpt": "Analyze competitors, track keywords, and optimize content at scale.",
-      "date": "2026-07-14",
-      "readingTime": "6 min read",
-      "image": "https://picsum.photos/seed/semrush/800/400",
-      "affiliateKey": "semrush"
     }
   ],
-  "total": 18,
+  "total": 19,
   "totalPages": 2,
   "currentPage": 1
 }
