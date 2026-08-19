@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "hubspot-review",
+      "category": "crm",
+      "categoryLabel": "CRM",
+      "title": "HubSpot Review: The Ultimate CRM for Growing Teams",
+      "excerpt": "Manage marketing, sales, and customer service from one dashboard.",
+      "date": "2026-07-13",
+      "readingTime": "7 min read",
+      "image": "https://picsum.photos/seed/hubspot/800/400",
+      "affiliateKey": "hubspot"
+    },
+    {
       "slug": "mailchimp-review",
       "category": "email-marketing",
       "categoryLabel": "Email Marketing",
@@ -56,7 +67,7 @@
       "affiliateKey": ""
     }
   ],
-  "total": 17,
+  "total": 18,
   "totalPages": 2,
   "currentPage": 2
 }

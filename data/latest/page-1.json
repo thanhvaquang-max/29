@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "convertkit-review-the-best-email-marketing-for-targetjob",
+      "category": "saas",
+      "categoryLabel": "SaaS",
+      "title": "ConvertKit Review: The Best Email Marketing for {{Target_Job}}",
+      "excerpt": "Building a loyal community is the heartbeat of every successful creator, but the technical side of email marketing can often feel like a hurdle. Whether you are a blogger, podcaster, YouTuber, or solopreneur, you need a system that works as hard as you do. That is why ConvertKit is the ultimate solution—a sophisticated yet intuitive platform purpose-built to help creators automate their growth, nurture their subscribers, and turn a simple email list into a thriving business.",
+      "date": "2026-08-19",
+      "readingTime": 11,
+      "image": "assets/images/articles/convertkit-review-the-best-email-marketing-for-targetjob.webp",
+      "affiliateKey": "convertkit-review-the-best-email-marketing-for-target-job"
+    },
+    {
       "slug": "pipedrive-review-boost-sales-with-the-best-crm-for-teams",
       "category": "saas",
       "categoryLabel": "SaaS",
@@ -120,20 +131,9 @@
       "readingTime": "6 min read",
       "image": "https://picsum.photos/seed/semrush/800/400",
       "affiliateKey": "semrush"
-    },
-    {
-      "slug": "hubspot-review",
-      "category": "crm",
-      "categoryLabel": "CRM",
-      "title": "HubSpot Review: The Ultimate CRM for Growing Teams",
-      "excerpt": "Manage marketing, sales, and customer service from one dashboard.",
-      "date": "2026-07-13",
-      "readingTime": "7 min read",
-      "image": "https://picsum.photos/seed/hubspot/800/400",
-      "affiliateKey": "hubspot"
     }
   ],
-  "total": 17,
+  "total": 18,
   "totalPages": 2,
   "currentPage": 1
 }
