@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "brightlocal-review-top-local-seo-audit-tool-for-agencies",
+      "category": "saas",
+      "categoryLabel": "SaaS",
+      "title": "BrightLocal Review: Top Local SEO Audit Tool for Agencies",
+      "excerpt": "Imagine boosting local revenue by 15‑30% while slashing the time you spend on citation building and reputation management by up to 70%. That’s the promise of BrightLocal—a comprehensive SEO software designed to turn the chaos of multi‑location tracking into a streamlined, data‑driven engine for growth.",
+      "date": "2026-08-19",
+      "readingTime": 11,
+      "image": "assets/images/articles/brightlocal-review-top-local-seo-audit-tool-for-agencies.webp",
+      "affiliateKey": "brightlocal"
+    },
+    {
       "slug": "webflow-review-2026",
       "category": "web-tool",
       "categoryLabel": "Web Tool",
@@ -120,20 +131,9 @@
       "readingTime": "4 min read",
       "image": "https://picsum.photos/seed/convertkit/800/400",
       "affiliateKey": "convertkit"
-    },
-    {
-      "slug": "nordvpn-review",
-      "category": "vpn",
-      "categoryLabel": "VPN",
-      "title": "NordVPN Review: Speed, Privacy & Streaming",
-      "excerpt": "A deep look at NordVPN's server network and real-world speed.",
-      "date": "2026-07-17",
-      "readingTime": "6 min read",
-      "image": "https://picsum.photos/seed/nordvpn/800/400",
-      "affiliateKey": "nordvpn"
     }
   ],
-  "total": 21,
+  "total": 22,
   "totalPages": 2,
   "currentPage": 1
 }
