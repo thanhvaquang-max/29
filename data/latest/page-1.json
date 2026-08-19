@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "pipedrive-review-boost-sales-with-the-best-crm-for-teams",
+      "category": "saas",
+      "categoryLabel": "SaaS",
+      "title": "Pipedrive Review: Boost Sales with the Best CRM for Teams",
+      "excerpt": "For many small‑to‑medium‑sized businesses, sales management still looks a lot like spreadsheets, sticky notes, and endless email threads. The pain points are familiar:",
+      "date": "2026-08-19",
+      "readingTime": 8,
+      "image": "assets/images/articles/pipedrive-review-boost-sales-with-the-best-crm-for-teams.webp",
+      "affiliateKey": "pipedrive-review-boost-sales-with-the-best-crm-for-teams"
+    },
+    {
       "slug": "anytime-mailbox-review-2026",
       "category": "saas",
       "categoryLabel": "SaaS",
@@ -120,20 +131,9 @@
       "readingTime": "7 min read",
       "image": "https://picsum.photos/seed/hubspot/800/400",
       "affiliateKey": "hubspot"
-    },
-    {
-      "slug": "mailchimp-review",
-      "category": "email-marketing",
-      "categoryLabel": "Email Marketing",
-      "title": "Mailchimp Review: Email Marketing Made Simple",
-      "excerpt": "Powerful automation and analytics features for growing lists.",
-      "date": "2026-07-12",
-      "readingTime": "4 min read",
-      "image": "https://picsum.photos/seed/mailchimp/800/400",
-      "affiliateKey": "mailchimp"
     }
   ],
-  "total": 16,
+  "total": 17,
   "totalPages": 2,
   "currentPage": 1
 }

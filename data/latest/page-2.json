@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "mailchimp-review",
+      "category": "email-marketing",
+      "categoryLabel": "Email Marketing",
+      "title": "Mailchimp Review: Email Marketing Made Simple",
+      "excerpt": "Powerful automation and analytics features for growing lists.",
+      "date": "2026-07-12",
+      "readingTime": "4 min read",
+      "image": "https://picsum.photos/seed/mailchimp/800/400",
+      "affiliateKey": "mailchimp"
+    },
+    {
       "slug": "digitalocean-review",
       "category": "vps",
       "categoryLabel": "VPS",
@@ -45,7 +56,7 @@
       "affiliateKey": ""
     }
   ],
-  "total": 16,
+  "total": 17,
   "totalPages": 2,
   "currentPage": 2
 }
