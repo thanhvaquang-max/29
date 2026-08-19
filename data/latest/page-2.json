@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "trainual-review",
+      "category": "web-tools",
+      "categoryLabel": "Web Tools",
+      "title": "Trainual Review: Best Onboarding & SOP Tool",
+      "excerpt": "Streamline onboarding and standard operating procedures with Trainual.",
+      "date": "2026-07-15",
+      "readingTime": "7 min read",
+      "image": "https://picsum.photos/seed/trainual/800/400",
+      "affiliateKey": "trainual"
+    },
+    {
       "slug": "semrush-review",
       "category": "saas",
       "categoryLabel": "SaaS",
@@ -78,7 +89,7 @@
       "affiliateKey": ""
     }
   ],
-  "total": 19,
+  "total": 20,
   "totalPages": 2,
   "currentPage": 2
 }

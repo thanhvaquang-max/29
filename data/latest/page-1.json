@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "canva-review-best-graphic-design-tool-for-marketers",
+      "category": "ai-tool",
+      "categoryLabel": "AI Tool",
+      "title": "Canva Review: Best Graphic Design Tool for Marketers",
+      "excerpt": "Unlock limitless design possibilities with Canva, the revolutionary AI-powered platform that streamlines your design workflow and revolutionizes visual content creation. Discover how to harness the power of Magic Design, text-to-image generators, and background removers to produce professional-grade visuals in minutes, without any design experience.",
+      "date": "2026-08-19",
+      "readingTime": 11,
+      "image": "assets/images/articles/canva-review-best-graphic-design-tool-for-marketers.webp",
+      "affiliateKey": "canva"
+    },
+    {
       "slug": "siteground-hosting-review-fast-secure-affordable",
       "category": "hosting",
       "categoryLabel": "Hosting",
@@ -120,20 +131,9 @@
       "readingTime": "5 min read",
       "image": "https://picsum.photos/seed/planner/800/400",
       "affiliateKey": "canva"
-    },
-    {
-      "slug": "trainual-review",
-      "category": "web-tools",
-      "categoryLabel": "Web Tools",
-      "title": "Trainual Review: Best Onboarding & SOP Tool",
-      "excerpt": "Streamline onboarding and standard operating procedures with Trainual.",
-      "date": "2026-07-15",
-      "readingTime": "7 min read",
-      "image": "https://picsum.photos/seed/trainual/800/400",
-      "affiliateKey": "trainual"
     }
   ],
-  "total": 19,
+  "total": 20,
   "totalPages": 2,
   "currentPage": 1
 }

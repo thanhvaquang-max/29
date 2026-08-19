@@ -48,5 +48,10 @@
     "slug": "cybersecurity",
     "label": "Cybersecurity",
     "totalPages": 1
+  },
+  {
+    "slug": "ai-tool",
+    "label": "AI Tool",
+    "totalPages": 1
   }
 ]

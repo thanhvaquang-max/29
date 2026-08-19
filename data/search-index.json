@@ -131,5 +131,12 @@
     "categoryLabel": "Hosting",
     "excerpt": "Every web developer, digital marketer, small‑business owner, e‑commerce manager, and freelance designer knows the sting of a site that lags, crashes, or becomes vulnerable to attacks. Those problems aren’t just technical annoyances—they translate into lost traffic, missed sales, and endless headaches managing complex server settings. If you’re fed up with unreliable, slow, and insecure web hosting, you’ve just landed on the right page.",
     "category": "hosting"
+  },
+  {
+    "slug": "canva-review-best-graphic-design-tool-for-marketers",
+    "title": "Canva Review: Best Graphic Design Tool for Marketers",
+    "categoryLabel": "AI Tool",
+    "excerpt": "Unlock limitless design possibilities with Canva, the revolutionary AI-powered platform that streamlines your design workflow and revolutionizes visual content creation. Discover how to harness the power of Magic Design, text-to-image generators, and background removers to produce professional-grade visuals in minutes, without any design experience.",
+    "category": "ai-tool"
   }
 ]
