@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "siteground-review",
+      "category": "hosting",
+      "categoryLabel": "Hosting",
+      "title": "SiteGround Hosting Review: Premium Speed at a Price",
+      "excerpt": "Why SiteGround might be the solution to your hosting woes.",
+      "date": "2026-07-19",
+      "readingTime": "6 min read",
+      "image": "https://picsum.photos/seed/siteground/800/400",
+      "affiliateKey": "siteground"
+    },
+    {
       "slug": "convertkit-review",
       "category": "email-marketing",
       "categoryLabel": "Email Marketing",
@@ -122,7 +133,7 @@
       "affiliateKey": ""
     }
   ],
-  "total": 23,
+  "total": 24,
   "totalPages": 2,
   "currentPage": 2
 }

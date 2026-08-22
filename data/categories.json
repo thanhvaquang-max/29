@@ -58,5 +58,10 @@
     "slug": "web-tool",
     "label": "Web Tool",
     "totalPages": 1
+  },
+  {
+    "slug": "uncategorized",
+    "label": "Uncategorized",
+    "totalPages": 1
   }
 ]

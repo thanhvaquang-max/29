@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "engagebay-marketing-automation-software-review-allinone-solution",
+      "category": "uncategorized",
+      "categoryLabel": "Uncategorized",
+      "title": "EngageBay Marketing Automation Software Review – All‑in‑One Solution",
+      "excerpt": "In a crowded digital marketplace, finding a single tool that seamlessly blends marketing automation, CRM, and help‑desk features feels like searching for a needle in a haystack. EngageBay cuts through the noise by delivering a unified solution that empowers businesses to attract, engage, and retain customers without juggling multiple subscriptions. Whether you’re a fast‑growing startup or an established enterprise, this platform is designed to streamline workflows, boost productivity, and drive measurable results.",
+      "date": "2026-08-22",
+      "readingTime": 12,
+      "image": "/assets/images/articles/engagebay-marketing-automation-software-review-allinone-solution.webp",
+      "affiliateKey": "engagebay"
+    },
+    {
       "slug": "cloudways-analysissemanticseo-guide-for-faster-sites",
       "category": "hosting",
       "categoryLabel": "Hosting",
@@ -120,20 +131,9 @@
       "readingTime": "6 min read",
       "image": "https://picsum.photos/seed/hostinger/800/400",
       "affiliateKey": "hostinger"
-    },
-    {
-      "slug": "siteground-review",
-      "category": "hosting",
-      "categoryLabel": "Hosting",
-      "title": "SiteGround Hosting Review: Premium Speed at a Price",
-      "excerpt": "Why SiteGround might be the solution to your hosting woes.",
-      "date": "2026-07-19",
-      "readingTime": "6 min read",
-      "image": "https://picsum.photos/seed/siteground/800/400",
-      "affiliateKey": "siteground"
     }
   ],
-  "total": 23,
+  "total": 24,
   "totalPages": 2,
   "currentPage": 1
 }
