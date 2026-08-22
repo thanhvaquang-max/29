@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "cloudways-analysissemanticseo-guide-for-faster-sites",
+      "category": "hosting",
+      "categoryLabel": "Hosting",
+      "title": "Cloudways {{Analysis_Semantic_SEO}} Guide for Faster Sites",
+      "excerpt": "If you’re a web developer, digital marketer, SaaS founder, e‑commerce store owner, agency leader, CTO, WordPress specialist, or mobile‑app backend engineer, you understand how exhausting it is to juggle server configuration, scaling, and security while shipping code. Cloudways eliminates that friction by offering a managed cloud hosting platform that lets you concentrate on building products instead of babysitting infrastructure.",
+      "date": "2026-08-22",
+      "readingTime": 9,
+      "image": "/assets/images/articles/cloudways-analysissemanticseo-guide-for-faster-sites.webp",
+      "affiliateKey": "cloudways"
+    },
+    {
       "slug": "siteground-hosting-review-fast-secure-affordable",
       "category": "hosting",
       "categoryLabel": "Hosting",
@@ -34,7 +45,7 @@
       "affiliateKey": "siteground"
     }
   ],
-  "total": 3,
+  "total": 4,
   "totalPages": 1,
   "currentPage": 1
 }

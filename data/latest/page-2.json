@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "convertkit-review",
+      "category": "email-marketing",
+      "categoryLabel": "Email Marketing",
+      "title": "ConvertKit Review: Best Email Marketing for Creators",
+      "excerpt": "Build a loyal community with ConvertKit's creator-first automation.",
+      "date": "2026-07-18",
+      "readingTime": "4 min read",
+      "image": "https://picsum.photos/seed/convertkit/800/400",
+      "affiliateKey": "convertkit"
+    },
+    {
       "slug": "nordvpn-review",
       "category": "vpn",
       "categoryLabel": "VPN",
@@ -111,7 +122,7 @@
       "affiliateKey": ""
     }
   ],
-  "total": 22,
+  "total": 23,
   "totalPages": 2,
   "currentPage": 2
 }

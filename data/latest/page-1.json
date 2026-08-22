@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "cloudways-analysissemanticseo-guide-for-faster-sites",
+      "category": "hosting",
+      "categoryLabel": "Hosting",
+      "title": "Cloudways {{Analysis_Semantic_SEO}} Guide for Faster Sites",
+      "excerpt": "If you’re a web developer, digital marketer, SaaS founder, e‑commerce store owner, agency leader, CTO, WordPress specialist, or mobile‑app backend engineer, you understand how exhausting it is to juggle server configuration, scaling, and security while shipping code. Cloudways eliminates that friction by offering a managed cloud hosting platform that lets you concentrate on building products instead of babysitting infrastructure.",
+      "date": "2026-08-22",
+      "readingTime": 9,
+      "image": "/assets/images/articles/cloudways-analysissemanticseo-guide-for-faster-sites.webp",
+      "affiliateKey": "cloudways"
+    },
+    {
       "slug": "brightlocal-review-top-local-seo-audit-tool-for-agencies",
       "category": "saas",
       "categoryLabel": "SaaS",
@@ -120,20 +131,9 @@
       "readingTime": "6 min read",
       "image": "https://picsum.photos/seed/siteground/800/400",
       "affiliateKey": "siteground"
-    },
-    {
-      "slug": "convertkit-review",
-      "category": "email-marketing",
-      "categoryLabel": "Email Marketing",
-      "title": "ConvertKit Review: Best Email Marketing for Creators",
-      "excerpt": "Build a loyal community with ConvertKit's creator-first automation.",
-      "date": "2026-07-18",
-      "readingTime": "4 min read",
-      "image": "https://picsum.photos/seed/convertkit/800/400",
-      "affiliateKey": "convertkit"
     }
   ],
-  "total": 22,
+  "total": 23,
   "totalPages": 2,
   "currentPage": 1
 }
