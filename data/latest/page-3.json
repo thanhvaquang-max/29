@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "notion-review",
+      "category": "web-tools",
+      "categoryLabel": "Web Tools",
+      "title": "Notion Review: All-in-One Workspace for Teams",
+      "excerpt": "Notes, databases, wikis, and project management in a single app.",
+      "date": "2026-07-09",
+      "readingTime": "5 min read",
+      "image": "https://picsum.photos/seed/notion/800/400",
+      "affiliateKey": "notion"
+    },
+    {
       "slug": "ai-design-tools",
       "category": "ai-tools",
       "categoryLabel": "AI Tools",
@@ -12,7 +23,7 @@
       "affiliateKey": ""
     }
   ],
-  "total": 25,
+  "total": 26,
   "totalPages": 3,
   "currentPage": 3
 }

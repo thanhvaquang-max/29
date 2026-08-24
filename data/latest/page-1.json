@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "trendhero-analysissemanticseo-solve-targetjob-pain-points",
+      "category": "saas",
+      "categoryLabel": "SaaS",
+      "title": "trendHERO {Analysis_Semantic_SEO} – Solve {Target_Job} Pain Points",
+      "excerpt": "Finding the right creators and proving their impact can feel endless, leaving brands stuck with wasted budgets and uncertain results. trendHERO solves this by delivering a unified influencer marketing platform that combines real‑time ROI tracking, authenticity scoring, and cross‑channel analytics to streamline every campaign.",
+      "date": "2026-08-24",
+      "readingTime": 10,
+      "image": "/assets/images/articles/trendhero-analysissemanticseo-solve-targetjob-pain-points.webp",
+      "affiliateKey": "trendhero"
+    },
+    {
       "slug": "pdffiller-review-streamline-pdf-editing-for-professionals",
       "category": "saas",
       "categoryLabel": "SaaS",
@@ -120,20 +131,9 @@
       "readingTime": 12,
       "image": "assets/images/articles/loom-review-boost-remote-collaboration-with-video-messaging.webp",
       "affiliateKey": "loom-review-boost-remote-collaboration-with-video-messaging"
-    },
-    {
-      "slug": "canva-review",
-      "category": "ai-tools",
-      "categoryLabel": "AI Tools",
-      "title": "Canva Review 2026: Best Design Tool for Marketers",
-      "excerpt": "Transform your visual content creation with AI-powered Canva.",
-      "date": "2026-07-21",
-      "readingTime": "5 min read",
-      "image": "/assets/images/articles/canva-review.webp",
-      "affiliateKey": "canva"
     }
   ],
-  "total": 25,
+  "total": 26,
   "totalPages": 3,
   "currentPage": 1
 }

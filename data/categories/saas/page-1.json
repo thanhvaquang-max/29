@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "trendhero-analysissemanticseo-solve-targetjob-pain-points",
+      "category": "saas",
+      "categoryLabel": "SaaS",
+      "title": "trendHERO {Analysis_Semantic_SEO} – Solve {Target_Job} Pain Points",
+      "excerpt": "Finding the right creators and proving their impact can feel endless, leaving brands stuck with wasted budgets and uncertain results. trendHERO solves this by delivering a unified influencer marketing platform that combines real‑time ROI tracking, authenticity scoring, and cross‑channel analytics to streamline every campaign.",
+      "date": "2026-08-24",
+      "readingTime": 10,
+      "image": "/assets/images/articles/trendhero-analysissemanticseo-solve-targetjob-pain-points.webp",
+      "affiliateKey": "trendhero"
+    },
+    {
       "slug": "pdffiller-review-streamline-pdf-editing-for-professionals",
       "category": "saas",
       "categoryLabel": "SaaS",
@@ -89,7 +100,7 @@
       "affiliateKey": "semrush"
     }
   ],
-  "total": 8,
+  "total": 9,
   "totalPages": 1,
   "currentPage": 1
 }

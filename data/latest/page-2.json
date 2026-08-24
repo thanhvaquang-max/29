@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "canva-review",
+      "category": "ai-tools",
+      "categoryLabel": "AI Tools",
+      "title": "Canva Review 2026: Best Design Tool for Marketers",
+      "excerpt": "Transform your visual content creation with AI-powered Canva.",
+      "date": "2026-07-21",
+      "readingTime": "5 min read",
+      "image": "/assets/images/articles/canva-review.webp",
+      "affiliateKey": "canva"
+    },
+    {
       "slug": "hostinger-review",
       "category": "hosting",
       "categoryLabel": "Hosting",
@@ -120,20 +131,9 @@
       "readingTime": "4 min read",
       "image": "https://picsum.photos/seed/surfshark/800/400",
       "affiliateKey": "surfshark"
-    },
-    {
-      "slug": "notion-review",
-      "category": "web-tools",
-      "categoryLabel": "Web Tools",
-      "title": "Notion Review: All-in-One Workspace for Teams",
-      "excerpt": "Notes, databases, wikis, and project management in a single app.",
-      "date": "2026-07-09",
-      "readingTime": "5 min read",
-      "image": "https://picsum.photos/seed/notion/800/400",
-      "affiliateKey": "notion"
     }
   ],
-  "total": 25,
+  "total": 26,
   "totalPages": 3,
   "currentPage": 2
 }
