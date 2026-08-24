@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "pdffiller-review-streamline-pdf-editing-for-professionals",
+      "category": "saas",
+      "categoryLabel": "SaaS",
+      "title": "pdfFiller Review: Streamline PDF Editing for Professionals",
+      "excerpt": "Lawyers, real‑estate agents, HR managers, sales professionals, insurance agents, accountants, small‑business owners, and procurement specialists share one common headache: endless hours spent tweaking PDFs, re‑entering data, and chasing handwritten signatures. pdfFiller replaces that tedious process with a cloud‑based pdf editor that lets you create, edit, and sign documents in seconds. No more printing, scanning, or worrying about data‑entry errors—just a seamless, secure workflow that keeps contracts moving forward.",
+      "date": "2026-08-24",
+      "readingTime": 9,
+      "image": "/assets/images/articles/pdffiller-review-streamline-pdf-editing-for-professionals.webp",
+      "affiliateKey": "pdffiller"
+    },
+    {
       "slug": "engagebay-marketing-automation-software-review-allinone-solution",
       "category": "uncategorized",
       "categoryLabel": "Uncategorized",
@@ -120,20 +131,9 @@
       "readingTime": "5 min read",
       "image": "/assets/images/articles/canva-review.webp",
       "affiliateKey": "canva"
-    },
-    {
-      "slug": "hostinger-review",
-      "category": "hosting",
-      "categoryLabel": "Hosting",
-      "title": "Hostinger Hosting Review: Fast, Secure & Affordable",
-      "excerpt": "Why Hostinger might be the ideal solution for your website.",
-      "date": "2026-07-20",
-      "readingTime": "6 min read",
-      "image": "https://picsum.photos/seed/hostinger/800/400",
-      "affiliateKey": "hostinger"
     }
   ],
-  "total": 24,
-  "totalPages": 2,
+  "total": 25,
+  "totalPages": 3,
   "currentPage": 1
 }

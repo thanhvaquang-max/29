@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "pdffiller-review-streamline-pdf-editing-for-professionals",
+      "category": "saas",
+      "categoryLabel": "SaaS",
+      "title": "pdfFiller Review: Streamline PDF Editing for Professionals",
+      "excerpt": "Lawyers, real‑estate agents, HR managers, sales professionals, insurance agents, accountants, small‑business owners, and procurement specialists share one common headache: endless hours spent tweaking PDFs, re‑entering data, and chasing handwritten signatures. pdfFiller replaces that tedious process with a cloud‑based pdf editor that lets you create, edit, and sign documents in seconds. No more printing, scanning, or worrying about data‑entry errors—just a seamless, secure workflow that keeps contracts moving forward.",
+      "date": "2026-08-24",
+      "readingTime": 9,
+      "image": "/assets/images/articles/pdffiller-review-streamline-pdf-editing-for-professionals.webp",
+      "affiliateKey": "pdffiller"
+    },
+    {
       "slug": "brightlocal-review-top-local-seo-audit-tool-for-agencies",
       "category": "saas",
       "categoryLabel": "SaaS",
@@ -78,7 +89,7 @@
       "affiliateKey": "semrush"
     }
   ],
-  "total": 7,
+  "total": 8,
   "totalPages": 1,
   "currentPage": 1
 }

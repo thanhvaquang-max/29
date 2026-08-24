@@ -1,0 +1,18 @@
+{
+  "posts": [
+    {
+      "slug": "ai-design-tools",
+      "category": "ai-tools",
+      "categoryLabel": "AI Tools",
+      "title": "AI-Driven Design Tools Compared: Templates, Stickers, Fonts",
+      "excerpt": "Create stunning visuals with AI — templates, stickers, and fonts that used to take a design team.",
+      "date": "2026-07-08",
+      "readingTime": "3 min read",
+      "image": "https://picsum.photos/seed/aidesign/800/400",
+      "affiliateKey": ""
+    }
+  ],
+  "total": 25,
+  "totalPages": 3,
+  "currentPage": 3
+}

@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "hostinger-review",
+      "category": "hosting",
+      "categoryLabel": "Hosting",
+      "title": "Hostinger Hosting Review: Fast, Secure & Affordable",
+      "excerpt": "Why Hostinger might be the ideal solution for your website.",
+      "date": "2026-07-20",
+      "readingTime": "6 min read",
+      "image": "https://picsum.photos/seed/hostinger/800/400",
+      "affiliateKey": "hostinger"
+    },
+    {
       "slug": "siteground-review",
       "category": "hosting",
       "categoryLabel": "Hosting",
@@ -120,20 +131,9 @@
       "readingTime": "5 min read",
       "image": "https://picsum.photos/seed/notion/800/400",
       "affiliateKey": "notion"
-    },
-    {
-      "slug": "ai-design-tools",
-      "category": "ai-tools",
-      "categoryLabel": "AI Tools",
-      "title": "AI-Driven Design Tools Compared: Templates, Stickers, Fonts",
-      "excerpt": "Create stunning visuals with AI — templates, stickers, and fonts that used to take a design team.",
-      "date": "2026-07-08",
-      "readingTime": "3 min read",
-      "image": "https://picsum.photos/seed/aidesign/800/400",
-      "affiliateKey": ""
     }
   ],
-  "total": 24,
-  "totalPages": 2,
+  "total": 25,
+  "totalPages": 3,
   "currentPage": 2
 }
