@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "riibase-crm-powerful-crm-software-for-sales-teams",
+      "category": "crm",
+      "categoryLabel": "CRM",
+      "title": "Riibase CRM: Powerful CRM Software for Sales Teams",
+      "excerpt": "Sales managers, business development reps, and startup founders struggle with the frustration of managing disjointed sales processes. Riibase CRM centralizes every interaction—contacts, emails, calls, and notes—so your team never has to chase missing data again.",
+      "date": "2026-08-25",
+      "readingTime": 9,
+      "image": "/assets/images/articles/riibase-crm-powerful-crm-software-for-sales-teams.webp",
+      "affiliateKey": "riibase-crm"
+    },
+    {
       "slug": "hubspot-review",
       "category": "crm",
       "categoryLabel": "CRM",
@@ -12,7 +23,7 @@
       "affiliateKey": "hubspot"
     }
   ],
-  "total": 1,
+  "total": 2,
   "totalPages": 1,
   "currentPage": 1
 }
