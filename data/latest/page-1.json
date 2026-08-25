@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "anydesk-uk-review-secure-remote-desktop-software-for-teams",
+      "category": "saas",
+      "categoryLabel": "SaaS",
+      "title": "AnyDesk UK Review: Secure Remote Desktop Software for Teams",
+      "excerpt": "UK IT teams no longer have to tolerate lag‑filled sessions or data‑leak risks. AnyDesk UK delivers a proprietary low‑latency engine that renders screens in near‑real time, while TLS 1.2 encryption and RSA‑2048 key verification keep every connection airtight. Built‑in GDPR‑ready session recording lets you capture every support interaction for audit purposes, giving you peace of mind and tighter compliance.",
+      "date": "2026-08-25",
+      "readingTime": 14,
+      "image": "/assets/images/articles/anydesk-uk-review-secure-remote-desktop-software-for-teams.webp",
+      "affiliateKey": "anydesk-uk"
+    },
+    {
       "slug": "riibase-crm-powerful-crm-software-for-sales-teams",
       "category": "crm",
       "categoryLabel": "CRM",
@@ -120,20 +131,9 @@
       "readingTime": 11,
       "image": "assets/images/articles/convertkit-review-the-best-email-marketing-for-targetjob.webp",
       "affiliateKey": "convertkit-review-the-best-email-marketing-for-target-job"
-    },
-    {
-      "slug": "pipedrive-review-boost-sales-with-the-best-crm-for-teams",
-      "category": "saas",
-      "categoryLabel": "SaaS",
-      "title": "Pipedrive Review: Boost Sales with the Best CRM for Teams",
-      "excerpt": "For many small‑to‑medium‑sized businesses, sales management still looks a lot like spreadsheets, sticky notes, and endless email threads. The pain points are familiar:",
-      "date": "2026-08-19",
-      "readingTime": 8,
-      "image": "assets/images/articles/pipedrive-review-boost-sales-with-the-best-crm-for-teams.webp",
-      "affiliateKey": "pipedrive-review-boost-sales-with-the-best-crm-for-teams"
     }
   ],
-  "total": 28,
+  "total": 29,
   "totalPages": 3,
   "currentPage": 1
 }

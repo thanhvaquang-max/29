@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "anydesk-uk-review-secure-remote-desktop-software-for-teams",
+      "category": "saas",
+      "categoryLabel": "SaaS",
+      "title": "AnyDesk UK Review: Secure Remote Desktop Software for Teams",
+      "excerpt": "UK IT teams no longer have to tolerate lag‑filled sessions or data‑leak risks. AnyDesk UK delivers a proprietary low‑latency engine that renders screens in near‑real time, while TLS 1.2 encryption and RSA‑2048 key verification keep every connection airtight. Built‑in GDPR‑ready session recording lets you capture every support interaction for audit purposes, giving you peace of mind and tighter compliance.",
+      "date": "2026-08-25",
+      "readingTime": 14,
+      "image": "/assets/images/articles/anydesk-uk-review-secure-remote-desktop-software-for-teams.webp",
+      "affiliateKey": "anydesk-uk"
+    },
+    {
       "slug": "linktrackr-affiliate-link-tracking-tool-boosts-conversions",
       "category": "saas",
       "categoryLabel": "SaaS",
@@ -111,7 +122,7 @@
       "affiliateKey": "semrush"
     }
   ],
-  "total": 10,
+  "total": 11,
   "totalPages": 1,
   "currentPage": 1
 }
